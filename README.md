@@ -1,1 +1,1 @@
-# vaccine_hesitancy
+# US_vaccine_attitudes
