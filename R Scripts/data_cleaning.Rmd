@@ -1,0 +1,21 @@
+---
+title: "Data Cleaning"
+author: "Salomé Garnier, Simone Lewis, Neha Gupta, Corbin Duncan, Connor Brown"
+date: "4/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(haven)
+```
+
+
+```{r}
+vaccine_attitudes <- read_dta("Data/dataverse_files/Kreps_etal_vax_replication_data.dta")
+```
+
+
+The last line of this file should save the clean datasets into the Data folder. (save as csv)
