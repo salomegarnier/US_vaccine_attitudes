@@ -1,0 +1,13 @@
+---
+title: "US Attitudes Towards the Covid-19 Vaccine"
+author: "Salomé Garnier, Simone Lewis, Neha Gupta, Corbin Duncan, Connor Brown"
+date: "4/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+This is where we will write the text I guess.
