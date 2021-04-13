@@ -14,3 +14,39 @@ demographics <- read_csv("demographics.csv")
 ```
 
 Hey guys! With the code above, you should be able to read and use the demographics dataset for modeling. You can also find it in the Data folder, with the vaccine_data dataset which contains all of the columns that we won't really use. Let me know if you need to add an additional variable to the demographics dataset!
+
+```
+#dummy variables
+
+#gender
+
+demographics$female <- as.numeric(demographics$gender == "Female")
+
+#age
+demographics$age18_24 <- as.numeric(demographics$age_group == 1)
+demographics$age25_44 <- as.numeric(demographics$age_group == 2)
+demographics$age45_60 <- as.numeric(demographics$age_group == 3)
+demographics$age61_70 <- as.numeric(demographics$age_group == 4)
+demographics$over70 <- as.numeric(demographics$age_group == 5)
+
+#education
+demographics$ms_orless <- as.numeric(demographics$education == 1)
+demographics$hs_grad <- as.numeric(demographics$education == 2)
+demographics$undergrad <- as.numeric(demographics$education == 3)
+demographics$graduate <- as.numeric(demographics$education == 3)
+demographics$masters_or_more <- as.numeric(demographics$education == 5|demographics$education == 6| demographics$education == 7)
+
+#race
+demographics$asian <- as.numeric(demographics$race == "Asian")
+demographics$black <- as.numeric(demographics$race == "Black")
+demographics$hispanic <- as.numeric(demographics$race == "Hispanic")
+demographics$other <- as.numeric(demographics$race == "Other")
+demographics$white <- as.numeric(demographics$race == "White")
+
+#financial status
+demographics$lower_middle <- as.numeric(demographics$financial_status == 1)
+demographics$middle_class <- as.numeric(demographics$financial_status == 2)
+demographics$upper_middle_class <- as.numeric(demographics$financial_status == 3)
+demographics$wealthy <- as.numeric(demographics$financial_status == 4)
+
+```
