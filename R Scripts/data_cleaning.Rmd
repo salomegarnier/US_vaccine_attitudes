@@ -9,13 +9,39 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
-library(haven)
+library(readxl)
 ```
 
 
 ```{r}
-vaccine_attitudes <- read_dta("Data/dataverse_files/Kreps_etal_vax_replication_data.dta")
+vaccine_data <- read_excel("/Users/salomegarnier/Desktop/Data_Science_for_Politics/US_vaccine_attitudes/Data/COVID_vaccine_data.xlsx")
+
+demographics <- vaccine_data %>%
+  select(covid_vaccine, 
+         flu_shot_y_n,	
+         Gender_string,	
+         your_age,	
+         your_education,	
+         your_race, 
+         financial_status,	
+         US_State, 
+         Census_region, 
+         Region) %>% 
+  rename(gender = Gender_string, 
+         age_group = your_age, 
+         race = your_race, 
+         education = your_education, 
+         flu_shot = flu_shot_y_n) 
+
+write_csv(demographics, "/Users/salomegarnier/Desktop/Data_Science_for_Politics/US_vaccine_attitudes/Data/demographics.csv")
+
+write_csv(vaccine_data, "/Users/salomegarnier/Desktop/Data_Science_for_Politics/US_vaccine_attitudes/Data/vaccine_data.csv")
+
 ```
+
+
+
+
 
 
 The last line of this file should save the clean datasets into the Data folder. (save as csv)
