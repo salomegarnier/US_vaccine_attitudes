@@ -1,0 +1,2979 @@
+id,covid_vaccine,flu_shot,gender,age_group,education,race,financial_status,US_State,Census_region,Region
+1,1,1,Female,4,5,White,3,Florida,South Atlantic,South
+2,1,1,Male,2,5,Asian,3,New York,Mid-Atlantic,Northeast
+3,1,1,Female,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+4,0,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+5,0,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+6,1,1,Female,5,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+7,0,1,Male,2,2,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+8,0,1,Male,2,5,Black,2,New Jersey,Mid-Atlantic,Northeast
+9,0,0,Female,3,5,Black,2,Georgia,South Atlantic,South
+10,1,1,Male,3,4,White,3,Michigan,East North Central,Midwest
+11,1,1,Female,3,3,White,4,New York,Mid-Atlantic,Northeast
+12,1,1,Female,2,2,Hispanic,2,Tennessee,East South Central,South
+13,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+14,1,1,Female,3,4,White,2,Ohio,East North Central,Midwest
+15,1,0,Female,2,4,Black,2,New Jersey,Mid-Atlantic,Northeast
+16,1,1,Female,3,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+17,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+18,0,1,Male,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+19,0,1,Female,3,3,White,2,New Jersey,Mid-Atlantic,Northeast
+20,1,1,Female,1,2,White,2,Virginia,South Atlantic,South
+21,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+22,1,1,Female,3,2,White,1,Washington,Pacific,West
+23,1,1,Female,1,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+24,0,0,Female,2,4,NA,1,Oregon,Pacific,West
+25,1,1,Female,5,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+26,1,0,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+27,0,1,Male,3,2,White,1,Pennsylvania,Mid-Atlantic,Northeast
+28,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+29,0,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+30,1,1,Female,4,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+31,1,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+32,1,1,Female,2,4,White,4,Pennsylvania,Mid-Atlantic,Northeast
+33,1,1,Female,4,3,White,4,Pennsylvania,Mid-Atlantic,Northeast
+34,1,1,Female,4,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+35,0,1,Female,2,2,White,2,NA,NA,NA
+36,1,1,Female,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+37,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+38,1,1,Female,5,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+39,1,1,Male,4,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+40,1,1,Female,4,4,White,3,Georgia,South Atlantic,South
+41,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+42,1,1,Female,5,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+43,1,1,Female,4,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+44,1,1,Male,4,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+45,1,1,Female,5,1,White,2,NA,NA,NA
+46,1,1,Female,3,2,White,1,Pennsylvania,Mid-Atlantic,Northeast
+47,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+48,1,1,Female,4,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+49,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+50,1,1,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+51,1,1,Female,2,4,Asian,2,NA,NA,NA
+52,1,1,Female,2,5,Asian,2,California,Pacific,West
+53,1,0,Male,2,5,Other,2,Pennsylvania,Mid-Atlantic,Northeast
+54,1,1,Female,5,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+55,1,1,Female,5,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+56,1,1,Male,3,3,NA,3,NA,NA,NA
+57,1,0,Male,2,3,Asian,2,California,Pacific,West
+58,1,0,Male,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+59,1,1,Female,3,2,Other,2,Nebraska,West North Central,Midwest
+60,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+61,1,1,Female,3,5,Hispanic,2,Pennsylvania,Mid-Atlantic,Northeast
+62,1,1,Male,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+63,1,1,Female,4,4,White,2,Maryland,South Atlantic,South
+64,1,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+65,0,1,Male,3,2,White,2,Michigan,East North Central,Midwest
+66,1,1,Male,4,2,White,4,Pennsylvania,Mid-Atlantic,Northeast
+67,0,0,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+68,1,1,Female,1,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+69,1,1,Male,2,3,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+70,1,1,Female,1,2,White,2,Maryland,South Atlantic,South
+71,1,1,Female,2,4,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+72,1,1,Male,2,5,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+73,1,0,Female,2,4,Other,3,Texas,West South Central,South
+74,1,1,Female,4,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+75,1,1,Male,4,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+76,1,1,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+77,1,1,Female,1,2,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+78,0,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+79,1,1,Female,2,4,Asian,3,New Jersey,Mid-Atlantic,Northeast
+80,1,1,Female,2,5,White,2,Washington,Pacific,West
+81,0,1,Female,2,2,White,2,Iowa,West North Central,Midwest
+82,1,0,Female,3,4,Asian,2,Michigan,East North Central,Midwest
+83,1,1,Female,3,5,White,3,Massachusetts,New England,Northeast
+84,1,1,Female,2,4,White,2,Florida,South Atlantic,South
+85,0,1,Female,2,5,White,3,Wisconsin,East North Central,Midwest
+86,1,0,Female,3,1,White,2,Illinois,East North Central,Midwest
+87,1,1,Female,3,4,White,3,Idaho,Mountain,West
+88,1,1,Female,2,5,Asian,2,New York,Mid-Atlantic,Northeast
+89,1,1,Female,4,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+90,0,1,Female,2,3,White,2,West Virginia,South Atlantic,South
+91,0,1,Female,2,1,White,1,New Jersey,Mid-Atlantic,Northeast
+92,1,1,Female,3,4,White,2,Wisconsin,East North Central,Midwest
+93,1,1,Female,3,5,Asian,3,Illinois,East North Central,Midwest
+94,1,1,Female,2,5,White,3,Texas,West South Central,South
+95,1,1,Female,3,5,Other,3,Maryland,South Atlantic,South
+96,1,0,Female,2,4,Asian,2,Florida,South Atlantic,South
+97,1,1,Male,2,2,Asian,3,Hawaii,Pacific,West
+98,1,1,Female,3,1,White,2,Vermont,New England,Northeast
+99,1,1,Female,4,2,White,2,Florida,South Atlantic,South
+100,1,1,Female,3,4,White,2,Arkansas,West South Central,South
+101,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+102,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+103,1,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+104,1,1,Female,2,4,Asian,2,Illinois,East North Central,Midwest
+105,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+106,1,1,Female,3,NA,White,2,Michigan,East North Central,Midwest
+107,1,1,Female,4,4,White,2,NA,NA,NA
+108,1,0,Male,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+109,1,0,Male,2,3,White,3,Florida,South Atlantic,South
+110,1,1,Female,2,4,White,4,Pennsylvania,Mid-Atlantic,Northeast
+111,1,1,Female,2,2,White,3,Ohio,East North Central,Midwest
+112,1,1,Female,3,2,White,2,Nebraska,West North Central,Midwest
+113,1,1,Female,3,2,White,3,Kansas,West North Central,Midwest
+114,1,1,Female,2,2,White,3,Maryland,South Atlantic,South
+115,1,1,Female,3,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+116,0,1,Female,2,3,Hispanic,2,Illinois,East North Central,Midwest
+117,1,1,Male,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+118,0,0,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+119,1,1,Male,5,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+120,0,0,Female,1,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+121,0,1,Female,2,3,White,2,New Hampshire,New England,Northeast
+122,1,1,Female,3,2,White,3,Minnesota,West North Central,Midwest
+123,1,1,Female,3,4,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+124,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+125,1,1,Female,4,2,White,1,Texas,West South Central,South
+126,1,1,Female,1,3,Hispanic,2,Georgia,South Atlantic,South
+127,1,0,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+128,0,1,Male,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+129,1,1,NA,NA,NA,NA,2,Massachusetts,New England,Northeast
+130,0,0,Male,2,2,White,2,Michigan,East North Central,Midwest
+131,1,1,Female,4,4,White,2,Arkansas,West South Central,South
+132,0,1,Male,2,4,Asian,2,Michigan,East North Central,Midwest
+133,1,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+134,1,1,Female,3,3,White,2,Illinois,East North Central,Midwest
+135,1,1,Female,3,5,White,2,New York,Mid-Atlantic,Northeast
+136,1,1,Female,2,1,White,2,Michigan,East North Central,Midwest
+137,1,1,Female,3,5,White,3,Florida,South Atlantic,South
+138,0,0,Female,2,2,White,2,North Carolina,South Atlantic,South
+139,0,1,Female,3,1,White,2,Georgia,South Atlantic,South
+140,0,1,Female,3,1,White,2,Texas,West South Central,South
+141,0,1,Female,2,3,White,2,Washington,Pacific,West
+142,1,1,Female,1,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+143,1,1,Female,1,2,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+144,1,1,Female,3,5,White,2,New Jersey,Mid-Atlantic,Northeast
+145,0,1,Female,3,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+146,1,1,Female,2,5,Asian,2,Utah,Mountain,West
+147,1,1,Female,2,2,White,2,New Hampshire,New England,Northeast
+148,1,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+149,1,1,Female,1,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+150,0,0,Female,3,4,White,2,California,Pacific,West
+151,1,1,Female,2,3,White,3,Montana,Mountain,West
+152,1,1,Female,2,2,White,2,Kansas,West North Central,Midwest
+153,1,1,Female,1,2,White,2,Massachusetts,New England,Northeast
+154,1,1,Female,2,4,White,2,Louisiana,West South Central,South
+155,0,0,Female,3,1,White,2,North Carolina,South Atlantic,South
+156,1,1,Female,3,4,White,2,California,Pacific,West
+157,1,1,Female,3,3,White,2,Montana,Mountain,West
+158,0,0,Female,3,1,White,2,Connecticut,New England,Northeast
+159,1,1,Female,2,4,White,3,Minnesota,West North Central,Midwest
+160,1,1,Female,2,2,White,1,Nebraska,West North Central,Midwest
+161,1,1,Female,4,3,White,2,New Jersey,Mid-Atlantic,Northeast
+162,1,1,Female,2,1,Hispanic,2,New York,Mid-Atlantic,Northeast
+163,1,1,Female,2,4,White,3,Oregon,Pacific,West
+164,0,1,Female,2,2,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+165,1,1,Female,4,4,White,3,New Jersey,Mid-Atlantic,Northeast
+166,1,1,Female,4,NA,White,2,Pennsylvania,Mid-Atlantic,Northeast
+167,1,1,Female,2,2,White,2,Colorado,Mountain,West
+168,1,1,Female,2,3,White,2,Tennessee,East South Central,South
+169,1,0,Female,3,2,White,3,Washington,Pacific,West
+170,1,1,Female,3,3,White,2,Maryland,South Atlantic,South
+171,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+172,0,1,NA,NA,5,NA,NA,NA,NA,NA
+173,1,1,Female,4,3,White,2,New Jersey,Mid-Atlantic,Northeast
+174,1,1,Male,3,5,White,3,Missouri,West North Central,Midwest
+175,1,1,Male,4,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+176,0,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+177,1,1,Female,3,2,White,2,California,Pacific,West
+178,1,0,Female,5,3,NA,3,Pennsylvania,Mid-Atlantic,Northeast
+179,1,1,Female,2,2,White,2,North Carolina,South Atlantic,South
+180,1,1,Female,2,5,White,2,Georgia,South Atlantic,South
+181,1,0,Female,2,1,White,2,Georgia,South Atlantic,South
+182,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+183,1,1,Female,4,3,White,2,Texas,West South Central,South
+184,1,1,Female,4,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+185,1,1,Female,3,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+186,1,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+187,1,1,Male,2,5,Black,3,New York,Mid-Atlantic,Northeast
+188,1,1,Male,1,2,White,2,Kentucky,East South Central,South
+189,0,1,Female,3,1,White,3,Tennessee,East South Central,South
+190,1,1,Female,3,4,Asian,1,Ohio,East North Central,Midwest
+191,1,1,Female,2,5,Black,2,Mississippi,East South Central,South
+192,0,0,Male,5,3,White,2,Florida,South Atlantic,South
+193,1,1,Female,2,2,Hispanic,3,New Jersey,Mid-Atlantic,Northeast
+194,1,1,Female,2,5,White,3,Ohio,East North Central,Midwest
+195,1,1,Female,2,4,White,3,Maryland,South Atlantic,South
+196,1,1,Female,4,4,Hispanic,2,California,Pacific,West
+197,0,0,Female,2,2,White,2,Minnesota,West North Central,Midwest
+198,1,1,Female,2,5,White,3,Texas,West South Central,South
+199,0,0,Male,3,1,White,2,New Jersey,Mid-Atlantic,Northeast
+200,1,1,Female,3,2,White,3,Tennessee,East South Central,South
+201,0,1,Male,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+202,1,1,Female,2,2,White,2,Missouri,West North Central,Midwest
+203,1,1,Female,2,3,NA,3,Pennsylvania,Mid-Atlantic,Northeast
+204,1,1,Female,1,1,White,1,Texas,West South Central,South
+205,1,1,Male,4,4,White,2,Missouri,West North Central,Midwest
+206,1,1,Female,3,2,White,2,New Hampshire,New England,Northeast
+207,1,1,Female,5,3,Black,3,Arkansas,West South Central,South
+208,1,0,Male,4,5,White,2,Illinois,East North Central,Midwest
+209,1,1,Female,4,1,White,1,Nevada,Mountain,West
+210,1,1,Female,4,5,Black,3,California,Pacific,West
+211,1,1,Female,2,4,White,3,Michigan,East North Central,Midwest
+212,1,1,Male,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+213,1,1,Female,4,5,White,3,North Carolina,South Atlantic,South
+214,1,1,Female,4,4,White,3,Massachusetts,New England,Northeast
+215,1,1,Female,5,2,White,2,Arizona,Mountain,West
+216,1,1,Female,4,3,Other,2,Missouri,West North Central,Midwest
+217,1,1,Female,5,3,White,1,Oregon,Pacific,West
+218,1,1,Female,4,4,White,2,California,Pacific,West
+219,1,1,Female,3,4,White,2,Oregon,Pacific,West
+220,1,1,Female,5,4,White,3,Oregon,Pacific,West
+221,1,1,Male,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+222,1,1,Male,2,5,Hispanic,3,New Mexico,Mountain,West
+223,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+224,1,0,Female,2,1,White,3,Maryland,South Atlantic,South
+225,1,1,Female,5,2,White,3,Tennessee,East South Central,South
+226,1,1,Female,3,4,White,2,New York,Mid-Atlantic,Northeast
+227,0,1,Female,3,2,White,3,New Jersey,Mid-Atlantic,Northeast
+228,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+229,1,1,Female,3,3,White,2,Missouri,West North Central,Midwest
+230,1,1,Female,3,2,White,3,Virginia,South Atlantic,South
+231,1,1,Male,4,2,White,3,New Jersey,Mid-Atlantic,Northeast
+232,1,1,Female,4,3,White,2,Ohio,East North Central,Midwest
+233,1,1,Female,3,3,White,2,Georgia,South Atlantic,South
+234,1,1,Female,2,2,White,2,Ohio,East North Central,Midwest
+235,1,1,Female,5,4,White,3,DC,South Atlantic,South
+236,1,1,Female,4,4,White,3,Indiana,East North Central,Midwest
+237,1,1,Female,5,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+238,1,1,Female,1,2,White,3,Connecticut,New England,Northeast
+239,0,0,Female,2,4,NA,2,Washington,Pacific,West
+240,1,1,Female,1,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+241,1,1,Female,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+242,1,1,Male,2,2,White,2,Indiana,East North Central,Midwest
+243,1,1,Female,1,2,White,1,Texas,West South Central,South
+244,1,1,Female,5,5,White,2,NA,NA,NA
+245,1,1,Female,5,2,White,2,Missouri,West North Central,Midwest
+246,0,1,Female,2,3,White,2,Florida,South Atlantic,South
+247,1,1,Female,3,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+248,1,1,Male,3,4,White,2,Iowa,West North Central,Midwest
+249,1,1,Female,3,2,White,2,Michigan,East North Central,Midwest
+250,0,0,Female,3,1,White,2,South Carolina,South Atlantic,South
+251,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+252,1,1,Female,2,2,White,2,Texas,West South Central,South
+253,1,1,Female,5,2,White,2,Washington,Pacific,West
+254,0,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+255,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+256,1,1,Female,2,4,Other,2,Utah,Mountain,West
+257,1,1,Female,2,5,Asian,3,Maryland,South Atlantic,South
+258,1,1,Male,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+259,1,0,Female,3,4,White,3,New Jersey,Mid-Atlantic,Northeast
+260,1,1,Female,5,5,White,2,North Carolina,South Atlantic,South
+261,1,1,Female,2,3,White,2,Ohio,East North Central,Midwest
+262,1,1,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+263,0,0,Male,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+264,1,1,Female,3,2,White,2,New York,Mid-Atlantic,Northeast
+265,1,1,Male,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+266,0,0,Female,3,3,White,1,Pennsylvania,Mid-Atlantic,Northeast
+267,0,1,Female,5,1,NA,2,NA,NA,NA
+268,1,1,Female,2,2,White,1,Pennsylvania,Mid-Atlantic,Northeast
+269,1,1,Male,2,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+270,0,0,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+271,1,1,Male,5,4,White,2,NA,NA,NA
+272,1,1,Male,1,4,Asian,1,Michigan,East North Central,Midwest
+273,1,0,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+274,1,0,Female,3,2,White,1,Pennsylvania,Mid-Atlantic,Northeast
+275,0,0,Male,2,1,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+276,0,0,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+277,0,1,Male,2,2,Black,2,Florida,South Atlantic,South
+278,0,1,Female,3,3,White,3,Texas,West South Central,South
+279,1,1,Female,3,4,White,3,Tennessee,East South Central,South
+280,0,0,Female,2,5,NA,3,California,Pacific,West
+281,0,1,Female,3,3,NA,1,Pennsylvania,Mid-Atlantic,Northeast
+282,1,1,Female,3,1,White,3,Kentucky,East South Central,South
+283,0,0,Female,3,1,Black,1,Tennessee,East South Central,South
+284,1,1,Female,3,4,White,3,Tennessee,East South Central,South
+285,0,1,Female,4,5,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+286,0,0,Male,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+287,1,1,Female,1,2,White,2,Virginia,South Atlantic,South
+288,1,1,Female,1,2,White,3,Illinois,East North Central,Midwest
+289,1,1,Female,4,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+290,1,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+291,1,1,Female,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+292,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+293,0,1,Female,4,3,White,2,Missouri,West North Central,Midwest
+294,0,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+295,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+296,0,1,Female,3,3,White,1,Pennsylvania,Mid-Atlantic,Northeast
+297,1,1,Male,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+298,1,1,Female,4,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+299,0,0,Female,4,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+300,0,1,Female,4,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+301,0,1,Female,3,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+302,0,1,Female,4,2,NA,4,Pennsylvania,Mid-Atlantic,Northeast
+303,0,1,Male,5,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+304,1,0,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+305,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+306,1,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+307,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+308,1,1,Female,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+309,1,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+310,1,0,Female,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+311,0,0,Female,4,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+312,0,0,Female,3,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+313,0,1,Female,4,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+314,1,1,Male,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+315,1,1,Female,1,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+316,0,1,Female,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+317,0,1,Male,3,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+318,0,0,Female,3,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+319,0,0,Female,3,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+320,1,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+321,1,0,Female,3,4,White,2,NA,NA,NA
+322,0,1,Male,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+323,0,1,Male,2,2,White,1,Pennsylvania,Mid-Atlantic,Northeast
+324,1,1,Female,1,2,Hispanic,1,Pennsylvania,Mid-Atlantic,Northeast
+325,1,0,Female,4,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+326,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+327,1,1,Female,1,2,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+328,1,1,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+329,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+330,1,1,Female,3,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+331,1,1,Female,4,4,White,3,Texas,West South Central,South
+332,1,1,Female,4,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+333,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+334,1,1,Female,4,1,White,2,NA,NA,NA
+335,0,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+336,1,1,Female,2,3,Hispanic,2,Pennsylvania,Mid-Atlantic,Northeast
+337,0,0,Female,1,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+338,0,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+339,1,0,Female,2,3,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+340,1,1,Female,5,1,White,1,NA,NA,NA
+341,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+342,1,1,Female,5,5,White,3,NA,NA,NA
+343,1,1,Female,2,4,White,2,Virginia,South Atlantic,South
+344,0,1,Female,2,1,White,3,Pennsylvania,Mid-Atlantic,Northeast
+345,1,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+346,0,1,Male,2,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+347,1,0,Male,3,1,White,1,Kentucky,East South Central,South
+348,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+349,0,0,Female,2,4,White,4,Pennsylvania,Mid-Atlantic,Northeast
+350,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+351,0,0,NA,2,3,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+352,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+353,0,1,Female,5,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+354,0,0,Female,4,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+355,1,1,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+356,1,1,Female,3,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+357,1,1,Male,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+358,0,0,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+359,1,1,Female,3,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+360,1,1,Female,3,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+361,1,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+362,1,1,Female,4,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+363,1,1,Female,3,4,White,2,Colorado,Mountain,West
+364,0,1,Female,2,2,White,2,NA,NA,NA
+365,0,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+366,1,0,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+367,0,0,Male,3,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+368,1,1,Male,1,3,White,2,Nevada,Mountain,West
+369,1,1,Male,4,NA,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+370,1,1,Female,5,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+371,0,1,Male,4,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+372,1,1,Male,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+373,1,1,Male,3,4,White,2,Alabama,East South Central,South
+374,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+375,0,0,Male,5,NA,NA,2,Ohio,East North Central,Midwest
+376,0,1,Female,2,3,White,2,Rhode Island,New England,Northeast
+377,0,0,Female,3,2,White,1,Kentucky,East South Central,South
+378,0,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+379,0,1,Female,2,3,White,2,Indiana,East North Central,Midwest
+380,1,1,Male,2,4,White,2,Arizona,Mountain,West
+381,1,1,Female,2,4,Other,2,North Carolina,South Atlantic,South
+382,1,1,Female,2,4,White,2,Virginia,South Atlantic,South
+383,1,0,Female,2,3,White,1,Ohio,East North Central,Midwest
+384,1,1,Male,3,1,White,3,Florida,South Atlantic,South
+385,1,1,Female,2,2,White,2,Oregon,Pacific,West
+386,0,1,Female,3,4,White,2,Florida,South Atlantic,South
+387,1,1,Male,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+388,1,1,Female,4,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+389,1,1,Female,2,4,White,3,DC,South Atlantic,South
+390,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+391,1,1,Female,3,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+392,1,1,Female,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+393,1,1,Female,3,4,White,2,Kentucky,East South Central,South
+394,1,1,Female,3,3,White,3,Colorado,Mountain,West
+395,1,1,Female,5,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+396,1,1,Male,1,1,White,1,Maine,New England,Northeast
+397,1,1,Male,2,3,White,2,Oregon,Pacific,West
+398,1,1,Male,2,2,White,3,Colorado,Mountain,West
+399,1,1,Female,2,5,Asian,3,Texas,West South Central,South
+400,1,1,Female,5,3,White,3,Wisconsin,East North Central,Midwest
+401,1,0,Female,1,1,White,2,South Carolina,South Atlantic,South
+402,1,1,Female,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+403,0,1,Female,2,4,White,2,Florida,South Atlantic,South
+404,1,1,Male,2,3,White,3,New York,Mid-Atlantic,Northeast
+405,0,0,Female,1,1,White,2,California,Pacific,West
+406,0,0,Female,2,3,Other,NA,Georgia,South Atlantic,South
+407,1,1,Female,2,4,White,3,Ohio,East North Central,Midwest
+408,1,1,Female,1,2,White,2,Ohio,East North Central,Midwest
+409,1,1,Female,2,1,White,2,Maryland,South Atlantic,South
+410,1,1,Female,2,2,White,2,New York,Mid-Atlantic,Northeast
+411,1,1,Male,5,4,Other,2,Texas,West South Central,South
+412,1,1,Female,1,3,White,2,Maryland,South Atlantic,South
+413,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+414,1,0,Female,3,2,White,1,Colorado,Mountain,West
+415,1,0,Female,2,4,White,2,Utah,Mountain,West
+416,1,1,Female,1,2,White,2,Michigan,East North Central,Midwest
+417,0,0,Female,2,1,Black,1,Indiana,East North Central,Midwest
+418,1,1,Female,3,3,NA,3,Virginia,South Atlantic,South
+419,1,1,Female,2,4,White,3,Minnesota,West North Central,Midwest
+420,1,0,Female,2,3,Asian,2,Missouri,West North Central,Midwest
+421,0,0,Male,3,3,Asian,2,New Jersey,Mid-Atlantic,Northeast
+422,1,NA,NA,3,4,NA,2,NA,NA,NA
+423,1,1,Female,3,5,NA,3,New Jersey,Mid-Atlantic,Northeast
+424,1,1,Female,2,5,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+425,1,0,Female,3,3,Asian,3,New Jersey,Mid-Atlantic,Northeast
+426,1,0,Female,2,3,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+427,1,1,Male,3,3,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+428,1,0,NA,2,4,Asian,3,New Jersey,Mid-Atlantic,Northeast
+429,1,1,Female,3,4,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+430,0,0,Male,2,5,Asian,2,New Jersey,Mid-Atlantic,Northeast
+431,1,1,Female,2,3,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+432,1,1,Male,3,5,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+433,1,1,Female,2,4,Asian,2,New Jersey,Mid-Atlantic,Northeast
+434,1,1,Male,3,4,Asian,3,Massachusetts,New England,Northeast
+435,1,1,Female,2,5,Asian,3,New Jersey,Mid-Atlantic,Northeast
+436,1,1,Female,2,4,NA,3,New Jersey,Mid-Atlantic,Northeast
+437,1,0,Female,2,3,Asian,2,New Jersey,Mid-Atlantic,Northeast
+438,1,1,NA,3,3,Asian,3,New Jersey,Mid-Atlantic,Northeast
+439,1,1,NA,1,1,White,2,New York,Mid-Atlantic,Northeast
+440,1,0,Female,2,5,Asian,3,New Jersey,Mid-Atlantic,Northeast
+441,1,0,Female,2,4,Asian,3,Virginia,South Atlantic,South
+442,1,1,Female,2,5,Asian,3,New Jersey,Mid-Atlantic,Northeast
+443,1,1,Male,2,5,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+444,1,1,Male,2,3,Asian,2,New Jersey,Mid-Atlantic,Northeast
+445,1,1,Female,3,5,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+446,1,1,Female,2,5,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+447,1,1,Female,2,4,White,3,Virginia,South Atlantic,South
+448,1,1,Female,2,2,White,3,Utah,Mountain,West
+449,1,0,Female,2,1,White,2,Connecticut,New England,Northeast
+450,1,0,Female,2,3,Asian,NA,NA,NA,NA
+451,1,1,Female,2,5,NA,3,Florida,South Atlantic,South
+452,1,1,Female,4,1,White,3,California,Pacific,West
+453,1,0,Female,3,4,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+454,1,1,Female,3,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+455,1,1,Female,2,5,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+456,0,1,Male,2,2,Asian,1,Texas,West South Central,South
+457,1,1,Female,4,1,White,1,Oklahoma,West South Central,South
+458,1,1,Female,3,3,Asian,3,California,Pacific,West
+459,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+460,1,1,Female,2,4,Asian,2,Iowa,West North Central,Midwest
+461,1,1,Female,2,1,White,1,South Carolina,South Atlantic,South
+462,1,1,Male,4,1,White,3,Minnesota,West North Central,Midwest
+463,0,0,Female,1,3,White,2,New Jersey,Mid-Atlantic,Northeast
+464,1,1,Female,2,2,White,2,Ohio,East North Central,Midwest
+465,1,1,Female,2,2,White,2,Ohio,East North Central,Midwest
+466,1,1,Male,3,2,White,2,Texas,West South Central,South
+467,0,0,Female,1,2,NA,1,Georgia,South Atlantic,South
+468,1,0,Male,2,1,White,1,Texas,West South Central,South
+469,1,0,Female,1,1,Hispanic,3,Puerto Rico,NA,NA
+470,0,0,Female,2,2,White,2,Tennessee,East South Central,South
+471,1,1,Female,3,4,White,2,Virginia,South Atlantic,South
+472,1,1,Male,2,2,White,1,Tennessee,East South Central,South
+473,1,1,Female,2,3,White,1,Kentucky,East South Central,South
+474,1,0,Female,3,3,White,2,Minnesota,West North Central,Midwest
+475,1,1,Female,2,4,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+476,0,1,Female,2,2,White,2,Iowa,West North Central,Midwest
+477,0,0,Female,2,2,White,2,Florida,South Atlantic,South
+478,1,0,Male,2,1,White,1,Michigan,East North Central,Midwest
+479,1,1,Female,4,4,White,3,Virginia,South Atlantic,South
+480,1,1,NA,NA,NA,NA,1,New Mexico,Mountain,West
+481,1,1,Female,3,5,White,1,California,Pacific,West
+482,1,0,Female,2,1,White,1,Wisconsin,East North Central,Midwest
+483,1,0,Female,2,3,White,2,Tennessee,East South Central,South
+484,0,0,Female,1,2,Hispanic,2,Puerto Rico,NA,NA
+485,1,0,Female,2,1,White,1,Texas,West South Central,South
+486,1,1,Female,3,5,White,2,Kentucky,East South Central,South
+487,1,0,Female,1,2,White,3,Virginia,South Atlantic,South
+488,1,1,Male,4,3,White,1,California,Pacific,West
+489,1,1,Female,2,4,White,2,Tennessee,East South Central,South
+490,1,1,Female,2,2,White,2,Maryland,South Atlantic,South
+491,1,0,Female,2,3,White,1,Missouri,West North Central,Midwest
+492,1,1,Female,4,3,Black,2,DC,South Atlantic,South
+493,1,1,Female,2,2,White,1,Georgia,South Atlantic,South
+494,1,0,Female,2,2,White,3,North Carolina,South Atlantic,South
+495,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+496,1,1,Female,1,2,White,3,Indiana,East North Central,Midwest
+497,1,1,Female,2,5,White,4,Pennsylvania,Mid-Atlantic,Northeast
+498,1,1,Female,2,4,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+499,1,1,Female,3,5,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+500,1,1,Female,3,4,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+501,1,1,Female,2,4,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+502,1,1,Female,2,4,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+503,1,0,Female,3,1,White,2,New York,Mid-Atlantic,Northeast
+504,1,1,Female,3,4,Asian,3,NA,NA,NA
+505,1,1,Male,1,5,Asian,2,Arizona,Mountain,West
+506,0,1,Female,2,2,Asian,2,California,Pacific,West
+507,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+508,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+509,1,1,Male,2,5,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+510,1,1,Male,3,2,White,2,California,Pacific,West
+511,1,1,Male,3,3,Asian,1,NA,NA,NA
+512,1,0,Male,2,3,Asian,2,California,Pacific,West
+513,1,0,Male,2,5,White,2,New Jersey,Mid-Atlantic,Northeast
+514,1,1,Female,4,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+515,1,1,Female,1,2,Asian,2,California,Pacific,West
+516,1,1,Male,2,2,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+517,1,0,Female,1,1,White,4,Pennsylvania,Mid-Atlantic,Northeast
+518,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+519,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+520,1,1,Female,1,2,Hispanic,1,New York,Mid-Atlantic,Northeast
+521,1,1,Female,2,2,Black,2,Pennsylvania,Mid-Atlantic,Northeast
+522,1,1,Female,3,2,Black,1,North Carolina,South Atlantic,South
+523,0,0,Female,1,3,White,1,Texas,West South Central,South
+524,1,1,Female,2,4,Hispanic,2,Colorado,Mountain,West
+525,1,1,Female,3,5,Asian,2,Ohio,East North Central,Midwest
+526,1,1,Female,2,2,White,2,Oregon,Pacific,West
+527,0,1,Male,2,2,Black,1,New Mexico,Mountain,West
+528,1,1,Female,2,2,Hispanic,2,New Jersey,Mid-Atlantic,Northeast
+529,0,1,Female,4,2,White,1,California,Pacific,West
+530,1,1,Female,3,2,Hispanic,1,Wisconsin,East North Central,Midwest
+531,1,1,Female,3,2,Hispanic,2,Illinois,East North Central,Midwest
+532,0,1,Female,4,3,NA,NA,Tennessee,East South Central,South
+533,0,0,Female,2,4,Other,2,Maryland,South Atlantic,South
+534,1,1,Male,4,3,Hispanic,3,Ohio,East North Central,Midwest
+535,1,1,Male,3,4,Hispanic,1,Washington,Pacific,West
+536,0,0,Female,1,3,Hispanic,2,New York,Mid-Atlantic,Northeast
+537,0,0,Female,2,2,White,3,Texas,West South Central,South
+538,1,1,Female,2,2,Hispanic,1,Arizona,Mountain,West
+539,1,1,Male,5,3,Black,2,Pennsylvania,Mid-Atlantic,Northeast
+540,1,1,Female,2,4,Black,3,California,Pacific,West
+541,1,0,Male,2,2,Other,1,New York,Mid-Atlantic,Northeast
+542,1,1,Female,2,2,Hispanic,1,Alabama,East South Central,South
+543,1,1,Female,4,4,NA,2,Colorado,Mountain,West
+544,1,0,Male,2,2,Black,2,Georgia,South Atlantic,South
+545,1,1,Male,2,1,Black,1,Pennsylvania,Mid-Atlantic,Northeast
+546,1,1,Female,4,5,Hispanic,2,Texas,West South Central,South
+547,1,0,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+548,0,1,Male,2,1,Other,1,New Mexico,Mountain,West
+549,0,1,Female,1,2,Other,2,Texas,West South Central,South
+550,1,1,Female,3,2,Other,2,Hawaii,Pacific,West
+551,1,0,Male,2,3,Hispanic,3,DC,South Atlantic,South
+552,1,1,Female,4,3,Other,3,California,Pacific,West
+553,1,1,Female,4,2,Hispanic,2,Iowa,West North Central,Midwest
+554,0,0,Female,2,5,Other,3,Michigan,East North Central,Midwest
+555,1,1,Female,2,5,Hispanic,2,Texas,West South Central,South
+556,0,0,Female,2,1,Black,1,Texas,West South Central,South
+557,0,1,Female,2,3,Other,2,Florida,South Atlantic,South
+558,1,1,Male,2,2,Hispanic,3,Minnesota,West North Central,Midwest
+559,0,1,Female,2,3,Hispanic,2,Texas,West South Central,South
+560,1,1,Female,2,2,Hispanic,1,Tennessee,East South Central,South
+561,1,1,Female,2,5,Hispanic,2,Illinois,East North Central,Midwest
+562,1,1,Male,3,3,Hispanic,2,Virginia,South Atlantic,South
+563,1,1,Female,2,5,Hispanic,2,California,Pacific,West
+564,1,1,Female,5,4,Hispanic,3,Virginia,South Atlantic,South
+565,1,1,Female,2,5,White,3,Arizona,Mountain,West
+566,1,0,Female,4,2,Black,3,New York,Mid-Atlantic,Northeast
+567,1,1,Female,1,2,Asian,2,New York,Mid-Atlantic,Northeast
+568,0,0,Female,2,1,Other,3,Maryland,South Atlantic,South
+569,1,1,Male,2,5,Hispanic,2,Texas,West South Central,South
+570,1,1,Female,2,4,Hispanic,2,Florida,South Atlantic,South
+571,1,1,Female,5,4,Black,2,Maryland,South Atlantic,South
+572,1,1,Female,4,5,Black,3,Florida,South Atlantic,South
+573,0,1,Male,2,4,Black,1,New York,Mid-Atlantic,Northeast
+574,1,1,Female,2,4,Asian,3,New York,Mid-Atlantic,Northeast
+575,0,0,Female,4,2,Black,2,NA,NA,NA
+576,1,1,Female,3,5,Black,2,DC,South Atlantic,South
+577,0,1,Female,4,4,Black,2,New York,Mid-Atlantic,Northeast
+578,1,1,Male,3,4,Hispanic,2,Maryland,South Atlantic,South
+579,1,1,Female,5,NA,NA,2,New York,Mid-Atlantic,Northeast
+580,1,0,NA,3,1,NA,1,NA,NA,NA
+581,1,1,Male,3,2,Black,1,New York,Mid-Atlantic,Northeast
+582,1,1,Male,3,5,Asian,2,Maryland,South Atlantic,South
+583,0,0,Female,3,1,Other,1,Florida,South Atlantic,South
+584,1,1,Female,2,4,White,3,Maryland,South Atlantic,South
+585,0,1,Female,4,1,Black,2,Florida,South Atlantic,South
+586,0,1,Female,2,4,Black,2,Louisiana,West South Central,South
+587,1,1,Female,3,2,Hispanic,1,New York,Mid-Atlantic,Northeast
+588,1,0,Female,2,4,Black,2,New York,Mid-Atlantic,Northeast
+589,0,1,Female,3,5,Asian,3,Illinois,East North Central,Midwest
+590,1,1,Female,2,3,White,1,Pennsylvania,Mid-Atlantic,Northeast
+591,1,1,Male,2,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+592,0,1,Male,4,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+593,1,1,Female,4,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+594,1,1,Female,1,2,Asian,3,Florida,South Atlantic,South
+595,1,1,Male,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+596,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+597,0,0,Male,3,3,White,1,Pennsylvania,Mid-Atlantic,Northeast
+598,1,1,Female,1,2,White,3,Tennessee,East South Central,South
+599,1,1,Female,1,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+600,1,1,Female,3,3,White,1,Pennsylvania,Mid-Atlantic,Northeast
+601,1,1,Male,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+602,1,0,Male,4,2,White,1,Pennsylvania,Mid-Atlantic,Northeast
+603,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+604,1,1,Female,2,5,Asian,3,California,Pacific,West
+605,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+606,1,0,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+607,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+608,1,1,Male,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+609,1,0,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+610,1,1,Female,3,4,White,3,NA,NA,NA
+611,1,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+612,1,1,Male,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+613,1,1,Female,4,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+614,1,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+615,1,1,Female,4,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+616,1,1,Male,3,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+617,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+618,1,1,Female,3,3,White,4,Pennsylvania,Mid-Atlantic,Northeast
+619,1,1,Male,5,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+620,1,1,Male,1,1,White,3,Pennsylvania,Mid-Atlantic,Northeast
+621,0,1,Female,2,5,White,2,California,Pacific,West
+622,1,1,Male,3,4,White,3,NA,NA,NA
+623,1,1,Female,4,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+624,1,1,Female,1,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+625,1,1,Female,4,4,Asian,3,New York,Mid-Atlantic,Northeast
+626,1,1,Female,2,5,White,3,Massachusetts,New England,Northeast
+627,1,1,Male,4,2,White,2,Massachusetts,New England,Northeast
+628,1,1,Male,5,3,White,1,Pennsylvania,Mid-Atlantic,Northeast
+629,1,0,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+630,1,0,Male,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+631,1,1,Female,4,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+632,1,0,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+633,1,1,Female,2,5,White,4,Texas,West South Central,South
+634,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+635,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+636,1,1,Male,1,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+637,1,1,Female,4,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+638,1,1,Female,3,5,NA,3,New York,Mid-Atlantic,Northeast
+639,1,1,Male,2,2,Other,2,Illinois,East North Central,Midwest
+640,1,1,Male,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+641,1,1,Female,4,3,White,2,Texas,West South Central,South
+642,1,1,Male,4,2,White,2,Texas,West South Central,South
+643,1,1,Male,5,4,White,3,Texas,West South Central,South
+644,1,1,Female,4,4,White,2,Texas,West South Central,South
+645,1,1,Female,5,5,White,2,Texas,West South Central,South
+646,1,1,Male,4,3,White,3,Texas,West South Central,South
+647,1,1,Female,5,5,White,2,South Carolina,South Atlantic,South
+648,1,1,Male,5,4,White,2,Texas,West South Central,South
+649,1,1,Female,4,4,White,3,Texas,West South Central,South
+650,1,1,Female,5,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+651,0,0,Female,4,3,White,2,Texas,West South Central,South
+652,1,1,Male,5,5,White,4,Texas,West South Central,South
+653,1,0,Male,4,3,White,2,Texas,West South Central,South
+654,1,1,Male,4,5,White,3,South Carolina,South Atlantic,South
+655,1,1,Male,5,3,White,3,Texas,West South Central,South
+656,1,1,Female,5,3,White,2,Texas,West South Central,South
+657,1,1,Female,4,2,White,3,Texas,West South Central,South
+658,1,1,Female,5,4,White,3,Texas,West South Central,South
+659,1,1,Female,5,4,Black,3,Texas,West South Central,South
+660,1,1,Female,4,4,White,2,Texas,West South Central,South
+661,1,1,Female,5,3,White,2,Texas,West South Central,South
+662,1,1,Female,4,5,White,3,South Carolina,South Atlantic,South
+663,1,1,Male,5,4,Other,2,Texas,West South Central,South
+664,1,1,Male,5,3,White,2,Texas,West South Central,South
+665,1,1,Female,4,2,White,2,Texas,West South Central,South
+666,1,1,Male,4,5,White,4,Texas,West South Central,South
+667,1,1,Female,4,2,White,2,Texas,West South Central,South
+668,1,1,Male,5,3,White,3,North Carolina,South Atlantic,South
+669,1,1,Female,4,2,White,2,Texas,West South Central,South
+670,1,1,Male,5,4,White,2,Texas,West South Central,South
+671,0,1,Female,4,2,White,1,Texas,West South Central,South
+672,1,1,Female,4,4,White,3,South Carolina,South Atlantic,South
+673,1,1,Female,3,3,White,3,South Carolina,South Atlantic,South
+674,1,0,Male,4,1,White,1,Texas,West South Central,South
+675,0,1,Female,4,1,White,2,South Carolina,South Atlantic,South
+676,1,1,Female,4,2,White,3,Texas,West South Central,South
+677,1,1,Male,5,4,NA,4,Texas,West South Central,South
+678,1,1,Female,4,2,White,2,Texas,West South Central,South
+679,1,1,Female,4,3,White,2,Texas,West South Central,South
+680,1,1,Male,4,4,White,2,Texas,West South Central,South
+681,1,1,Female,5,5,Other,2,Texas,West South Central,South
+682,1,1,Female,5,3,White,2,Texas,West South Central,South
+683,1,1,Male,5,3,White,2,Texas,West South Central,South
+684,1,1,Female,4,NA,Black,2,Texas,West South Central,South
+685,1,1,Male,5,2,White,3,Texas,West South Central,South
+686,0,1,Female,4,1,Other,1,Texas,West South Central,South
+687,1,1,Female,4,2,White,3,Texas,West South Central,South
+688,1,1,Female,5,3,White,2,California,Pacific,West
+689,1,1,Female,4,3,White,2,Texas,West South Central,South
+690,1,1,Female,4,1,White,3,South Carolina,South Atlantic,South
+691,1,1,Female,4,5,White,2,Texas,West South Central,South
+692,1,1,Male,5,4,White,3,Texas,West South Central,South
+693,1,0,Female,4,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+694,0,1,Female,3,3,White,2,Texas,West South Central,South
+695,0,1,Female,5,NA,NA,1,South Carolina,South Atlantic,South
+696,1,1,Male,4,4,White,2,Texas,West South Central,South
+697,0,1,Female,5,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+698,1,1,Male,5,3,White,2,Texas,West South Central,South
+699,1,1,Female,5,4,White,2,Texas,West South Central,South
+700,1,1,Female,1,2,White,1,Michigan,East North Central,Midwest
+701,0,1,Male,4,3,White,2,Michigan,East North Central,Midwest
+702,0,1,Female,2,2,White,2,North Carolina,South Atlantic,South
+703,1,1,Male,3,1,White,1,Michigan,East North Central,Midwest
+704,1,1,Male,5,5,White,3,Texas,West South Central,South
+705,1,0,Male,4,1,Hispanic,2,California,Pacific,West
+706,0,1,Female,2,1,White,2,Michigan,East North Central,Midwest
+707,1,1,Female,4,5,White,3,California,Pacific,West
+708,1,1,Female,4,4,White,3,Florida,South Atlantic,South
+709,1,1,Male,4,2,White,2,Tennessee,East South Central,South
+710,1,1,Female,4,3,White,3,Illinois,East North Central,Midwest
+711,1,1,Female,5,1,White,2,Georgia,South Atlantic,South
+712,0,1,Male,4,2,White,1,Tennessee,East South Central,South
+713,1,1,Female,4,4,White,2,Michigan,East North Central,Midwest
+714,1,1,Female,4,1,White,2,Ohio,East North Central,Midwest
+715,1,1,Male,2,4,Hispanic,2,Illinois,East North Central,Midwest
+716,1,1,Female,3,3,Black,1,Michigan,East North Central,Midwest
+717,0,1,Male,3,2,White,2,Michigan,East North Central,Midwest
+718,1,1,Female,4,2,White,1,New York,Mid-Atlantic,Northeast
+719,1,1,Female,5,4,White,4,Oregon,Pacific,West
+720,1,1,Female,5,5,White,3,California,Pacific,West
+721,1,1,NA,2,3,White,1,New Mexico,Mountain,West
+722,0,1,Female,5,5,NA,1,Oregon,Pacific,West
+723,1,1,Female,4,2,White,2,Utah,Mountain,West
+724,1,1,Female,2,4,Asian,3,Pennsylvania,Mid-Atlantic,Northeast
+725,1,1,Female,4,3,White,2,Colorado,Mountain,West
+726,1,1,Female,4,3,White,2,Ohio,East North Central,Midwest
+727,1,1,Female,4,5,White,2,Texas,West South Central,South
+728,1,1,Male,5,4,White,4,Texas,West South Central,South
+729,0,1,Female,5,2,White,2,California,Pacific,West
+730,1,1,Female,3,4,Black,2,Virginia,South Atlantic,South
+731,1,0,Male,4,2,NA,2,Alabama,East South Central,South
+732,1,1,Female,4,5,White,3,Washington,Pacific,West
+733,1,1,Female,5,3,White,3,Washington,Pacific,West
+734,0,0,Female,5,3,Hispanic,1,Texas,West South Central,South
+735,0,1,Female,4,4,White,2,Delaware,South Atlantic,South
+736,1,1,Male,5,1,White,2,California,Pacific,West
+737,1,1,Female,4,1,White,2,South Carolina,South Atlantic,South
+738,1,1,Female,5,1,White,2,Ohio,East North Central,Midwest
+739,1,1,Male,5,5,White,3,Oregon,Pacific,West
+740,0,1,Female,2,2,Hispanic,1,Oklahoma,West South Central,South
+741,1,1,Male,4,4,White,2,New York,Mid-Atlantic,Northeast
+742,1,1,Female,2,4,White,2,Michigan,East North Central,Midwest
+743,1,0,Female,2,2,Black,2,Kentucky,East South Central,South
+744,0,1,Female,4,2,White,3,Michigan,East North Central,Midwest
+745,1,1,Female,2,2,Other,1,California,Pacific,West
+746,1,1,Male,5,4,White,2,NA,NA,NA
+747,1,1,Male,1,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+748,1,1,Female,4,4,White,2,Michigan,East North Central,Midwest
+749,0,1,Female,4,4,Hispanic,3,Washington,Pacific,West
+750,1,1,Female,5,4,White,1,Michigan,East North Central,Midwest
+751,1,0,Male,3,1,White,2,Mississippi,East South Central,South
+752,0,1,Female,3,2,White,1,Michigan,East North Central,Midwest
+753,1,1,Male,2,2,Other,1,California,Pacific,West
+754,1,0,Female,3,1,White,2,New York,Mid-Atlantic,Northeast
+755,1,1,Female,3,5,Black,1,Virginia,South Atlantic,South
+756,0,0,Female,2,3,Hispanic,3,Florida,South Atlantic,South
+757,1,1,Male,5,4,White,2,Michigan,East North Central,Midwest
+758,1,1,Male,4,2,White,3,Wisconsin,East North Central,Midwest
+759,1,1,Male,5,3,White,2,Ohio,East North Central,Midwest
+760,1,1,Female,3,5,White,2,Mississippi,East South Central,South
+761,1,1,Male,4,5,White,4,New York,Mid-Atlantic,Northeast
+762,1,1,Male,5,4,White,2,Michigan,East North Central,Midwest
+763,1,1,Female,3,5,Hispanic,2,New York,Mid-Atlantic,Northeast
+764,1,1,Female,3,1,Hispanic,2,NA,NA,NA
+765,0,1,Male,4,3,Hispanic,2,Texas,West South Central,South
+766,1,1,Female,2,5,White,3,Minnesota,West North Central,Midwest
+767,1,1,Female,4,4,White,3,New York,Mid-Atlantic,Northeast
+768,1,0,Female,3,2,Black,1,Connecticut,New England,Northeast
+769,1,1,Female,2,4,Black,2,Maryland,South Atlantic,South
+770,1,1,Female,4,1,White,2,Missouri,West North Central,Midwest
+771,1,1,Male,4,4,White,3,Illinois,East North Central,Midwest
+772,1,1,Male,3,2,NA,3,Michigan,East North Central,Midwest
+773,1,1,Female,4,4,White,2,Kentucky,East South Central,South
+774,1,1,Female,4,4,White,2,Maryland,South Atlantic,South
+775,1,1,Female,4,4,White,3,South Carolina,South Atlantic,South
+776,1,1,Female,5,3,White,2,Michigan,East North Central,Midwest
+777,0,1,Male,4,NA,White,2,Tennessee,East South Central,South
+778,0,1,Male,2,1,Hispanic,3,Maryland,South Atlantic,South
+779,1,1,Female,4,2,White,1,Illinois,East North Central,Midwest
+780,1,0,Female,3,2,White,3,Michigan,East North Central,Midwest
+781,1,1,Female,2,2,White,2,Michigan,East North Central,Midwest
+782,0,0,Female,4,2,Hispanic,1,North Carolina,South Atlantic,South
+783,1,1,Female,5,3,White,2,Texas,West South Central,South
+784,1,1,Male,5,5,White,3,Virginia,South Atlantic,South
+785,1,1,Female,3,4,Black,2,Maryland,South Atlantic,South
+786,1,1,Female,4,4,White,2,New Jersey,Mid-Atlantic,Northeast
+787,1,1,Female,4,3,White,2,Illinois,East North Central,Midwest
+788,1,1,Female,4,4,White,3,NA,NA,NA
+789,0,0,Female,3,4,White,2,Michigan,East North Central,Midwest
+790,0,1,Female,2,1,Hispanic,3,Iowa,West North Central,Midwest
+791,1,1,Male,4,4,White,2,South Carolina,South Atlantic,South
+792,1,1,Female,4,2,White,3,California,Pacific,West
+793,1,1,Male,5,2,NA,3,California,Pacific,West
+794,0,1,Female,3,3,White,2,North Carolina,South Atlantic,South
+795,1,1,Female,4,2,White,2,Kentucky,East South Central,South
+796,1,1,Female,2,1,White,2,Michigan,East North Central,Midwest
+797,1,1,Female,5,2,White,2,North Carolina,South Atlantic,South
+798,1,1,Female,2,3,White,2,Wisconsin,East North Central,Midwest
+799,0,0,Female,4,3,Black,1,New York,Mid-Atlantic,Northeast
+800,1,1,Female,2,2,White,1,Maine,New England,Northeast
+801,1,1,Female,4,3,White,2,California,Pacific,West
+802,1,0,Female,4,2,White,2,Kansas,West North Central,Midwest
+803,1,1,Male,5,5,White,3,Tennessee,East South Central,South
+804,1,1,Female,5,3,White,2,Ohio,East North Central,Midwest
+805,0,0,Female,5,4,Black,2,Michigan,East North Central,Midwest
+806,1,1,Male,5,1,White,2,Tennessee,East South Central,South
+807,1,1,Female,2,2,White,2,Michigan,East North Central,Midwest
+808,1,1,Female,5,4,White,3,Massachusetts,New England,Northeast
+809,1,1,Male,4,4,White,3,South Carolina,South Atlantic,South
+810,0,1,Female,5,5,White,2,Louisiana,West South Central,South
+811,1,1,Male,4,2,White,3,North Carolina,South Atlantic,South
+812,1,1,Female,2,5,White,3,Michigan,East North Central,Midwest
+813,1,1,Male,3,4,White,3,Mississippi,East South Central,South
+814,1,1,Male,4,4,White,3,Indiana,East North Central,Midwest
+815,1,1,Female,5,3,White,2,New York,Mid-Atlantic,Northeast
+816,1,1,Male,1,2,White,2,Michigan,East North Central,Midwest
+817,1,1,Female,4,5,White,2,Massachusetts,New England,Northeast
+818,1,1,Female,4,4,White,2,New York,Mid-Atlantic,Northeast
+819,1,1,Female,4,4,Other,3,Texas,West South Central,South
+820,1,1,Female,4,2,White,2,Michigan,East North Central,Midwest
+821,1,0,Female,5,5,White,2,Michigan,East North Central,Midwest
+822,1,1,Male,5,3,White,2,Minnesota,West North Central,Midwest
+823,0,1,Female,3,3,White,2,Texas,West South Central,South
+824,1,1,Female,1,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+825,1,1,Female,5,3,White,2,Michigan,East North Central,Midwest
+826,1,1,Female,4,4,White,2,Florida,South Atlantic,South
+827,1,1,Male,5,1,White,2,South Carolina,South Atlantic,South
+828,0,1,Female,4,4,White,2,Michigan,East North Central,Midwest
+829,1,1,Female,4,5,White,2,Connecticut,New England,Northeast
+830,1,1,Female,1,2,White,1,New York,Mid-Atlantic,Northeast
+831,0,1,Female,4,2,White,1,West Virginia,South Atlantic,South
+832,1,1,Male,4,2,White,2,Illinois,East North Central,Midwest
+833,1,1,Male,3,3,White,1,Michigan,East North Central,Midwest
+834,0,0,Female,3,NA,NA,2,Michigan,East North Central,Midwest
+835,1,1,Female,5,3,White,2,Georgia,South Atlantic,South
+836,1,1,Female,5,3,White,1,Michigan,East North Central,Midwest
+837,0,0,Male,5,3,White,3,Texas,West South Central,South
+838,1,1,Female,5,3,White,3,Tennessee,East South Central,South
+839,1,1,Male,4,1,Black,2,New York,Mid-Atlantic,Northeast
+840,1,1,Female,4,4,White,2,Michigan,East North Central,Midwest
+841,1,1,Female,5,1,White,2,Maryland,South Atlantic,South
+842,1,1,Male,5,3,White,2,Ohio,East North Central,Midwest
+843,1,1,Female,4,5,White,3,Iowa,West North Central,Midwest
+844,1,1,Male,4,1,White,2,Missouri,West North Central,Midwest
+845,1,1,Female,5,2,White,2,Arizona,Mountain,West
+846,1,1,Female,5,5,White,2,New York,Mid-Atlantic,Northeast
+847,1,1,Female,4,1,White,3,California,Pacific,West
+848,1,1,Male,4,1,Hispanic,2,Texas,West South Central,South
+849,0,1,Male,5,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+850,1,1,Male,5,3,White,3,Texas,West South Central,South
+851,1,1,Male,2,1,Black,1,Ohio,East North Central,Midwest
+852,0,1,Female,2,2,White,2,New York,Mid-Atlantic,Northeast
+853,0,1,Female,3,2,Black,2,Ohio,East North Central,Midwest
+854,1,1,Female,4,4,White,2,Massachusetts,New England,Northeast
+855,1,1,Female,2,4,White,2,Michigan,East North Central,Midwest
+856,0,0,Female,2,4,Black,2,Florida,South Atlantic,South
+857,1,1,Female,2,5,Hispanic,3,New York,Mid-Atlantic,Northeast
+858,0,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+859,0,1,Female,2,3,Hispanic,2,California,Pacific,West
+860,1,1,Female,4,2,White,1,Ohio,East North Central,Midwest
+861,1,0,Female,3,1,Black,1,Maryland,South Atlantic,South
+862,1,1,Female,5,4,White,3,Iowa,West North Central,Midwest
+863,1,1,Male,4,4,White,2,North Carolina,South Atlantic,South
+864,0,0,Female,1,3,Other,2,DC,South Atlantic,South
+865,0,1,Female,4,2,White,2,Oregon,Pacific,West
+866,1,1,Female,3,4,Other,3,California,Pacific,West
+867,1,1,Male,4,2,White,2,New York,Mid-Atlantic,Northeast
+868,1,1,Male,2,5,White,2,Florida,South Atlantic,South
+869,1,1,Female,5,4,White,3,DC,South Atlantic,South
+870,1,1,Female,5,5,White,3,Ohio,East North Central,Midwest
+871,0,1,Female,3,1,Black,2,Ohio,East North Central,Midwest
+872,1,1,Female,2,5,White,2,Michigan,East North Central,Midwest
+873,1,1,Female,2,2,Black,2,Georgia,South Atlantic,South
+874,1,1,Male,4,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+875,0,1,Female,2,5,Black,3,Texas,West South Central,South
+876,1,1,NA,NA,NA,NA,2,Tennessee,East South Central,South
+877,1,1,Female,3,2,NA,2,California,Pacific,West
+878,1,1,Female,5,1,White,1,Mississippi,East South Central,South
+879,1,1,Female,3,2,Black,3,Maryland,South Atlantic,South
+880,0,1,Female,2,3,Hispanic,2,California,Pacific,West
+881,1,1,Male,5,3,Black,2,Pennsylvania,Mid-Atlantic,Northeast
+882,1,1,Male,4,5,White,3,Minnesota,West North Central,Midwest
+883,1,1,Female,2,4,Asian,2,Pennsylvania,Mid-Atlantic,Northeast
+884,1,1,Male,4,5,Asian,3,Indiana,East North Central,Midwest
+885,1,1,Male,5,3,White,3,Michigan,East North Central,Midwest
+886,0,1,Male,5,4,NA,1,Florida,South Atlantic,South
+887,1,1,Female,3,2,Black,2,Delaware,South Atlantic,South
+888,1,1,Female,5,3,Other,2,Ohio,East North Central,Midwest
+889,0,0,Male,2,3,White,2,Michigan,East North Central,Midwest
+890,1,1,Female,4,2,White,2,Texas,West South Central,South
+891,1,1,Female,5,4,White,2,California,Pacific,West
+892,1,1,Male,5,1,White,2,Mississippi,East South Central,South
+893,1,1,Female,2,4,White,3,Michigan,East North Central,Midwest
+894,1,1,Female,3,3,White,2,Michigan,East North Central,Midwest
+895,1,1,Female,4,4,White,2,Tennessee,East South Central,South
+896,0,1,Female,3,2,Black,2,Kentucky,East South Central,South
+897,1,1,Female,4,4,White,2,South Carolina,South Atlantic,South
+898,1,0,Female,2,5,Other,1,Colorado,Mountain,West
+899,1,1,Male,5,4,White,2,Illinois,East North Central,Midwest
+900,1,1,Female,4,3,White,2,Colorado,Mountain,West
+901,0,1,Female,4,2,White,1,Texas,West South Central,South
+902,1,0,Male,3,2,Black,1,Tennessee,East South Central,South
+903,1,1,Male,4,3,White,2,California,Pacific,West
+904,1,1,Female,4,5,White,2,Nevada,Mountain,West
+905,1,1,Female,4,5,White,2,Texas,West South Central,South
+906,1,1,Female,4,4,White,2,South Dakota,West North Central,Midwest
+907,1,1,Female,5,3,White,2,Michigan,East North Central,Midwest
+908,1,1,Female,4,4,Black,2,Pennsylvania,Mid-Atlantic,Northeast
+909,1,1,Male,4,3,White,2,Texas,West South Central,South
+910,0,1,Female,4,1,Asian,2,Tennessee,East South Central,South
+911,1,1,Male,4,5,White,3,California,Pacific,West
+912,1,1,Female,4,4,White,4,Minnesota,West North Central,Midwest
+913,1,1,Male,3,2,Black,2,Illinois,East North Central,Midwest
+914,1,0,Male,4,2,White,1,Texas,West South Central,South
+915,1,1,Female,4,5,White,3,California,Pacific,West
+916,1,1,Female,4,4,White,2,Kansas,West North Central,Midwest
+917,1,1,Female,4,3,White,2,Kentucky,East South Central,South
+918,1,1,Male,5,5,White,2,Texas,West South Central,South
+919,1,1,Female,4,4,White,3,Maryland,South Atlantic,South
+920,1,1,Female,4,2,White,3,Florida,South Atlantic,South
+921,1,1,Male,5,5,Asian,3,Missouri,West North Central,Midwest
+922,1,1,Female,4,1,White,3,California,Pacific,West
+923,1,1,Female,3,3,White,2,Mississippi,East South Central,South
+924,1,1,Female,5,3,White,2,West Virginia,South Atlantic,South
+925,1,1,Female,4,4,White,3,Illinois,East North Central,Midwest
+926,1,1,Male,2,3,White,2,Mississippi,East South Central,South
+927,1,1,Male,5,3,White,1,Ohio,East North Central,Midwest
+928,1,0,Female,4,1,Hispanic,2,Tennessee,East South Central,South
+929,1,1,Male,5,2,White,2,Minnesota,West North Central,Midwest
+930,1,1,Female,5,3,White,2,California,Pacific,West
+931,1,1,Female,4,3,White,2,Iowa,West North Central,Midwest
+932,1,1,Male,5,3,White,2,Tennessee,East South Central,South
+933,1,0,Male,4,1,White,1,Vermont,New England,Northeast
+934,1,1,Female,4,2,White,2,South Carolina,South Atlantic,South
+935,1,1,Male,2,1,Black,2,Washington,Pacific,West
+936,1,1,Female,4,4,White,2,NA,NA,NA
+937,1,1,Male,4,3,White,1,New York,Mid-Atlantic,Northeast
+938,1,1,Male,5,5,White,3,Texas,West South Central,South
+939,1,1,Male,4,4,White,3,Washington,Pacific,West
+940,1,1,Female,4,4,White,2,New York,Mid-Atlantic,Northeast
+941,1,1,Female,3,1,White,2,Michigan,East North Central,Midwest
+942,1,1,Male,5,3,White,3,South Carolina,South Atlantic,South
+943,1,1,Male,4,3,White,2,Texas,West South Central,South
+944,0,1,Male,5,3,White,1,Arizona,Mountain,West
+945,1,1,Female,3,2,NA,2,Michigan,East North Central,Midwest
+946,0,0,Female,2,2,Black,1,Georgia,South Atlantic,South
+947,1,1,Female,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+948,1,1,Male,5,3,White,2,Illinois,East North Central,Midwest
+949,0,1,Male,5,2,White,2,Texas,West South Central,South
+950,1,1,Female,2,1,White,1,Michigan,East North Central,Midwest
+951,1,1,Male,5,3,White,1,Arkansas,West South Central,South
+952,1,1,Male,2,2,Black,2,Kansas,West North Central,Midwest
+953,1,1,Female,4,4,White,3,Massachusetts,New England,Northeast
+954,1,1,Female,4,4,White,3,Texas,West South Central,South
+955,0,1,Female,3,1,Black,1,New York,Mid-Atlantic,Northeast
+956,1,1,Male,4,4,White,3,Texas,West South Central,South
+957,1,1,Female,3,2,Black,2,North Carolina,South Atlantic,South
+958,1,1,Male,5,5,White,2,Utah,Mountain,West
+959,1,1,Female,4,3,White,2,Texas,West South Central,South
+960,1,1,Female,3,1,White,2,Michigan,East North Central,Midwest
+961,1,1,Female,2,2,White,3,Ohio,East North Central,Midwest
+962,1,1,Female,5,3,White,3,Oregon,Pacific,West
+963,1,1,Male,5,2,White,1,Florida,South Atlantic,South
+964,0,1,Female,3,2,Black,2,Maryland,South Atlantic,South
+965,1,1,Female,4,1,White,2,Texas,West South Central,South
+966,1,1,Male,4,1,White,2,Ohio,East North Central,Midwest
+967,1,1,Female,3,5,White,2,Virginia,South Atlantic,South
+968,1,1,Female,3,4,White,3,Michigan,East North Central,Midwest
+969,1,1,Female,4,3,White,2,California,Pacific,West
+970,1,1,Female,4,3,White,3,NA,NA,NA
+971,0,1,Female,1,1,Black,2,Louisiana,West South Central,South
+972,0,1,Female,3,5,Black,2,Maryland,South Atlantic,South
+973,1,1,Female,2,2,Black,3,Ohio,East North Central,Midwest
+974,1,0,Female,4,3,White,2,Minnesota,West North Central,Midwest
+975,1,1,Female,2,2,Hispanic,1,Minnesota,West North Central,Midwest
+976,1,0,Female,3,3,White,3,Mississippi,East South Central,South
+977,0,1,Male,2,4,Other,2,Ohio,East North Central,Midwest
+978,1,1,Female,2,5,Hispanic,2,Colorado,Mountain,West
+979,1,1,Female,2,5,Other,2,Texas,West South Central,South
+980,1,1,Female,3,4,Hispanic,2,Tennessee,East South Central,South
+981,1,1,Female,4,1,Black,2,Texas,West South Central,South
+982,1,1,Female,2,5,Hispanic,2,Texas,West South Central,South
+983,1,1,Female,2,4,Black,2,Tennessee,East South Central,South
+984,1,1,Female,4,4,Black,2,Ohio,East North Central,Midwest
+985,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+986,1,1,Female,2,2,White,2,Michigan,East North Central,Midwest
+987,1,1,Female,3,3,White,1,Pennsylvania,Mid-Atlantic,Northeast
+988,0,1,Female,3,5,Black,2,Maryland,South Atlantic,South
+989,1,1,Female,2,4,Hispanic,2,Texas,West South Central,South
+990,1,1,Male,4,5,Hispanic,2,Colorado,Mountain,West
+991,1,1,Female,3,4,Hispanic,2,Florida,South Atlantic,South
+992,1,1,Male,2,1,Other,1,California,Pacific,West
+993,1,1,Female,2,2,Hispanic,2,Illinois,East North Central,Midwest
+994,1,1,Female,5,2,Asian,3,Oregon,Pacific,West
+995,1,1,Female,1,2,Hispanic,2,Utah,Mountain,West
+996,0,1,Female,2,2,Black,2,Georgia,South Atlantic,South
+997,0,1,Female,2,3,Black,1,California,Pacific,West
+998,1,1,Female,4,4,White,3,Oklahoma,West South Central,South
+999,1,1,Female,4,4,White,1,Michigan,East North Central,Midwest
+1000,1,1,Female,1,1,Other,2,California,Pacific,West
+1001,0,1,Female,4,2,Black,2,Georgia,South Atlantic,South
+1002,1,1,Male,4,2,Black,1,Georgia,South Atlantic,South
+1003,1,0,Female,5,1,White,2,Massachusetts,New England,Northeast
+1004,1,1,Male,5,5,White,2,Texas,West South Central,South
+1005,1,1,Male,4,1,Other,1,Florida,South Atlantic,South
+1006,1,1,Female,4,2,Other,1,North Carolina,South Atlantic,South
+1007,1,1,Female,4,3,White,2,South Carolina,South Atlantic,South
+1008,1,1,Female,2,4,Asian,2,Virginia,South Atlantic,South
+1009,1,1,Female,1,2,White,3,Virginia,South Atlantic,South
+1010,1,1,Female,2,2,White,2,Michigan,East North Central,Midwest
+1011,1,1,Female,1,2,Asian,1,Illinois,East North Central,Midwest
+1012,0,0,Male,4,2,Hispanic,1,Texas,West South Central,South
+1013,1,1,Female,1,2,White,2,Massachusetts,New England,Northeast
+1014,1,0,Female,1,2,White,2,Washington,Pacific,West
+1015,0,1,Female,3,NA,Hispanic,2,New Mexico,Mountain,West
+1016,1,1,Male,1,2,White,2,Wyoming,Mountain,West
+1017,1,1,Female,2,3,White,2,Ohio,East North Central,Midwest
+1018,1,1,Female,5,2,White,2,Michigan,East North Central,Midwest
+1019,1,1,Male,4,4,White,2,New York,Mid-Atlantic,Northeast
+1020,1,1,Male,2,2,White,3,California,Pacific,West
+1021,1,1,Female,5,1,White,2,Missouri,West North Central,Midwest
+1022,1,1,Female,1,2,White,2,Utah,Mountain,West
+1023,0,1,Female,1,2,Hispanic,1,Utah,Mountain,West
+1024,1,1,Female,3,5,NA,1,New Mexico,Mountain,West
+1025,0,1,Male,3,3,White,2,Michigan,East North Central,Midwest
+1026,1,1,Female,2,4,White,2,Utah,Mountain,West
+1027,0,1,Female,4,3,Black,2,Missouri,West North Central,Midwest
+1028,1,1,Male,5,3,White,2,Georgia,South Atlantic,South
+1029,1,1,Female,2,2,Other,1,California,Pacific,West
+1030,1,1,Female,1,1,White,1,Utah,Mountain,West
+1031,1,1,Female,NA,NA,NA,1,New York,Mid-Atlantic,Northeast
+1032,1,1,NA,4,3,White,2,Massachusetts,New England,Northeast
+1033,1,0,Female,3,2,Black,1,Ohio,East North Central,Midwest
+1034,1,0,Female,1,2,White,1,Utah,Mountain,West
+1035,1,1,Male,1,2,Black,3,Virginia,South Atlantic,South
+1036,1,1,Male,1,2,White,1,Utah,Mountain,West
+1037,1,1,Female,2,1,Hispanic,1,California,Pacific,West
+1038,1,1,Female,5,2,Black,1,Ohio,East North Central,Midwest
+1039,0,1,Female,4,1,Hispanic,2,New York,Mid-Atlantic,Northeast
+1040,1,1,Female,2,4,White,3,Michigan,East North Central,Midwest
+1041,1,1,Female,1,2,White,3,Virginia,South Atlantic,South
+1042,1,1,Female,2,5,Asian,2,Connecticut,New England,Northeast
+1043,1,1,Female,3,4,White,2,Iowa,West North Central,Midwest
+1044,1,1,Male,4,5,Hispanic,4,California,Pacific,West
+1045,1,0,NA,2,4,Black,2,Washington,Pacific,West
+1046,1,1,Male,4,1,White,2,Tennessee,East South Central,South
+1047,0,0,Female,3,2,White,2,Arizona,Mountain,West
+1048,1,0,NA,4,3,Other,3,Kentucky,East South Central,South
+1049,0,1,Female,2,2,Other,2,Kentucky,East South Central,South
+1050,1,1,Female,3,4,Black,1,Kentucky,East South Central,South
+1051,1,1,Male,3,1,Hispanic,2,California,Pacific,West
+1052,1,0,Female,3,3,Hispanic,2,California,Pacific,West
+1053,1,1,Female,2,3,Other,3,South Carolina,South Atlantic,South
+1054,1,1,Male,5,5,White,3,Oregon,Pacific,West
+1055,1,1,Male,2,4,Other,2,Louisiana,West South Central,South
+1056,1,1,Female,5,4,White,2,Texas,West South Central,South
+1057,1,1,Female,4,5,Black,2,Maryland,South Atlantic,South
+1058,1,1,Female,2,3,Asian,2,Kentucky,East South Central,South
+1059,1,1,NA,2,1,Other,1,Iowa,West North Central,Midwest
+1060,0,1,Female,3,4,Black,2,NA,NA,NA
+1061,1,1,Female,2,2,White,2,North Carolina,South Atlantic,South
+1062,1,1,Male,1,1,Hispanic,4,Utah,Mountain,West
+1063,1,1,Female,2,2,Black,2,Kentucky,East South Central,South
+1064,1,1,Female,2,2,Black,1,Louisiana,West South Central,South
+1065,1,1,Female,4,2,White,1,Texas,West South Central,South
+1066,1,1,Female,1,2,White,2,Virginia,South Atlantic,South
+1067,1,1,Female,4,1,White,3,Washington,Pacific,West
+1068,1,1,Female,4,2,Black,2,Louisiana,West South Central,South
+1069,0,1,Female,1,1,Hispanic,2,New York,Mid-Atlantic,Northeast
+1070,1,1,Male,3,1,Black,3,Kentucky,East South Central,South
+1071,1,1,Female,4,4,White,3,DC,South Atlantic,South
+1072,0,0,Female,4,3,White,1,Texas,West South Central,South
+1073,0,0,Female,3,2,White,2,Michigan,East North Central,Midwest
+1074,1,1,Male,3,2,White,2,Ohio,East North Central,Midwest
+1075,0,1,Female,1,4,Hispanic,2,Maryland,South Atlantic,South
+1076,1,1,Female,2,4,White,3,Colorado,Mountain,West
+1077,1,1,Female,4,2,Black,2,Kentucky,East South Central,South
+1078,1,1,Female,1,2,Other,2,South Carolina,South Atlantic,South
+1079,0,0,Male,3,3,Hispanic,2,Texas,West South Central,South
+1080,1,1,Female,2,3,Black,2,New York,Mid-Atlantic,Northeast
+1081,1,1,Female,2,4,Hispanic,2,New York,Mid-Atlantic,Northeast
+1082,1,1,Female,4,2,Hispanic,2,Colorado,Mountain,West
+1083,0,1,Female,3,3,Black,2,Maryland,South Atlantic,South
+1084,0,0,Female,2,4,Hispanic,3,Texas,West South Central,South
+1085,1,1,Male,4,2,Other,2,Maryland,South Atlantic,South
+1086,1,1,Female,1,2,Hispanic,3,Wisconsin,East North Central,Midwest
+1087,1,1,Female,3,1,Hispanic,1,New York,Mid-Atlantic,Northeast
+1088,0,1,Female,4,3,Black,2,Alabama,East South Central,South
+1089,1,1,Female,4,2,Hispanic,2,Iowa,West North Central,Midwest
+1090,1,1,Female,3,3,White,2,Kentucky,East South Central,South
+1091,1,1,Female,2,2,White,3,Colorado,Mountain,West
+1092,1,1,Female,2,2,Hispanic,2,Texas,West South Central,South
+1093,1,0,Female,2,2,Hispanic,1,Texas,West South Central,South
+1094,1,1,Male,4,1,White,3,Nebraska,West North Central,Midwest
+1095,1,1,Female,3,1,Hispanic,2,Ohio,East North Central,Midwest
+1096,1,1,Female,4,3,White,2,Kentucky,East South Central,South
+1097,1,1,Female,4,4,White,2,Nebraska,West North Central,Midwest
+1098,0,0,Female,2,1,Hispanic,1,Montana,Mountain,West
+1099,0,1,Female,3,1,Other,2,Kentucky,East South Central,South
+1100,1,1,Female,2,4,White,2,DC,South Atlantic,South
+1101,1,1,Female,4,2,White,2,Mississippi,East South Central,South
+1102,1,1,Female,3,2,Hispanic,2,Wisconsin,East North Central,Midwest
+1103,1,1,Female,2,2,White,1,Iowa,West North Central,Midwest
+1104,1,1,Female,2,5,Hispanic,2,Louisiana,West South Central,South
+1105,1,1,Female,2,4,Other,2,North Carolina,South Atlantic,South
+1106,1,0,Female,1,2,Hispanic,2,Virginia,South Atlantic,South
+1107,1,1,Female,3,NA,Hispanic,2,California,Pacific,West
+1108,1,1,Female,1,2,White,2,Virginia,South Atlantic,South
+1109,1,1,Female,3,1,Black,2,Ohio,East North Central,Midwest
+1110,1,1,Female,1,3,Hispanic,2,New York,Mid-Atlantic,Northeast
+1111,0,0,Female,2,2,Hispanic,NA,New York,Mid-Atlantic,Northeast
+1112,1,1,Female,4,3,Hispanic,2,Colorado,Mountain,West
+1113,0,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1114,1,1,Female,2,1,Hispanic,1,Oklahoma,West South Central,South
+1115,1,1,Male,4,4,White,2,Vermont,New England,Northeast
+1116,1,1,Male,2,5,Hispanic,3,California,Pacific,West
+1117,1,1,Female,3,2,NA,2,New York,Mid-Atlantic,Northeast
+1118,1,1,NA,1,3,Other,2,Nevada,Mountain,West
+1119,1,1,Female,4,4,White,2,Texas,West South Central,South
+1120,1,1,Female,2,2,Hispanic,2,Maryland,South Atlantic,South
+1121,1,1,Male,5,2,White,2,Wisconsin,East North Central,Midwest
+1122,1,1,Female,5,3,White,3,South Carolina,South Atlantic,South
+1123,1,1,Female,1,2,Hispanic,1,California,Pacific,West
+1124,1,1,NA,2,1,White,2,Massachusetts,New England,Northeast
+1125,1,1,Female,3,3,White,3,Mississippi,East South Central,South
+1126,0,1,Female,2,2,Black,2,California,Pacific,West
+1127,0,1,Female,4,4,White,2,Arizona,Mountain,West
+1128,1,0,Female,2,1,White,1,Washington,Pacific,West
+1129,1,1,Male,1,2,White,2,Utah,Mountain,West
+1130,0,1,Female,3,4,White,2,Michigan,East North Central,Midwest
+1131,1,1,Female,3,4,Black,2,Tennessee,East South Central,South
+1132,0,0,Male,2,2,Hispanic,1,South Carolina,South Atlantic,South
+1133,1,0,Female,2,4,Other,2,Kentucky,East South Central,South
+1134,1,1,Female,5,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1135,1,1,Female,2,2,White,2,Michigan,East North Central,Midwest
+1136,1,1,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1137,1,1,Female,1,2,White,3,Michigan,East North Central,Midwest
+1138,0,1,Female,2,1,White,2,Michigan,East North Central,Midwest
+1139,1,1,Male,4,5,White,2,Ohio,East North Central,Midwest
+1140,0,1,Female,1,3,White,2,Ohio,East North Central,Midwest
+1141,1,0,Male,1,2,Other,2,Virginia,South Atlantic,South
+1142,0,1,Female,3,3,White,1,Michigan,East North Central,Midwest
+1143,1,1,Female,4,4,White,2,Texas,West South Central,South
+1144,1,1,Male,1,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1145,0,1,Female,3,3,Black,2,New York,Mid-Atlantic,Northeast
+1146,0,1,Female,3,4,White,2,Maryland,South Atlantic,South
+1147,1,1,Female,4,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1148,1,1,Male,4,1,Black,1,Ohio,East North Central,Midwest
+1149,1,1,Female,5,2,White,3,Tennessee,East South Central,South
+1150,1,0,Male,2,4,Hispanic,1,North Carolina,South Atlantic,South
+1151,1,0,Female,3,3,White,2,Michigan,East North Central,Midwest
+1152,1,1,Female,3,3,White,2,Michigan,East North Central,Midwest
+1153,1,1,Female,2,4,Hispanic,2,New York,Mid-Atlantic,Northeast
+1154,0,1,Male,1,1,Hispanic,2,Florida,South Atlantic,South
+1155,1,1,Female,3,5,Hispanic,3,Florida,South Atlantic,South
+1156,0,1,Female,3,1,Black,1,Massachusetts,New England,Northeast
+1157,0,1,Female,3,5,Black,2,North Carolina,South Atlantic,South
+1158,0,0,Female,2,2,Black,3,Georgia,South Atlantic,South
+1159,1,0,Female,2,4,White,2,South Carolina,South Atlantic,South
+1160,1,1,Female,3,3,Black,3,Tennessee,East South Central,South
+1161,1,0,Female,3,1,White,1,Florida,South Atlantic,South
+1162,1,1,Female,3,5,Black,3,Florida,South Atlantic,South
+1163,0,1,Female,3,1,Black,2,Ohio,East North Central,Midwest
+1164,1,1,Female,2,5,Black,1,Maryland,South Atlantic,South
+1165,0,1,Female,2,2,Black,2,Ohio,East North Central,Midwest
+1166,1,1,NA,1,2,Hispanic,2,Maryland,South Atlantic,South
+1167,1,1,Female,3,3,Hispanic,3,Wisconsin,East North Central,Midwest
+1168,0,0,Female,3,3,Hispanic,1,Florida,South Atlantic,South
+1169,1,1,Female,5,2,White,2,Virginia,South Atlantic,South
+1170,1,0,Female,2,4,White,2,Michigan,East North Central,Midwest
+1171,0,1,Female,4,2,White,3,Texas,West South Central,South
+1172,1,1,Male,2,2,Black,2,California,Pacific,West
+1173,1,1,Female,4,2,Hispanic,2,Virginia,South Atlantic,South
+1174,1,1,Female,2,2,Hispanic,2,New York,Mid-Atlantic,Northeast
+1175,1,1,Male,3,1,Black,1,Texas,West South Central,South
+1176,1,1,Female,3,3,Other,2,Kentucky,East South Central,South
+1177,1,1,Female,2,4,Black,3,Wisconsin,East North Central,Midwest
+1178,0,1,Female,3,3,Hispanic,3,Tennessee,East South Central,South
+1179,0,1,Female,4,1,Black,2,Georgia,South Atlantic,South
+1180,1,1,Female,5,1,Other,2,Georgia,South Atlantic,South
+1181,0,1,Female,2,2,Black,1,Ohio,East North Central,Midwest
+1182,0,0,Female,3,3,Black,2,New York,Mid-Atlantic,Northeast
+1183,1,1,Male,3,1,Hispanic,2,Pennsylvania,Mid-Atlantic,Northeast
+1184,1,0,Male,2,4,Black,2,Indiana,East North Central,Midwest
+1185,1,1,Female,2,3,Other,2,Utah,Mountain,West
+1186,1,1,Female,2,5,White,3,Maryland,South Atlantic,South
+1187,1,1,Female,2,2,Hispanic,1,California,Pacific,West
+1188,0,1,Female,4,2,White,2,Kentucky,East South Central,South
+1189,1,1,Female,1,2,Black,1,North Carolina,South Atlantic,South
+1190,1,1,Female,1,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1191,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1192,1,1,Female,1,1,Black,1,Pennsylvania,Mid-Atlantic,Northeast
+1193,1,1,Male,5,3,White,1,California,Pacific,West
+1194,1,0,Female,3,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+1195,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1196,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1197,1,1,Female,3,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1198,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1199,0,0,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1200,0,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1201,1,0,Male,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1202,0,0,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1203,1,1,Female,3,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1204,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1205,0,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1206,1,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1207,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1208,1,1,Male,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1209,1,1,Female,3,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1210,0,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1211,0,1,Female,2,3,Hispanic,2,Pennsylvania,Mid-Atlantic,Northeast
+1212,0,0,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1213,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1214,1,1,Female,3,5,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+1215,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1216,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1217,0,1,Female,2,4,Hispanic,1,Pennsylvania,Mid-Atlantic,Northeast
+1218,0,1,Female,2,4,NA,1,Pennsylvania,Mid-Atlantic,Northeast
+1219,1,1,Female,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1220,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1221,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1222,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1223,0,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1224,0,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1225,1,1,Female,3,2,White,1,Pennsylvania,Mid-Atlantic,Northeast
+1226,0,0,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1227,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1228,1,1,Female,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1229,1,1,Female,3,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+1230,0,0,Female,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1231,1,1,Female,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1232,1,1,Male,2,2,Black,2,Pennsylvania,Mid-Atlantic,Northeast
+1233,1,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1234,0,1,Female,2,1,Hispanic,2,Pennsylvania,Mid-Atlantic,Northeast
+1235,0,0,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1236,1,1,Female,3,5,White,3,NA,NA,NA
+1237,1,1,Male,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1238,1,1,Female,3,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1239,0,1,Female,2,1,Black,1,Pennsylvania,Mid-Atlantic,Northeast
+1240,0,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1241,1,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1242,0,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1243,0,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1244,1,1,Female,2,2,White,1,Pennsylvania,Mid-Atlantic,Northeast
+1245,0,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1246,1,1,Female,3,1,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1247,0,1,Female,2,2,Hispanic,1,Pennsylvania,Mid-Atlantic,Northeast
+1248,1,1,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1249,1,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1250,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1251,0,1,Female,2,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+1252,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1253,0,1,Female,3,1,Other,2,Pennsylvania,Mid-Atlantic,Northeast
+1254,0,0,Female,3,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1255,1,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1256,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1257,1,1,Female,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1258,0,1,Female,2,2,NA,1,Pennsylvania,Mid-Atlantic,Northeast
+1259,1,1,Female,4,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1260,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1261,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1262,1,1,Male,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1263,1,1,Female,3,3,Hispanic,2,Pennsylvania,Mid-Atlantic,Northeast
+1264,0,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1265,1,1,Female,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1266,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1267,1,1,Male,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1268,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1269,0,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1270,1,1,Female,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1271,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1272,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1273,0,1,Female,2,NA,NA,1,Pennsylvania,Mid-Atlantic,Northeast
+1274,0,0,Female,2,1,Black,1,Pennsylvania,Mid-Atlantic,Northeast
+1275,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1276,1,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1277,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1278,0,0,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1279,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1280,1,1,Female,3,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1281,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1282,1,1,Female,3,4,White,2,Utah,Mountain,West
+1283,0,0,Female,4,3,Other,1,Oregon,Pacific,West
+1284,0,1,Female,3,4,White,2,Oregon,Pacific,West
+1285,1,1,Female,2,4,White,3,Wisconsin,East North Central,Midwest
+1286,1,1,Male,5,3,White,2,Wisconsin,East North Central,Midwest
+1287,0,1,Female,3,5,White,2,New Mexico,Mountain,West
+1288,1,1,Female,3,2,White,4,North Carolina,South Atlantic,South
+1289,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1290,1,1,Female,3,3,White,3,Florida,South Atlantic,South
+1291,1,1,Female,3,3,White,3,Utah,Mountain,West
+1292,1,1,Female,3,3,White,2,Missouri,West North Central,Midwest
+1293,1,1,Female,2,1,White,2,Virginia,South Atlantic,South
+1294,1,1,Female,3,5,White,3,Virginia,South Atlantic,South
+1295,1,1,Female,4,2,White,2,New Hampshire,New England,Northeast
+1296,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1297,0,0,Female,2,2,White,3,NA,NA,NA
+1298,0,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1299,1,1,Female,3,2,White,1,West Virginia,South Atlantic,South
+1300,0,1,Male,2,2,White,2,Virginia,South Atlantic,South
+1301,1,1,Male,4,2,White,2,North Carolina,South Atlantic,South
+1302,1,1,Male,5,2,White,1,Oregon,Pacific,West
+1303,1,1,Female,2,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1304,0,1,Female,3,4,Asian,1,North Carolina,South Atlantic,South
+1305,1,1,Female,3,2,White,2,NA,NA,NA
+1306,0,0,Male,2,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+1307,1,1,Female,2,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1308,1,0,Female,1,2,NA,3,North Carolina,South Atlantic,South
+1309,0,1,Female,2,NA,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+1310,1,1,Female,3,4,White,2,NA,NA,NA
+1311,0,1,Female,2,1,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1312,1,1,Female,5,2,White,3,New Mexico,Mountain,West
+1313,1,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1314,1,1,Male,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1315,1,1,Female,2,2,White,2,Utah,Mountain,West
+1316,1,1,Male,5,4,White,2,Oregon,Pacific,West
+1317,0,1,Female,2,4,NA,2,NA,NA,NA
+1318,1,0,Female,5,2,White,3,South Carolina,South Atlantic,South
+1319,1,1,Female,2,4,White,4,Pennsylvania,Mid-Atlantic,Northeast
+1320,1,1,Female,4,3,White,3,North Carolina,South Atlantic,South
+1321,0,0,Female,3,3,Hispanic,2,Pennsylvania,Mid-Atlantic,Northeast
+1322,1,1,Female,3,4,White,3,North Carolina,South Atlantic,South
+1323,1,1,Female,2,3,Other,3,Wisconsin,East North Central,Midwest
+1324,1,1,Male,5,5,White,2,Virginia,South Atlantic,South
+1325,1,1,Female,3,4,White,1,Oregon,Pacific,West
+1326,1,1,Female,4,2,White,1,North Carolina,South Atlantic,South
+1327,0,0,Male,3,3,White,2,Oklahoma,West South Central,South
+1328,1,1,Male,4,4,White,2,Utah,Mountain,West
+1329,1,1,Female,2,2,Hispanic,2,Virginia,South Atlantic,South
+1330,1,1,Female,4,2,White,2,Nevada,Mountain,West
+1331,0,1,Female,2,1,NA,2,NA,NA,NA
+1332,1,1,Male,4,2,White,1,North Dakota,West North Central,Midwest
+1333,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1334,1,1,Male,4,5,White,3,Vermont,New England,Northeast
+1335,0,1,Female,2,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+1336,0,1,Female,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1337,0,1,Female,3,1,White,2,Oregon,Pacific,West
+1338,1,1,Female,2,2,White,2,Oregon,Pacific,West
+1339,1,1,Female,2,1,Hispanic,2,Pennsylvania,Mid-Atlantic,Northeast
+1340,1,1,Male,2,4,White,2,Oregon,Pacific,West
+1341,1,1,Female,4,4,White,3,Massachusetts,New England,Northeast
+1342,1,1,Female,2,4,Other,2,North Carolina,South Atlantic,South
+1343,1,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1344,1,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1345,0,0,Female,3,NA,NA,NA,Pennsylvania,Mid-Atlantic,Northeast
+1346,1,1,Female,3,4,NA,2,Virginia,South Atlantic,South
+1347,1,0,Female,3,3,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+1348,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1349,0,1,Female,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1350,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1351,1,1,Female,4,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+1352,1,1,Female,5,4,White,3,Oregon,Pacific,West
+1353,0,1,Female,3,2,Other,2,Virginia,South Atlantic,South
+1354,1,0,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1355,1,1,Female,2,4,White,4,Pennsylvania,Mid-Atlantic,Northeast
+1356,0,0,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1357,0,0,Female,4,2,Hispanic,1,California,Pacific,West
+1358,1,0,Female,3,5,Hispanic,3,Alaska,Pacific,West
+1359,1,1,Female,2,4,Black,1,New York,Mid-Atlantic,Northeast
+1360,1,1,Female,3,4,White,2,Tennessee,East South Central,South
+1361,1,1,Female,3,3,White,2,Texas,West South Central,South
+1362,1,1,Female,3,2,Black,2,Texas,West South Central,South
+1363,1,1,Female,2,5,White,3,California,Pacific,West
+1364,1,1,Female,3,2,White,2,Wisconsin,East North Central,Midwest
+1365,0,1,Female,3,2,Hispanic,2,Oregon,Pacific,West
+1366,1,0,Female,4,2,White,1,Massachusetts,New England,Northeast
+1367,0,1,NA,NA,NA,NA,NA,Pennsylvania,Mid-Atlantic,Northeast
+1368,1,1,Female,2,4,White,2,Massachusetts,New England,Northeast
+1369,1,0,Female,3,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1370,0,0,Female,3,2,White,2,Tennessee,East South Central,South
+1371,0,0,Female,2,NA,Hispanic,2,NA,NA,NA
+1372,1,1,Female,2,4,Hispanic,2,Texas,West South Central,South
+1373,1,1,Female,4,5,NA,2,Alabama,East South Central,South
+1374,1,1,Female,2,4,White,3,Tennessee,East South Central,South
+1375,1,1,Female,3,2,White,1,Utah,Mountain,West
+1376,1,1,Female,5,4,White,2,Ohio,East North Central,Midwest
+1377,1,1,Female,3,2,Hispanic,1,Ohio,East North Central,Midwest
+1378,1,1,Female,2,2,Hispanic,3,Illinois,East North Central,Midwest
+1379,1,1,Male,3,2,White,2,Ohio,East North Central,Midwest
+1380,1,1,Female,2,4,White,2,Massachusetts,New England,Northeast
+1381,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1382,1,1,Female,2,4,White,2,Tennessee,East South Central,South
+1383,1,1,Female,5,1,White,3,North Carolina,South Atlantic,South
+1384,0,0,Female,2,3,White,1,North Carolina,South Atlantic,South
+1385,1,1,Female,2,4,White,3,Oregon,Pacific,West
+1386,1,1,Female,3,1,White,3,Florida,South Atlantic,South
+1387,1,1,Female,3,4,White,3,North Carolina,South Atlantic,South
+1388,1,0,Female,2,2,Hispanic,2,New Jersey,Mid-Atlantic,Northeast
+1389,1,1,Female,2,5,White,3,Arizona,Mountain,West
+1390,0,1,Female,3,2,Hispanic,1,Florida,South Atlantic,South
+1391,1,1,Female,2,1,White,1,Ohio,East North Central,Midwest
+1392,1,1,Female,3,1,Black,1,Georgia,South Atlantic,South
+1393,1,1,Female,5,4,White,2,North Carolina,South Atlantic,South
+1394,1,1,Female,5,4,White,2,Tennessee,East South Central,South
+1395,1,1,Female,1,2,Asian,2,Ohio,East North Central,Midwest
+1396,1,0,Female,4,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1397,0,1,Female,1,3,White,2,Michigan,East North Central,Midwest
+1398,0,1,Female,2,2,Hispanic,1,Pennsylvania,Mid-Atlantic,Northeast
+1399,0,1,Female,3,2,Black,2,Missouri,West North Central,Midwest
+1400,1,1,Female,2,5,White,2,Tennessee,East South Central,South
+1401,1,1,Female,4,2,White,2,Ohio,East North Central,Midwest
+1402,1,1,Female,4,5,White,3,North Carolina,South Atlantic,South
+1403,1,1,Female,5,4,White,3,Virginia,South Atlantic,South
+1404,0,1,Female,3,3,Black,2,Illinois,East North Central,Midwest
+1405,0,0,NA,2,2,Hispanic,1,New York,Mid-Atlantic,Northeast
+1406,1,1,Female,2,3,White,2,Wisconsin,East North Central,Midwest
+1407,1,1,Male,3,1,White,1,Minnesota,West North Central,Midwest
+1408,0,0,Female,3,2,Hispanic,3,Maryland,South Atlantic,South
+1409,1,1,Female,2,4,White,3,Maryland,South Atlantic,South
+1410,1,1,Female,2,1,Black,1,Ohio,East North Central,Midwest
+1411,1,1,Female,2,4,White,3,Oklahoma,West South Central,South
+1412,0,0,Female,3,1,White,1,Pennsylvania,Mid-Atlantic,Northeast
+1413,1,1,Female,2,3,Hispanic,1,Texas,West South Central,South
+1414,1,1,Female,1,2,White,3,Wisconsin,East North Central,Midwest
+1415,1,1,NA,1,1,White,1,New Hampshire,New England,Northeast
+1416,1,1,Female,3,5,White,4,Massachusetts,New England,Northeast
+1417,1,1,Female,2,3,White,2,Ohio,East North Central,Midwest
+1418,1,0,Female,3,4,Black,2,Nevada,Mountain,West
+1419,1,1,Female,2,5,White,3,Illinois,East North Central,Midwest
+1420,1,0,Female,2,2,White,2,Ohio,East North Central,Midwest
+1421,1,1,Female,4,3,Hispanic,1,Florida,South Atlantic,South
+1422,1,1,Female,4,4,White,3,Virginia,South Atlantic,South
+1423,1,1,Female,5,3,White,2,North Carolina,South Atlantic,South
+1424,1,1,Male,4,1,Black,2,New York,Mid-Atlantic,Northeast
+1425,0,0,Female,3,5,White,3,Michigan,East North Central,Midwest
+1426,1,1,Female,3,1,Hispanic,1,Colorado,Mountain,West
+1427,1,1,Female,4,4,White,3,Ohio,East North Central,Midwest
+1428,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1429,1,1,Male,5,4,White,2,New Hampshire,New England,Northeast
+1430,0,1,Female,3,3,Other,1,South Carolina,South Atlantic,South
+1431,0,0,Female,2,4,White,2,Michigan,East North Central,Midwest
+1432,1,1,Female,5,2,Hispanic,2,California,Pacific,West
+1433,1,1,Female,3,4,White,4,Tennessee,East South Central,South
+1434,1,1,Male,2,2,White,2,Ohio,East North Central,Midwest
+1435,1,1,Female,2,2,White,1,Montana,Mountain,West
+1436,0,0,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1437,1,1,Female,2,3,Black,2,Texas,West South Central,South
+1438,1,1,Female,2,4,White,2,Tennessee,East South Central,South
+1439,1,1,Male,2,4,White,3,Utah,Mountain,West
+1440,1,1,Female,4,2,White,2,Florida,South Atlantic,South
+1441,1,1,Female,2,2,White,1,Oregon,Pacific,West
+1442,1,1,Female,3,2,Black,1,California,Pacific,West
+1443,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1444,1,0,Male,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1445,0,1,NA,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1446,1,1,Female,4,4,White,2,Michigan,East North Central,Midwest
+1447,1,1,Male,3,2,White,3,Ohio,East North Central,Midwest
+1448,0,1,Female,2,4,White,3,North Carolina,South Atlantic,South
+1449,1,0,Female,3,2,Black,1,Tennessee,East South Central,South
+1450,1,1,Female,2,2,White,2,Arkansas,West South Central,South
+1451,1,1,Female,4,3,White,3,California,Pacific,West
+1452,1,1,Female,4,3,Hispanic,1,Tennessee,East South Central,South
+1453,1,1,Female,2,5,White,3,Connecticut,New England,Northeast
+1454,0,1,Female,2,2,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+1455,1,1,Female,3,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1456,1,1,Female,2,1,White,2,Florida,South Atlantic,South
+1457,0,0,Female,2,3,White,1,New Hampshire,New England,Northeast
+1458,1,1,Female,1,2,White,2,DC,South Atlantic,South
+1459,0,0,Female,2,2,White,2,Georgia,South Atlantic,South
+1460,0,1,Female,2,5,Black,3,Texas,West South Central,South
+1461,1,1,Female,2,4,White,2,Tennessee,East South Central,South
+1462,1,1,Male,5,2,White,2,North Carolina,South Atlantic,South
+1463,1,1,Female,2,2,White,1,Georgia,South Atlantic,South
+1464,1,1,Female,3,2,Black,1,Alabama,East South Central,South
+1465,1,1,Female,3,2,White,1,Wisconsin,East North Central,Midwest
+1466,1,1,Male,2,2,White,3,California,Pacific,West
+1467,1,1,Female,1,1,White,2,Massachusetts,New England,Northeast
+1468,1,1,Male,3,3,White,2,Ohio,East North Central,Midwest
+1469,1,1,Female,3,4,White,2,California,Pacific,West
+1470,0,1,Female,3,2,Hispanic,1,New York,Mid-Atlantic,Northeast
+1471,1,1,Female,3,5,White,2,Colorado,Mountain,West
+1472,1,0,Female,2,3,Other,2,Virginia,South Atlantic,South
+1473,1,1,Female,4,2,White,2,California,Pacific,West
+1474,1,1,Female,2,2,White,3,Colorado,Mountain,West
+1475,1,1,Female,4,5,White,3,Colorado,Mountain,West
+1476,1,1,Female,4,4,White,3,Florida,South Atlantic,South
+1477,0,1,Female,5,2,White,2,California,Pacific,West
+1478,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1479,1,1,Female,2,2,White,2,Alabama,East South Central,South
+1480,1,1,Female,4,4,White,2,Georgia,South Atlantic,South
+1481,1,1,Female,2,1,White,1,Texas,West South Central,South
+1482,0,0,Male,4,2,White,1,Rhode Island,New England,Northeast
+1483,1,0,Female,4,4,White,3,Massachusetts,New England,Northeast
+1484,1,1,Female,3,5,White,2,Utah,Mountain,West
+1485,1,1,Female,3,3,White,2,Florida,South Atlantic,South
+1486,1,1,Female,3,3,White,2,Maine,New England,Northeast
+1487,0,1,Female,3,3,White,2,California,Pacific,West
+1488,1,1,Female,4,3,White,4,California,Pacific,West
+1489,1,1,Female,1,3,White,3,DC,South Atlantic,South
+1490,1,1,Female,3,3,White,2,Florida,South Atlantic,South
+1491,1,1,Female,5,4,White,2,Florida,South Atlantic,South
+1492,1,1,Female,3,4,White,1,Washington,Pacific,West
+1493,0,1,Female,2,2,White,2,Tennessee,East South Central,South
+1494,1,1,Female,2,4,Asian,3,California,Pacific,West
+1495,1,1,Female,2,4,White,3,Ohio,East North Central,Midwest
+1496,1,1,Female,3,1,White,1,North Carolina,South Atlantic,South
+1497,0,0,Female,2,2,White,1,Alabama,East South Central,South
+1498,1,1,Male,5,3,White,2,Arizona,Mountain,West
+1499,0,1,Female,5,3,Black,2,Ohio,East North Central,Midwest
+1500,1,1,Female,3,2,White,2,DC,South Atlantic,South
+1501,1,1,Female,5,3,White,2,California,Pacific,West
+1502,1,1,Female,2,3,Hispanic,1,Tennessee,East South Central,South
+1503,1,1,Female,3,5,White,3,Arkansas,West South Central,South
+1504,1,1,Female,1,2,White,2,Ohio,East North Central,Midwest
+1505,1,1,Female,4,4,White,3,California,Pacific,West
+1506,1,1,Female,3,3,White,2,Wisconsin,East North Central,Midwest
+1507,1,1,Male,5,3,NA,2,Colorado,Mountain,West
+1508,1,1,Female,4,3,White,1,California,Pacific,West
+1509,1,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1510,1,1,Female,5,5,White,1,California,Pacific,West
+1511,1,1,Male,3,2,White,2,California,Pacific,West
+1512,1,0,Female,3,2,White,1,Florida,South Atlantic,South
+1513,1,1,Female,2,5,Hispanic,3,Ohio,East North Central,Midwest
+1514,1,1,Male,3,3,Hispanic,1,California,Pacific,West
+1515,1,1,Female,2,3,White,2,Georgia,South Atlantic,South
+1516,1,1,Female,4,4,White,3,NA,NA,NA
+1517,1,1,NA,NA,NA,NA,2,Georgia,South Atlantic,South
+1518,1,1,Female,1,2,White,2,Texas,West South Central,South
+1519,1,1,Female,3,4,White,3,California,Pacific,West
+1520,1,1,Female,2,4,Black,2,Ohio,East North Central,Midwest
+1521,1,1,Female,5,4,White,3,Ohio,East North Central,Midwest
+1522,1,0,Female,3,4,White,3,Florida,South Atlantic,South
+1523,0,0,Male,5,2,White,2,Florida,South Atlantic,South
+1524,0,0,Female,NA,5,White,3,Florida,South Atlantic,South
+1525,1,1,Female,3,3,White,2,California,Pacific,West
+1526,0,0,Female,4,2,White,1,Massachusetts,New England,Northeast
+1527,0,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1528,0,1,Female,4,2,Black,2,South Carolina,South Atlantic,South
+1529,0,0,Female,3,4,White,2,Georgia,South Atlantic,South
+1530,1,1,Female,2,3,Other,1,Oregon,Pacific,West
+1531,1,1,Female,2,4,White,3,Indiana,East North Central,Midwest
+1532,1,1,Male,5,4,White,2,Arizona,Mountain,West
+1533,1,0,Male,4,2,White,3,California,Pacific,West
+1534,1,1,Female,5,2,White,2,Colorado,Mountain,West
+1535,1,0,Female,4,2,White,3,Kentucky,East South Central,South
+1536,0,0,Male,2,5,White,3,North Carolina,South Atlantic,South
+1537,1,1,Female,4,4,NA,3,Washington,Pacific,West
+1538,1,1,Female,2,1,White,1,Maryland,South Atlantic,South
+1539,1,1,Female,5,4,White,3,California,Pacific,West
+1540,1,1,Female,3,5,White,3,Arizona,Mountain,West
+1541,0,0,Female,1,2,White,3,California,Pacific,West
+1542,1,1,Male,3,3,White,2,Wisconsin,East North Central,Midwest
+1543,1,1,Male,2,2,White,2,Ohio,East North Central,Midwest
+1544,1,1,Female,1,5,Asian,2,NA,NA,NA
+1545,1,1,Female,2,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1546,1,1,Male,5,5,White,3,California,Pacific,West
+1547,1,1,Female,2,5,White,2,New Jersey,Mid-Atlantic,Northeast
+1548,1,1,Female,3,2,White,3,Ohio,East North Central,Midwest
+1549,1,1,Female,5,5,White,2,California,Pacific,West
+1550,0,1,Female,4,5,White,3,Florida,South Atlantic,South
+1551,1,1,Female,3,3,White,2,North Carolina,South Atlantic,South
+1552,1,1,Female,4,3,White,3,Texas,West South Central,South
+1553,1,1,Female,3,5,White,3,Utah,Mountain,West
+1554,1,0,Female,4,3,Black,2,New York,Mid-Atlantic,Northeast
+1555,0,0,Female,2,3,White,2,Ohio,East North Central,Midwest
+1556,1,0,Female,3,2,White,2,Arizona,Mountain,West
+1557,1,1,Female,2,2,White,2,Illinois,East North Central,Midwest
+1558,1,1,Male,2,4,Other,1,Ohio,East North Central,Midwest
+1559,1,1,Female,3,2,White,2,Georgia,South Atlantic,South
+1560,1,1,Male,5,3,White,2,Kentucky,East South Central,South
+1561,1,1,Female,5,2,White,2,New York,Mid-Atlantic,Northeast
+1562,1,1,Female,2,4,White,2,Arkansas,West South Central,South
+1563,1,1,Female,3,3,White,2,Maryland,South Atlantic,South
+1564,1,1,Female,1,2,Black,1,Missouri,West North Central,Midwest
+1565,1,1,Female,2,3,White,2,Ohio,East North Central,Midwest
+1566,0,1,Female,2,2,White,2,Minnesota,West North Central,Midwest
+1567,1,1,Female,2,4,Other,3,Pennsylvania,Mid-Atlantic,Northeast
+1568,1,0,Male,4,2,White,2,Alabama,East South Central,South
+1569,0,0,Female,4,2,White,2,Oregon,Pacific,West
+1570,1,1,Female,3,4,White,2,North Carolina,South Atlantic,South
+1571,0,0,Female,3,1,White,1,Arkansas,West South Central,South
+1572,1,1,Female,2,5,White,3,New York,Mid-Atlantic,Northeast
+1573,1,1,Female,5,3,White,3,Massachusetts,New England,Northeast
+1574,1,1,Male,3,5,White,3,Ohio,East North Central,Midwest
+1575,1,1,Female,5,2,White,2,Virginia,South Atlantic,South
+1576,1,1,Female,3,2,White,2,Missouri,West North Central,Midwest
+1577,1,1,Female,3,4,White,2,Massachusetts,New England,Northeast
+1578,1,1,Male,3,2,White,2,New York,Mid-Atlantic,Northeast
+1579,1,1,Female,2,2,White,2,Minnesota,West North Central,Midwest
+1580,1,1,Female,2,5,White,1,Arkansas,West South Central,South
+1581,1,1,Female,3,3,White,2,Tennessee,East South Central,South
+1582,1,1,Female,2,1,White,3,Tennessee,East South Central,South
+1583,1,1,Male,4,2,White,3,Virginia,South Atlantic,South
+1584,1,1,Male,4,1,White,2,Alabama,East South Central,South
+1585,1,1,Female,3,4,White,3,Ohio,East North Central,Midwest
+1586,1,1,Male,5,3,Other,3,Tennessee,East South Central,South
+1587,1,1,Female,5,4,White,2,NA,NA,NA
+1588,1,1,Female,4,2,White,3,Utah,Mountain,West
+1589,1,1,Female,4,4,White,3,Minnesota,West North Central,Midwest
+1590,1,1,Female,5,4,White,2,California,Pacific,West
+1591,1,1,Male,4,1,Black,1,Ohio,East North Central,Midwest
+1592,1,0,Male,3,3,White,1,California,Pacific,West
+1593,1,1,Female,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1594,1,1,Female,5,4,White,3,Illinois,East North Central,Midwest
+1595,1,1,Female,4,2,Black,2,Maryland,South Atlantic,South
+1596,0,1,Male,3,2,White,2,Alabama,East South Central,South
+1597,0,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1598,1,0,Female,4,1,Black,1,Maryland,South Atlantic,South
+1599,1,1,Male,5,5,White,3,Maryland,South Atlantic,South
+1600,1,0,NA,4,3,White,1,California,Pacific,West
+1601,1,1,Female,4,1,White,2,Iowa,West North Central,Midwest
+1602,1,1,Male,5,3,White,2,Missouri,West North Central,Midwest
+1603,1,1,Female,3,2,White,1,Ohio,East North Central,Midwest
+1604,1,0,Male,3,3,Other,2,Massachusetts,New England,Northeast
+1605,1,1,Female,2,4,White,2,Ohio,East North Central,Midwest
+1606,0,0,Female,3,4,White,2,Minnesota,West North Central,Midwest
+1607,1,1,Female,2,2,White,2,North Carolina,South Atlantic,South
+1608,0,1,Female,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1609,1,1,Female,2,2,White,2,Kentucky,East South Central,South
+1610,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1611,1,1,Male,4,2,White,2,Ohio,East North Central,Midwest
+1612,0,1,Female,3,5,White,2,Wisconsin,East North Central,Midwest
+1613,1,1,Male,3,2,White,2,New York,Mid-Atlantic,Northeast
+1614,1,1,Female,4,1,White,2,Colorado,Mountain,West
+1615,1,1,Male,3,5,NA,2,California,Pacific,West
+1616,1,1,Female,3,4,Asian,2,Michigan,East North Central,Midwest
+1617,1,1,Female,4,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1618,1,1,Female,2,3,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1619,1,1,Female,2,4,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+1620,1,1,Female,2,2,White,2,Tennessee,East South Central,South
+1621,1,1,Female,2,2,Other,2,Pennsylvania,Mid-Atlantic,Northeast
+1622,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1623,1,1,Female,3,1,White,2,Florida,South Atlantic,South
+1624,0,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1625,0,0,NA,NA,NA,NA,NA,Pennsylvania,Mid-Atlantic,Northeast
+1626,1,1,Female,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1627,0,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1628,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1629,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1630,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1631,0,0,Female,2,1,NA,2,Pennsylvania,Mid-Atlantic,Northeast
+1632,1,1,Female,3,2,White,1,Utah,Mountain,West
+1633,0,1,Female,3,5,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1634,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1635,0,1,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1636,1,1,Female,3,3,Black,2,Pennsylvania,Mid-Atlantic,Northeast
+1637,1,1,Male,5,3,White,2,Tennessee,East South Central,South
+1638,1,1,Female,3,4,White,3,North Carolina,South Atlantic,South
+1639,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1640,0,1,Female,3,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1641,1,1,Female,2,2,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1642,1,1,Female,3,4,White,2,California,Pacific,West
+1643,1,1,Female,4,3,White,3,North Carolina,South Atlantic,South
+1644,1,0,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1645,1,1,Female,3,4,White,3,Pennsylvania,Mid-Atlantic,Northeast
+1646,1,1,Male,5,5,White,3,Oregon,Pacific,West
+1647,1,1,Female,2,1,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1648,1,1,Female,2,3,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1649,1,1,Female,4,2,Black,3,Illinois,East North Central,Midwest
+1650,1,1,Female,2,4,White,2,Pennsylvania,Mid-Atlantic,Northeast
+1651,1,0,Female,3,4,White,2,NA,NA,NA
+1652,1,0,NA,2,2,Black,2,Ohio,East North Central,Midwest
+1653,1,0,Female,3,NA,Asian,1,California,Pacific,West
+1654,0,0,Male,4,4,Other,3,Alabama,East South Central,South
+1655,0,0,Female,2,5,Black,2,Georgia,South Atlantic,South
+1656,0,0,Female,3,1,White,1,New York,Mid-Atlantic,NA
+1657,1,1,Male,3,3,White,3,Florida,South Atlantic,NA
+1658,1,1,Male,1,2,White,3,California,Pacific,NA
+1659,0,1,Female,4,3,White,2,Oregon,Pacific,NA
+1660,0,0,Female,2,4,White,1,Missouri,West North Central,NA
+1661,1,1,Female,4,4,White,2,GA,South Atlantic,NA
+1662,1,1,Female,1,5,White,3,Michigan,East North Central,NA
+1663,1,1,Female,1,1,Black,1,New York,Mid-Atlantic,NA
+1664,1,1,Female,1,2,Asian,2,NJ,Mid-Atlantic,NA
+1665,0,1,Male,3,2,Black,2,NA,NA,NA
+1666,1,0,Female,3,4,Black,1,CO,Mountain,NA
+1667,1,1,Male,1,3,White,2,New York,Mid-Atlantic,NA
+1668,1,1,Female,3,4,White,3,South carolina,South Atlantic,NA
+1669,1,1,Female,1,4,White,2,Texas,West South Central,NA
+1670,1,1,Female,4,3,White,1,New York,Mid-Atlantic,NA
+1671,0,1,Female,1,2,NA,2,florida,South Atlantic,NA
+1672,1,1,Male,4,4,White,2,Ohio,East North Central,NA
+1673,1,0,Male,4,4,White,2,Or,Pacific,NA
+1674,0,1,Female,1,2,Other,1,Florida,South Atlantic,NA
+1675,1,1,Female,2,4,White,2,NY,Mid-Atlantic,NA
+1676,1,1,Female,4,4,White,3,Minnesota,West North Central,NA
+1677,0,1,Male,2,4,White,2,Idaho,Mountain,NA
+1678,1,1,Female,5,3,White,4,California,Pacific,NA
+1679,0,0,Female,2,5,White,2,MN,West North Central,NA
+1680,1,1,Female,3,5,White,2,New York,Mid-Atlantic,NA
+1681,1,1,Male,1,2,White,1,California,Pacific,NA
+1682,1,0,Female,2,2,White,1,Alaska,Pacific,NA
+1683,1,1,Female,1,4,White,3,Kentucky,East South Central,NA
+1684,1,1,Female,2,4,White,2,Utah,Mountain,NA
+1685,0,1,Female,3,1,White,2,Delaware,South Atlantic,NA
+1686,1,1,Female,4,4,White,3,Minnesota,West North Central,NA
+1687,1,1,Female,5,2,White,2,Al,East South Central,NA
+1688,1,1,Female,3,5,White,2,GA,South Atlantic,NA
+1689,1,1,Female,2,3,White,2,MN,West North Central,NA
+1690,1,1,Female,2,2,Black,2,Georgia,South Atlantic,NA
+1691,1,1,Male,3,2,Other,1,Delaware,South Atlantic,NA
+1692,1,1,Female,2,4,White,3,CA,Pacific,NA
+1693,1,1,Female,2,4,White,3,Ohio,East North Central,NA
+1694,1,1,Female,1,2,White,1,New Jersey,Mid-Atlantic,NA
+1695,1,1,Female,2,3,White,2,Tennessee,East South Central,NA
+1696,1,1,Female,4,2,White,2,Ga,South Atlantic,NA
+1697,1,1,Male,2,2,Hispanic,1,California,Pacific,NA
+1698,1,1,Female,2,4,White,2,Ohio,East North Central,NA
+1699,1,1,Female,4,4,White,2,Washington,Pacific,NA
+1700,1,1,Female,4,4,White,3,California,Pacific,NA
+1701,1,1,Female,4,5,White,3,Oregon,Pacific,NA
+1702,1,0,Male,3,3,Black,1,Georgia,South Atlantic,NA
+1703,1,0,Male,2,1,White,1,New York,Mid-Atlantic,NA
+1704,1,1,Female,2,2,White,2,ohio,East North Central,NA
+1705,1,1,Female,4,3,White,2,New York,Mid-Atlantic,NA
+1706,1,1,Male,1,2,Black,2,New York,Mid-Atlantic,NA
+1707,1,0,Female,2,5,White,3,FL,South Atlantic,NA
+1708,0,0,Female,2,3,Hispanic,2,NJ,Mid-Atlantic,NA
+1709,1,0,Male,3,3,White,3,Texas,West South Central,NA
+1710,1,1,Female,3,2,White,3,Wisconsin,East North Central,NA
+1711,0,0,Female,3,4,Asian,2,NA,NA,NA
+1712,1,1,Male,2,2,White,4,Washington,Pacific,NA
+1713,1,1,Female,5,5,White,2,MA,New England,NA
+1714,1,1,Female,4,3,White,3,MD,South Atlantic,NA
+1715,0,0,Female,3,NA,NA,2,CA,Pacific,NA
+1716,1,1,Female,3,4,White,2,VA,South Atlantic,NA
+1717,0,1,Female,3,2,Hispanic,2,Oregon,Pacific,NA
+1718,1,1,Male,5,2,White,2,Ohio,East North Central,NA
+1719,1,1,Female,3,4,Hispanic,2,FL,South Atlantic,NA
+1720,1,1,Female,3,4,White,1,GA,South Atlantic,NA
+1721,1,1,Male,4,3,White,1,TN,East South Central,NA
+1722,0,0,Female,2,4,White,2,TX,West South Central,NA
+1723,0,0,Female,4,3,White,2,Oregon,Pacific,NA
+1724,1,1,Female,3,3,White,3,Maryland,South Atlantic,NA
+1725,1,1,Female,2,1,White,3,California,Pacific,NA
+1726,0,1,Female,5,5,NA,1,Oregon,Pacific,NA
+1727,0,0,Female,4,2,Hispanic,1,California,Pacific,NA
+1728,1,1,Male,5,5,White,2,California,Pacific,NA
+1729,1,1,Female,2,5,Other,3,New Mexico,Mountain,NA
+1730,1,0,Male,2,3,White,2,Tx,West South Central,NA
+1731,1,1,Female,1,1,White,2,CA,Pacific,NA
+1732,0,0,Female,2,1,White,1,California,Pacific,NA
+1733,1,1,Male,NA,5,White,1,Washington,Pacific,NA
+1734,1,1,Female,2,2,White,2,Md,South Atlantic,NA
+1735,1,1,Female,4,2,White,3,California,Pacific,NA
+1736,1,1,Female,2,3,White,2,Washington,Pacific,NA
+1737,0,1,Female,3,1,White,2,New York,Mid-Atlantic,NA
+1738,1,1,Female,2,2,Hispanic,1,CA,Pacific,NA
+1739,1,1,Female,2,4,White,2,SC,South Atlantic,NA
+1740,1,1,Female,2,5,White,3,CA,Pacific,NA
+1741,1,1,Male,2,2,Hispanic,1,Ohio,East North Central,NA
+1742,1,1,Male,5,3,White,2,Maine,New England,NA
+1743,1,1,Male,4,3,White,1,North Carolina,South Atlantic,NA
+1744,0,1,Female,2,3,White,2,ohio,East North Central,NA
+1745,1,1,Female,3,3,White,1,TN,East South Central,NA
+1746,1,0,Female,3,4,White,2,Virginia,South Atlantic,NA
+1747,1,1,Male,5,3,White,2,Ohio,East North Central,NA
+1748,1,1,Male,5,4,White,2,Ohio,East North Central,NA
+1749,0,1,Female,3,1,White,2,OR,Pacific,NA
+1750,1,1,Male,2,1,Black,1,Nj,Mid-Atlantic,NA
+1751,1,1,Female,1,2,White,2,Ohio,East North Central,NA
+1752,1,1,Female,5,5,White,3,New York,Mid-Atlantic,NA
+1753,1,1,Male,4,2,White,3,CA,Pacific,NA
+1754,1,1,Female,3,4,White,3,Oregon,Pacific,NA
+1755,1,1,Female,3,3,Other,2,Oregon,Pacific,NA
+1756,1,1,Female,3,3,Black,1,Rochestere NY,Mid-Atlantic,NA
+1757,1,1,Male,4,2,White,3,New Jersey,Mid-Atlantic,NA
+1758,1,1,Female,1,1,White,1,Utah,Mountain,NA
+1759,1,1,Female,4,4,White,2,Oklahoma,West South Central,NA
+1760,1,1,NA,1,2,White,1,IL,East North Central,NA
+1761,1,1,Male,5,4,White,2,NA,NA,NA
+1762,1,1,Male,5,2,White,2,Maryland,South Atlantic,NA
+1763,1,1,Female,2,1,White,3,California,Pacific,NA
+1764,0,0,Female,4,3,White,3,PA,Mid-Atlantic,NA
+1765,1,1,Female,2,4,White,2,NY,Mid-Atlantic,NA
+1766,1,1,Female,2,4,Hispanic,2,NY,Mid-Atlantic,NA
+1767,1,1,Female,3,2,White,2,New York,Mid-Atlantic,NA
+1768,1,1,Female,3,1,Hispanic,2,NM,Mountain,NA
+1769,1,1,Male,4,3,White,2,MD,South Atlantic,NA
+1770,1,1,Female,3,1,Other,2,Maryland,South Atlantic,NA
+1771,1,1,Female,4,1,Other,1,New York,Mid-Atlantic,NA
+1772,1,1,Female,4,3,White,2,Florida,South Atlantic,NA
+1773,1,1,Female,3,3,White,1,Nevada,Mountain,NA
+1774,1,1,Female,3,5,Black,2,MD,South Atlantic,NA
+1775,0,0,Male,3,1,White,3,AL,East South Central,NA
+1776,1,1,Female,4,3,White,2,MA,New England,NA
+1777,1,1,Male,4,1,White,2,OHIO,East North Central,NA
+1778,1,1,Male,4,2,White,2,Virginia,South Atlantic,NA
+1779,1,1,Female,3,4,White,2,TEXAS,West South Central,NA
+1780,1,1,Male,2,5,White,3,New York,Mid-Atlantic,NA
+1781,1,1,Male,3,5,White,3,Virginia,South Atlantic,NA
+1782,1,1,Female,3,5,White,3,MA,New England,NA
+1783,0,1,Female,2,5,Other,2,NC,South Atlantic,NA
+1784,1,0,NA,1,3,White,2,MN,West North Central,NA
+1785,1,1,Female,2,5,White,3,Virginia,South Atlantic,NA
+1786,1,0,Female,2,5,White,3,Georgia,South Atlantic,NA
+1787,1,1,Female,4,3,White,2,PA,Mid-Atlantic,NA
+1788,1,1,Female,3,2,Other,1,New York,Mid-Atlantic,NA
+1789,1,1,Female,5,5,White,2,tennessee,East South Central,NA
+1790,1,1,Female,3,2,White,2,Virginia,South Atlantic,NA
+1791,1,1,Female,4,2,White,3,Florida,South Atlantic,NA
+1792,1,1,Male,5,3,White,2,Okio,East North Central,NA
+1793,1,1,Male,3,3,White,3,Arkansas,West South Central,NA
+1794,1,1,Male,5,5,White,3,Florida,South Atlantic,NA
+1795,1,1,Female,2,4,White,2,Texas,West South Central,NA
+1796,1,1,Female,5,4,White,2,MD,South Atlantic,NA
+1797,1,1,Male,3,3,Hispanic,2,Virginia,South Atlantic,NA
+1798,1,1,Female,3,4,White,2,Maine,New England,NA
+1799,1,1,Female,2,2,White,2,Texas,West South Central,NA
+1800,1,1,Female,3,4,White,3,VA,South Atlantic,NA
+1801,1,1,Male,3,5,White,2,Missori,West North Central,NA
+1802,1,1,Female,3,2,Other,3,Maryland,South Atlantic,NA
+1803,0,0,Male,4,5,White,3,New Jersey,Mid-Atlantic,NA
+1804,1,1,Male,4,2,White,2,Arkansas,West South Central,NA
+1805,1,1,Female,2,2,White,2,SC,South Atlantic,NA
+1806,1,1,Female,4,1,White,2,Missouri,West North Central,NA
+1807,1,1,Female,2,2,White,2,Ohio,East North Central,NA
+1808,1,1,Male,4,5,White,3,Massachusetts,New England,NA
+1809,1,1,Female,2,5,Hispanic,2,Minnesota,West North Central,NA
+1810,1,1,Female,4,4,White,2,NA,NA,NA
+1811,1,1,Female,2,4,White,4,MN,West North Central,NA
+1812,1,1,Female,3,5,White,2,Texas,West South Central,NA
+1813,1,1,Male,4,5,White,3,Maryland,South Atlantic,NA
+1814,1,1,Female,4,3,White,2,New York,Mid-Atlantic,NA
+1815,1,0,Female,2,2,White,2,WA,Pacific,NA
+1816,1,1,Female,5,2,White,2,New York,Mid-Atlantic,NA
+1817,0,0,Female,3,3,NA,2,Texas,West South Central,NA
+1818,1,0,Female,2,2,Hispanic,1,NY,Mid-Atlantic,NA
+1819,0,0,Female,2,1,White,2,Texas,West South Central,NA
+1820,1,1,Male,4,3,White,2,NJ,Mid-Atlantic,NA
+1821,1,1,Female,3,2,White,2,OH,East North Central,NA
+1822,1,1,Male,5,3,White,2,California,Pacific,NA
+1823,0,0,Male,4,2,Other,3,Missouri,West North Central,NA
+1824,1,1,Female,3,4,White,2,California,Pacific,NA
+1825,1,1,Female,3,4,White,3,Virginia,South Atlantic,NA
+1826,1,0,Female,2,2,White,2,Illinois,East North Central,NA
+1827,0,0,Female,4,2,White,2,VA,South Atlantic,NA
+1828,1,1,Female,3,3,White,2,Virginia,South Atlantic,NA
+1829,1,1,Female,2,5,White,2,Ohio,East North Central,NA
+1830,1,1,Female,4,2,White,2,Ohio,East North Central,NA
+1831,1,1,Female,2,4,White,3,Maryland,South Atlantic,NA
+1832,1,1,Male,5,4,White,1,California,Pacific,NA
+1833,1,1,Female,4,4,White,3,Arizona,Mountain,NA
+1834,1,1,Female,3,3,White,3,Virginia,South Atlantic,NA
+1835,0,0,Female,2,2,White,2,NY,Mid-Atlantic,NA
+1836,1,1,Female,2,4,White,2,NY,Mid-Atlantic,NA
+1837,0,0,Female,3,2,White,3,Texas,West South Central,NA
+1838,0,0,Female,3,3,White,2,Michigan,East North Central,NA
+1839,1,1,Male,3,3,White,2,Utah,Mountain,NA
+1840,1,1,Male,5,5,White,2,Virginia,South Atlantic,NA
+1841,1,1,Male,4,5,White,3,Florida,South Atlantic,NA
+1842,1,1,Female,2,4,White,2,Illinois,East North Central,NA
+1843,1,1,Female,5,4,White,2,Ks,West North Central,NA
+1844,1,1,Female,3,2,White,2,New York,Mid-Atlantic,NA
+1845,1,1,Male,4,4,White,2,OHIO,East North Central,NA
+1846,0,1,Male,4,4,Other,3,Virginia,South Atlantic,NA
+1847,1,1,Male,4,3,White,2,Kentucky,East South Central,NA
+1848,1,1,Male,4,4,White,2,OR,Pacific,NA
+1849,1,1,Female,2,4,Hispanic,2,TX,West South Central,NA
+1850,0,0,Female,3,2,White,2,Michigan,East North Central,NA
+1851,1,1,Male,4,3,White,2,NC,South Atlantic,NA
+1852,1,1,Female,5,4,White,3,north carolina,South Atlantic,NA
+1853,1,1,Male,5,3,White,2,OREGON,Pacific,NA
+1854,1,1,Female,2,1,White,1,Ohio,East North Central,NA
+1855,1,1,Male,5,1,White,2,Wisconsin,East North Central,NA
+1856,1,1,Male,4,2,White,3,ct,New England,NA
+1857,1,1,Female,3,5,White,3,Georgia,South Atlantic,NA
+1858,1,1,Male,4,4,White,2,New York,Mid-Atlantic,NA
+1859,1,1,Male,2,3,White,2,GA,South Atlantic,NA
+1860,1,1,Male,5,4,White,3,florida,South Atlantic,NA
+1861,1,1,Female,3,4,White,1,Arizona,Mountain,NA
+1862,1,1,Male,4,2,White,2,Wisconsin,East North Central,NA
+1863,1,1,Male,4,5,White,3,Maryland,South Atlantic,NA
+1864,1,1,Male,5,3,White,2,WA,Pacific,NA
+1865,1,1,Female,3,4,White,3,OH,East North Central,NA
+1866,1,1,Female,2,5,White,2,Tennessee,East South Central,NA
+1867,1,1,Male,4,3,White,2,New York,Mid-Atlantic,NA
+1868,0,1,Female,5,2,White,2,Florida,South Atlantic,NA
+1869,0,1,Female,3,2,White,2,PA,Mid-Atlantic,NA
+1870,1,1,Male,4,3,White,2,Illinois,East North Central,NA
+1871,1,0,Female,2,2,Black,1,Missouri,West North Central,NA
+1872,1,1,Male,5,5,White,4,Florida,South Atlantic,NA
+1873,1,1,Male,4,4,White,3,Tennessee,East South Central,NA
+1874,1,1,Female,4,4,White,2,New York,Mid-Atlantic,NA
+1875,1,1,Male,4,1,White,2,Pennsylvania,Mid-Atlantic,NA
+1876,1,1,Male,5,3,White,2,New York,Mid-Atlantic,NA
+1877,1,1,Male,5,2,White,2,New York,Mid-Atlantic,NA
+1878,1,1,Female,4,4,White,3,md,South Atlantic,NA
+1879,1,1,Female,3,5,Hispanic,2,Florida,South Atlantic,NA
+1880,1,1,Male,5,5,White,2,AZ,Mountain,NA
+1881,1,1,Female,3,3,White,1,Va,South Atlantic,NA
+1882,1,1,Female,4,3,White,2,Kansas,West North Central,NA
+1883,1,1,Male,2,4,White,1,Ohio,East North Central,NA
+1884,1,1,Female,2,2,White,2,Tennessee,East South Central,NA
+1885,1,1,Male,5,2,White,3,California,Pacific,NA
+1886,1,1,Male,4,3,White,2,MN,West North Central,NA
+1887,1,1,Male,5,3,White,2,Ohio,East North Central,NA
+1888,1,1,Female,2,4,White,4,DC,South Atlantic,NA
+1889,1,1,Male,5,5,White,2,Ohio,East North Central,NA
+1890,1,1,Female,2,1,Hispanic,2,PA,Mid-Atlantic,NA
+1891,1,1,Male,5,4,White,2,Arizona,Mountain,NA
+1892,1,1,Male,4,5,White,2,Maryland,South Atlantic,NA
+1893,1,1,Female,5,5,White,3,Illinois,East North Central,NA
+1894,1,1,Female,4,4,White,3,Florida,South Atlantic,NA
+1895,1,1,Male,5,4,White,1,new york,Mid-Atlantic,NA
+1896,1,1,Male,5,3,White,4,KY,East South Central,NA
+1897,1,1,Male,4,2,White,2,indiana,East North Central,NA
+1898,1,1,Female,2,2,White,1,ohio,East North Central,NA
+1899,1,1,Female,1,1,Asian,4,New York,Mid-Atlantic,NA
+1900,1,1,Male,4,5,White,3,new york,Mid-Atlantic,NA
+1901,1,1,Female,4,3,White,2,Oregon,Pacific,NA
+1902,1,1,Male,4,3,White,3,Florida,South Atlantic,NA
+1903,1,1,Female,2,5,Asian,3,New Jersey,Mid-Atlantic,NA
+1904,1,1,Male,5,2,White,2,Missouri,West North Central,NA
+1905,1,1,Female,2,3,White,2,Ohio,East North Central,NA
+1906,1,1,Female,3,3,Asian,3,Massachusetts,New England,NA
+1907,0,0,Male,4,5,Other,3,ohio,East North Central,NA
+1908,1,1,Male,4,5,White,2,Az,Mountain,NA
+1909,1,1,Female,5,4,White,3,NA,NA,NA
+1910,1,1,Female,5,4,White,2,ct,New England,NA
+1911,1,1,Male,4,2,White,2,CA,Pacific,NA
+1912,1,1,Female,2,4,Black,1,TX,West South Central,NA
+1913,1,1,Female,3,5,White,2,CA,Pacific,NA
+1914,1,1,Female,4,5,Black,3,Virginia,South Atlantic,NA
+1915,1,1,Female,2,4,NA,3,Iowa,West North Central,NA
+1916,1,1,Male,2,4,Other,2,Michigan,East North Central,NA
+1917,1,1,Male,4,3,White,3,Nevada,Mountain,NA
+1918,1,1,Female,4,4,White,2,Tennessee,East South Central,NA
+1919,0,1,Male,4,2,White,2,Washington,Pacific,NA
+1920,1,1,Female,3,2,White,2,CT,New England,NA
+1921,1,1,Female,3,2,White,1,Co,Mountain,NA
+1922,1,1,Male,3,5,White,3,Texas,West South Central,NA
+1923,1,1,Male,5,5,White,3,Florida,South Atlantic,NA
+1924,1,1,Male,5,4,White,3,Arizona,Mountain,NA
+1925,1,1,Female,5,4,White,2,Illinois,East North Central,NA
+1926,1,1,Male,2,3,White,2,Ohio,East North Central,NA
+1927,1,1,Male,3,2,Black,1,Massachusetts,New England,NA
+1928,1,1,Male,5,5,White,4,Iowa,West North Central,NA
+1929,1,1,Female,5,2,White,2,New York,Mid-Atlantic,NA
+1930,1,1,Male,3,2,White,3,illinois,East North Central,NA
+1931,1,1,Female,3,4,White,2,CA,Pacific,NA
+1932,1,1,Female,5,1,White,2,Missouri,West North Central,NA
+1933,1,1,Male,3,1,White,2,Ohio,East North Central,NA
+1934,1,1,Female,4,4,White,2,Illinois,East North Central,NA
+1935,0,1,Male,5,5,White,3,Wisconsin,East North Central,NA
+1936,1,1,Male,4,3,White,2,New Jersey,Mid-Atlantic,NA
+1937,1,1,Female,5,1,White,1,California,Pacific,NA
+1938,1,1,Male,4,2,White,2,California,Pacific,NA
+1939,1,1,Female,2,4,White,1,Ohio,East North Central,NA
+1940,1,1,Male,3,4,Asian,3,Pennsylvania,Mid-Atlantic,NA
+1941,1,1,Female,2,5,White,2,North Dakota,West North Central,NA
+1942,1,0,Male,5,5,White,2,California,Pacific,NA
+1943,1,1,Female,1,2,White,4,Iowa,West North Central,NA
+1944,1,1,Male,4,4,White,3,Tennessee,East South Central,NA
+1945,1,1,Female,2,4,White,2,Utah,Mountain,NA
+1946,1,1,Male,3,4,White,2,Utah,Mountain,NA
+1947,1,1,Male,5,1,White,2,Illinois,East North Central,NA
+1948,0,0,Female,4,3,White,2,FLORIDA,South Atlantic,NA
+1949,1,0,Female,2,5,Other,1,colorado,Mountain,NA
+1950,0,1,Female,1,2,White,2,California,Pacific,NA
+1951,0,0,Male,5,3,White,2,Colorado,Mountain,NA
+1952,1,1,Male,3,4,Other,2,ARIZONA,Mountain,NA
+1953,1,1,Female,4,3,White,3,NY,Mid-Atlantic,NA
+1954,1,1,Female,4,3,Hispanic,2,Colorado,Mountain,NA
+1955,1,1,Female,3,2,White,3,NY,Mid-Atlantic,NA
+1956,1,0,Male,5,3,White,3,New York,Mid-Atlantic,NA
+1957,1,1,Male,3,4,Hispanic,2,North Carolina,South Atlantic,NA
+1958,1,1,Female,3,1,White,1,IL,East North Central,NA
+1959,1,1,Male,3,4,White,2,North carolina,South Atlantic,NA
+1960,1,1,Female,2,4,White,2,California,Pacific,NA
+1961,1,1,Male,3,4,White,4,ohio,East North Central,NA
+1962,0,0,Female,4,4,White,2,Montana,Mountain,NA
+1963,1,1,Male,4,5,White,3,Virginia,South Atlantic,NA
+1964,1,1,Female,4,2,White,2,WA,Pacific,NA
+1965,1,1,Male,4,2,White,3,Maryland,South Atlantic,NA
+1966,1,1,Female,3,3,White,2,North Carolina,South Atlantic,NA
+1967,1,1,Male,5,4,NA,2,kentucky,East South Central,NA
+1968,1,1,Female,5,2,White,3,Washington,Pacific,NA
+1969,1,1,Female,4,3,White,3,maryland,South Atlantic,NA
+1970,1,1,Male,1,1,White,1,Idaho,Mountain,NA
+1971,1,1,Female,4,1,White,2,new york,Mid-Atlantic,NA
+1972,0,1,Male,1,1,White,2,Minnesota,West North Central,NA
+1973,1,1,Male,4,1,White,2,CA,Pacific,NA
+1974,1,1,Male,5,4,White,NA,Colorado,Mountain,NA
+1975,1,1,Male,3,4,White,2,Michigan,East North Central,NA
+1976,1,1,Female,1,2,White,2,Massachusetts,New England,NA
+1977,1,NA,Male,4,5,White,3,Ohio,East North Central,NA
+1978,1,1,Male,5,5,White,4,New Jersey,Mid-Atlantic,NA
+1979,0,1,Male,5,1,White,2,Tennessee,East South Central,NA
+1980,1,1,Female,3,4,White,2,RI,New England,NA
+1981,1,1,Female,3,3,White,4,Utah,Mountain,NA
+1982,1,1,Female,3,2,White,2,North Carolina,South Atlantic,NA
+1983,0,0,Male,3,1,Black,1,Ohio,East North Central,NA
+1984,0,0,Male,4,3,White,3,Georgia,South Atlantic,NA
+1985,1,1,Male,2,4,White,2,Tennessee,East South Central,NA
+1986,1,1,Female,3,3,White,2,California,Pacific,NA
+1987,0,1,Female,2,4,Hispanic,2,Ohio,East North Central,NA
+1988,0,0,Female,4,3,White,1,Ohio,East North Central,NA
+1989,1,0,Female,3,3,Black,1,Ohio,East North Central,NA
+1990,1,1,Female,4,2,White,2,IA,West North Central,NA
+1991,1,1,Female,2,4,White,1,CO,Mountain,NA
+1992,1,1,Female,4,4,White,3,va,South Atlantic,NA
+1993,1,1,Female,2,4,White,1,New York,Mid-Atlantic,NA
+1994,1,1,Male,5,5,White,3,NC,South Atlantic,NA
+1995,0,1,Male,5,3,White,2,Ohio,East North Central,NA
+1996,0,1,Male,2,4,NA,2,Ohio,East North Central,NA
+1997,1,1,Female,3,4,White,2,Ohio,East North Central,NA
+1998,1,1,Female,2,4,Asian,3,New York,Mid-Atlantic,NA
+1999,1,1,Female,4,4,White,1,New York,Mid-Atlantic,NA
+2000,0,1,Female,3,1,White,1,California,Pacific,NA
+2001,1,1,Female,3,5,Hispanic,2,NY,Mid-Atlantic,NA
+2002,1,1,Female,2,2,Other,3,Virginia,South Atlantic,NA
+2003,1,1,Female,4,4,White,2,Ohio,East North Central,NA
+2004,1,1,Female,3,5,White,3,Maryland,South Atlantic,NA
+2005,1,0,Female,3,3,Asian,3,FL,South Atlantic,NA
+2006,1,1,Female,3,5,White,2,MN,West North Central,NA
+2007,1,1,Male,5,3,White,2,CA,Pacific,NA
+2008,0,1,Female,3,2,Black,2,Ohio,East North Central,NA
+2009,1,1,Male,4,3,White,1,Arizona,Mountain,NA
+2010,1,1,Female,5,4,White,3,Oregon,Pacific,NA
+2011,1,1,Female,3,5,White,2,New York,Mid-Atlantic,NA
+2012,1,1,Female,2,4,White,3,Ohio,East North Central,NA
+2013,1,1,Female,3,5,NA,1,New Mexico,Mountain,NA
+2014,1,1,Male,2,2,Hispanic,3,Minnesota,West North Central,NA
+2015,1,1,Female,2,4,White,3,Arizona,Mountain,NA
+2016,1,1,Female,3,5,White,3,Rhode Island,New England,NA
+2017,1,0,Female,2,2,White,2,CO,Mountain,NA
+2018,1,1,Male,4,3,White,2,Ohio,East North Central,NA
+2019,1,1,Male,5,5,Other,2,Minnesota,West North Central,NA
+2020,1,1,Male,3,5,White,2,Illinois,East North Central,NA
+2021,1,0,Female,3,2,Black,2,Maryland,South Atlantic,NA
+2022,0,0,Female,2,1,Black,1,Georgia,South Atlantic,NA
+2023,1,0,Female,3,4,White,2,New Mexico,Mountain,NA
+2024,1,1,Female,2,5,White,2,MA,New England,NA
+2025,1,1,Female,2,2,White,1,Florida,South Atlantic,NA
+2026,1,1,Male,3,2,White,3,Wisconsin,East North Central,NA
+2027,1,0,Female,4,3,White,2,Florida,South Atlantic,NA
+2028,1,1,Female,3,1,Asian,1,Ohio,East North Central,NA
+2029,1,1,Female,3,4,White,3,TN,East South Central,NA
+2030,1,1,Female,2,2,White,2,New York,Mid-Atlantic,NA
+2031,1,1,Male,3,2,White,3,California,Pacific,NA
+2032,1,1,Male,5,5,White,3,Minnesota,West North Central,NA
+2033,1,1,Female,5,1,White,2,Idaho,Mountain,NA
+2034,1,1,Male,1,1,White,2,Nevada,Mountain,NA
+2035,1,1,Female,4,3,Hispanic,1,FL,South Atlantic,NA
+2036,1,1,Male,4,4,White,3,Oregon,Pacific,NA
+2037,1,1,Female,4,5,Hispanic,2,Texas,West South Central,NA
+2038,1,1,Male,5,3,White,2,OR,Pacific,NA
+2039,1,1,Female,3,2,White,3,CT,New England,NA
+2040,1,1,Male,5,4,White,3,Iowa,West North Central,NA
+2041,1,1,Female,3,2,White,2,NA,NA,NA
+2042,1,0,Female,2,3,White,1,vermont/pa,New England,NA
+2043,1,1,Female,3,4,White,1,WA,Pacific,NA
+2044,1,1,Female,3,4,White,2,TN,East South Central,NA
+2045,1,1,Female,4,5,White,4,Kentucky,East South Central,NA
+2046,1,1,Female,2,1,White,3,Illinois,East North Central,NA
+2047,1,1,Female,5,4,White,2,Missouri,West North Central,NA
+2048,1,1,Female,4,3,White,3,florida,South Atlantic,NA
+2049,0,1,Female,3,1,White,1,NY,Mid-Atlantic,NA
+2050,1,1,Male,4,3,White,3,Ohio,East North Central,NA
+2051,1,1,Female,5,3,White,2,Nevada,Mountain,NA
+2052,1,1,Female,4,5,White,3,IA,West North Central,NA
+2053,1,1,Male,4,5,White,3,CA,Pacific,NA
+2054,0,1,Female,4,2,White,2,North Carolina,South Atlantic,NA
+2055,1,1,Female,5,5,White,2,Delaware,South Atlantic,NA
+2056,0,1,Male,2,4,Hispanic,2,California,Pacific,NA
+2057,0,1,Female,4,4,White,1,Georgia,South Atlantic,NA
+2058,1,0,Male,4,2,White,3,CA,Pacific,NA
+2059,1,1,Male,2,2,White,3,California,Pacific,NA
+2060,1,1,Female,4,4,White,3,Ohio,East North Central,NA
+2061,1,1,Female,2,3,White,2,VA,South Atlantic,NA
+2062,1,1,Male,5,4,White,2,ca,Pacific,NA
+2063,0,1,Male,3,3,White,2,Va,South Atlantic,NA
+2064,1,1,Male,5,1,White,2,Oregon,Pacific,NA
+2065,1,1,Female,4,2,White,2,california,Pacific,NA
+2066,1,0,Female,4,5,White,3,MI,East North Central,NA
+2067,1,0,Female,2,5,Black,2,Delaware,South Atlantic,NA
+2068,1,1,Male,5,1,White,2,Iowa,West North Central,NA
+2069,1,1,NA,NA,5,NA,NA,New York,Mid-Atlantic,NA
+2070,1,1,Female,3,3,White,2,Georga,South Atlantic,NA
+2071,1,1,Male,4,3,White,1,New York,Mid-Atlantic,NA
+2072,1,1,Male,5,3,White,2,Missouri,West North Central,NA
+2073,0,1,Female,2,5,White,4,Maryland,South Atlantic,NA
+2074,0,0,Female,2,3,Other,3,New York,Mid-Atlantic,NA
+2075,1,1,Female,3,5,White,3,VA,South Atlantic,NA
+2076,1,1,Female,2,5,Asian,3,WI,East North Central,NA
+2077,1,1,NA,2,2,White,1,Colorado,Mountain,NA
+2078,1,1,Female,4,3,White,2,Tennessee,East South Central,NA
+2079,1,1,Female,2,1,White,1,Illinois,East North Central,NA
+2080,1,1,Female,5,3,White,3,Missouri,West North Central,NA
+2081,1,1,Male,4,2,White,3,California,Pacific,NA
+2082,1,1,Female,5,4,White,3,Nevada,Mountain,NA
+2083,1,1,Female,1,2,White,2,Maryland,South Atlantic,NA
+2084,1,1,Female,1,2,White,2,Massachusetts,New England,NA
+2085,0,1,Male,2,2,Asian,1,TX,West South Central,NA
+2086,1,1,Female,2,4,Asian,3,MO,West North Central,NA
+2087,1,1,Female,4,2,White,2,California,Pacific,NA
+2088,1,1,Female,4,4,Other,3,NA,NA,NA
+2089,1,0,Male,4,5,White,2,Illinois,East North Central,NA
+2090,1,1,Male,5,3,Other,2,WA,Pacific,NA
+2091,0,1,Female,3,3,NA,2,Ohio,East North Central,NA
+2092,1,1,Female,2,4,White,2,Minnesota,West North Central,NA
+2093,0,0,Male,4,5,White,3,CA,Pacific,NA
+2094,0,1,Male,4,2,NA,2,New York,Mid-Atlantic,NA
+2095,0,1,Male,2,5,Other,3,Va,South Atlantic,NA
+2096,1,1,Female,2,4,White,2,Maine,New England,NA
+2097,1,1,Female,2,2,White,1,NY,Mid-Atlantic,NA
+2098,1,1,Male,4,2,White,3,California,Pacific,NA
+2099,1,1,Female,3,5,White,2,Ohio,East North Central,NA
+2100,0,0,Female,2,4,White,3,DC,South Atlantic,NA
+2101,1,1,Female,2,5,White,2,new york,Mid-Atlantic,NA
+2102,1,1,Female,3,1,White,1,IA,West North Central,NA
+2103,1,0,Female,4,2,White,2,Washington,Pacific,NA
+2104,0,1,Female,3,3,Other,2,Texas,West South Central,NA
+2105,1,1,Male,4,1,Hispanic,2,Utah,Mountain,NA
+2106,1,1,Female,2,2,White,2,Iowa,West North Central,NA
+2107,0,0,Female,3,3,White,2,ohio,East North Central,NA
+2108,1,1,NA,2,2,White,1,New York,Mid-Atlantic,NA
+2109,1,1,Female,2,4,White,2,Minnesota,West North Central,NA
+2110,1,1,Female,4,4,White,3,North Carolina,South Atlantic,NA
+2111,1,1,Female,5,5,White,3,NV,Mountain,NA
+2112,1,1,Female,5,4,White,3,MN,West North Central,NA
+2113,1,1,Male,4,3,White,2,Missouri,West North Central,NA
+2114,1,1,Male,4,3,White,2,Tennessee,East South Central,NA
+2115,1,1,Female,4,5,White,3,Georgia,South Atlantic,NA
+2116,1,1,Male,3,4,Hispanic,3,Virginia,South Atlantic,NA
+2117,1,1,Female,4,3,White,2,New Mexico,Mountain,NA
+2118,1,1,Female,4,4,White,1,Georgia,South Atlantic,NA
+2119,0,1,Male,4,3,White,2,Iowa,West North Central,NA
+2120,1,0,Female,1,2,Other,2,maryland,South Atlantic,NA
+2121,1,1,Female,4,4,White,2,GA,South Atlantic,NA
+2122,1,1,Male,4,4,White,3,Arkansas,West South Central,NA
+2123,1,1,Female,5,3,White,2,New York,Mid-Atlantic,NA
+2124,1,1,Female,5,4,White,2,Ga,South Atlantic,NA
+2125,1,1,Male,4,3,White,2,Georgia,South Atlantic,NA
+2126,1,1,Female,5,3,White,2,Montana,Mountain,NA
+2127,1,1,Female,1,2,White,2,Texas,West South Central,NA
+2128,0,1,Female,3,1,White,2,Pa,Mid-Atlantic,NA
+2129,1,1,Female,4,1,Black,2,DC,South Atlantic,NA
+2130,1,1,Female,4,3,White,3,MN,West North Central,NA
+2131,1,0,Female,3,3,White,2,Oklahoma,West South Central,NA
+2132,1,1,Female,5,4,Hispanic,2,Arizona,Mountain,NA
+2133,1,1,Female,4,3,White,2,Iowa,West North Central,NA
+2134,1,1,Female,5,4,White,2,utah,Mountain,NA
+2135,1,1,Male,5,4,White,3,Arizona,Mountain,NA
+2136,1,1,Female,5,2,White,2,Arizona,Mountain,NA
+2137,1,1,Female,4,5,White,2,Kansas,West North Central,NA
+2138,1,1,Female,2,2,White,3,Ohio,East North Central,NA
+2139,1,1,Male,5,5,White,3,Michigan,East North Central,NA
+2140,1,1,Female,5,4,White,2,Or,Pacific,NA
+2141,0,0,Female,3,3,White,2,Maine,New England,NA
+2142,1,1,Female,5,3,White,3,FL,South Atlantic,NA
+2143,1,1,Female,4,2,White,2,Georgia,South Atlantic,NA
+2144,1,1,Female,2,2,White,1,Ohio,East North Central,NA
+2145,1,1,Female,2,2,White,2,NC,South Atlantic,NA
+2146,1,1,Female,3,2,White,1,Kentucky,East South Central,NA
+2147,1,1,Female,2,4,Asian,2,CA,Pacific,NA
+2148,1,1,Female,4,4,White,2,Florida,South Atlantic,NA
+2149,1,1,Male,4,1,White,1,Virginia,South Atlantic,NA
+2150,1,0,Male,1,1,Hispanic,1,UT,Mountain,NA
+2151,1,1,Female,2,5,Other,3,CA,Pacific,NA
+2152,1,1,Female,2,4,White,1,Kentucky,East South Central,NA
+2153,1,1,Male,3,3,White,1,Maryland,South Atlantic,NA
+2154,1,1,Female,1,2,Other,2,TN,East South Central,NA
+2155,1,1,Male,5,3,White,1,Ohio,East North Central,NA
+2156,1,1,Female,3,3,White,2,California,Pacific,NA
+2157,1,1,Female,4,3,White,2,New Jersey,Mid-Atlantic,NA
+2158,1,1,Female,3,2,White,2,Arizona,Mountain,NA
+2159,0,1,Female,2,1,White,1,Ohio,East North Central,NA
+2160,1,1,Female,5,1,White,3,California,Pacific,NA
+2161,0,1,Female,4,1,Black,2,Ohio,East North Central,NA
+2162,0,1,Male,4,3,White,4,Tennessee,East South Central,NA
+2163,1,1,Female,5,3,White,2,California,Pacific,NA
+2164,1,1,Male,5,2,White,3,NA,NA,NA
+2165,1,1,Male,5,3,White,2,oregon,Pacific,NA
+2166,1,1,Male,5,2,White,2,ohio,East North Central,NA
+2167,1,1,Female,2,4,White,3,Missouri,West North Central,NA
+2168,1,1,Female,2,1,White,1,Oregon,Pacific,NA
+2169,1,1,Female,3,2,White,2,Utah,Mountain,NA
+2170,0,1,Female,2,1,White,1,Kentucky,East South Central,NA
+2171,1,1,Female,4,2,White,2,GA,South Atlantic,NA
+2172,1,1,Male,5,5,White,2,Missouri,West North Central,NA
+2173,1,1,Female,2,2,White,2,NY,Mid-Atlantic,NA
+2174,1,1,Female,4,5,White,2,NA,NA,NA
+2175,1,1,Female,5,2,White,2,New York,Mid-Atlantic,NA
+2176,1,1,Female,4,1,White,2,Tennessee,East South Central,NA
+2177,1,1,Female,2,3,White,2,SD,West North Central,NA
+2178,1,1,Female,2,3,White,2,Georgia,South Atlantic,NA
+2179,1,1,Female,5,3,White,2,Ky,East South Central,NA
+2180,0,0,Female,NA,5,White,2,MN,West North Central,NA
+2181,1,1,Male,3,4,White,3,Tennessee,East South Central,NA
+2182,1,1,Female,2,5,NA,3,NY,Mid-Atlantic,NA
+2183,1,0,Female,3,5,Asian,2,ca,Pacific,NA
+2184,1,1,Female,3,4,White,2,OR,Pacific,NA
+2185,0,0,Female,2,3,White,2,Ohio,East North Central,NA
+2186,0,1,Female,3,4,White,2,Georgia,South Atlantic,NA
+2187,1,1,Female,4,5,White,3,California,Pacific,NA
+2188,1,1,Female,5,2,White,3,ohio,East North Central,NA
+2189,1,1,Female,3,4,White,2,Nevada,Mountain,NA
+2190,1,1,Male,4,2,NA,2,CA,Pacific,NA
+2191,1,1,Male,2,2,Other,2,New York,Mid-Atlantic,NA
+2192,1,1,Female,5,3,White,2,Oregon,Pacific,NA
+2193,1,1,Female,5,5,White,3,Washington,Pacific,NA
+2194,1,1,Female,2,4,White,2,Ohio,East North Central,NA
+2195,1,0,Male,5,3,White,3,Virginia,South Atlantic,NA
+2196,1,1,Female,3,2,White,2,IA,West North Central,NA
+2197,1,1,Female,2,3,White,2,Colorado,Mountain,NA
+2198,1,1,Female,3,4,White,3,NA,NA,NA
+2199,1,1,Female,2,3,White,1,Kentucky,East South Central,NA
+2200,1,1,Female,4,4,White,2,California,Pacific,NA
+2201,0,1,Male,3,4,Other,3,Utah,Mountain,NA
+2202,0,0,Female,2,2,NA,3,New Mexico,Mountain,NA
+2203,1,1,Male,5,3,White,2,CA,Pacific,NA
+2204,0,0,Male,5,3,White,2,Florida,South Atlantic,NA
+2205,1,1,Female,3,3,White,3,Mississippi,East South Central,NA
+2206,1,1,Female,3,2,Hispanic,2,Ohio,East North Central,NA
+2207,1,1,Female,5,3,White,2,NY,Mid-Atlantic,NA
+2208,1,1,Female,5,4,White,2,ny,Mid-Atlantic,NA
+2209,0,0,Male,5,5,White,2,Florida,South Atlantic,NA
+2210,1,1,Female,5,3,White,3,MO,West North Central,NA
+2211,1,0,Female,3,2,NA,1,Oregon,Pacific,NA
+2212,1,1,Male,5,4,White,2,CA,Pacific,NA
+2213,1,1,Female,4,5,White,3,oregon,Pacific,NA
+2214,1,1,Female,1,2,White,3,Indiana,East North Central,NA
+2215,1,1,Female,4,3,White,2,arizona,Mountain,NA
+2216,1,1,Female,4,5,White,2,New York,Mid-Atlantic,NA
+2217,1,1,Female,5,5,White,3,New Mexico,Mountain,NA
+2218,1,1,Male,5,5,White,2,utah,Mountain,NA
+2219,0,0,Female,3,1,White,1,Ga,South Atlantic,NA
+2220,1,1,Female,5,2,White,3,Ohio,East North Central,NA
+2221,1,1,Female,4,5,White,2,ARIZONA,Mountain,NA
+2222,1,1,Female,3,4,Asian,2,Ca,Pacific,NA
+2223,0,1,Male,4,3,White,3,California,Pacific,NA
+2224,1,1,Female,3,2,White,2,Washington,Pacific,NA
+2225,1,1,Male,4,4,White,2,NY,Mid-Atlantic,NA
+2226,1,1,Female,4,3,White,2,North Carolina,South Atlantic,NA
+2227,1,1,Female,4,2,White,2,Minnesota,West North Central,NA
+2228,1,0,Female,5,3,Other,3,CALIFORNIA,Pacific,NA
+2229,1,1,Male,4,4,White,3,California,Pacific,NA
+2230,1,1,Male,4,2,White,3,Virginia,South Atlantic,NA
+2231,1,1,Female,3,1,Asian,2,California,Pacific,NA
+2232,1,1,Female,3,1,Hispanic,1,Ohio,East North Central,NA
+2233,0,1,Female,4,3,White,1,Oregon,Pacific,NA
+2234,1,1,Female,5,4,White,1,New York,Mid-Atlantic,NA
+2235,1,1,Female,2,1,White,3,California,Pacific,NA
+2236,1,1,Female,5,2,White,2,ILLINOIS,East North Central,NA
+2237,1,0,Female,2,2,White,1,New York,Mid-Atlantic,NA
+2238,1,1,Female,1,2,White,3,VA,South Atlantic,NA
+2239,1,1,Female,4,2,White,1,Wisconsin,East North Central,NA
+2240,1,1,Female,4,4,White,3,Washington,Pacific,NA
+2241,1,1,Female,2,2,White,1,Georgia,South Atlantic,NA
+2242,1,1,Male,3,4,Hispanic,2,GA,South Atlantic,NA
+2243,1,1,Male,2,2,Asian,2,Virginia,South Atlantic,NA
+2244,0,0,Female,3,4,White,2,Maryland,South Atlantic,NA
+2245,1,1,NA,NA,4,NA,2,NA,NA,NA
+2246,1,1,Female,3,3,Black,2,Washington,Pacific,NA
+2247,1,1,Male,5,4,White,3,Virginia,South Atlantic,NA
+2248,1,1,Male,2,5,White,3,Minnesota,West North Central,NA
+2249,1,1,Male,4,4,White,3,NY,Mid-Atlantic,NA
+2250,1,1,Female,4,1,Black,2,WA,Pacific,NA
+2251,1,1,Female,3,3,White,3,NY,Mid-Atlantic,NA
+2252,1,1,Male,4,3,White,2,South Carolina,South Atlantic,NA
+2253,1,1,Female,2,2,White,2,Washington,Pacific,NA
+2254,1,1,Female,3,4,White,2,Tn,East South Central,NA
+2255,0,1,Female,2,3,Other,2,New Jersey,Mid-Atlantic,NA
+2256,1,1,Male,4,5,White,2,WA,Pacific,NA
+2257,1,1,Female,3,5,Black,2,GEORGIA,South Atlantic,NA
+2258,1,1,Female,2,2,White,1,Ohio,East North Central,NA
+2259,0,1,Female,3,3,White,2,NY,Mid-Atlantic,NA
+2260,0,0,Female,2,3,White,1,mi,East North Central,NA
+2261,1,1,Male,5,5,White,2,NA,NA,NA
+2262,1,1,Female,3,4,White,3,Nevada,Mountain,NA
+2263,1,1,Female,2,4,White,2,UTAH,Mountain,NA
+2264,1,1,Female,3,5,White,2,Ohio,East North Central,NA
+2265,1,1,Female,2,2,NA,1,Utah,Mountain,NA
+2266,1,1,Male,4,5,White,2,Washington,Pacific,NA
+2267,0,0,Female,2,3,White,2,MA,New England,NA
+2268,0,0,Female,3,3,White,2,Maine,New England,NA
+2269,1,1,Male,5,5,White,3,OR,Pacific,NA
+2270,1,1,Male,4,2,White,2,washington,Pacific,NA
+2271,1,1,Female,3,2,White,2,Nh,New England,NA
+2272,1,1,Male,5,3,White,2,FL,South Atlantic,NA
+2273,1,1,Male,4,1,White,2,Vermont,New England,NA
+2274,1,1,Female,5,4,White,2,NA,NA,NA
+2275,1,1,Female,4,2,White,3,WA,Pacific,NA
+2276,1,1,NA,1,2,White,3,Kentucky,East South Central,NA
+2277,1,1,Female,3,4,White,4,Kentucky,East South Central,NA
+2278,0,0,Female,3,2,White,1,Ohio,East North Central,NA
+2279,0,1,Female,3,4,White,2,Virginia,South Atlantic,NA
+2280,1,1,Male,3,2,White,2,NC,South Atlantic,NA
+2281,1,1,Male,4,2,White,2,Missouri,West North Central,NA
+2282,1,0,Female,4,3,White,2,WI,East North Central,NA
+2283,1,1,Female,4,2,White,2,Missouri,West North Central,NA
+2284,1,1,NA,2,3,White,1,NC,South Atlantic,NA
+2285,1,1,Female,2,2,White,1,MT,Mountain,NA
+2286,1,1,Female,3,1,NA,2,California,Pacific,NA
+2287,1,1,Female,2,4,Black,2,TN,East South Central,NA
+2288,1,1,Female,2,2,White,2,Idaho,Mountain,NA
+2289,1,1,Male,4,4,White,1,north dakota,West North Central,NA
+2290,1,1,Female,5,4,White,3,California,Pacific,NA
+2291,1,1,Male,5,5,White,2,NA,NA,NA
+2292,1,1,Female,4,4,White,2,NA,NA,NA
+2293,1,0,Male,2,1,White,2,Michigan,East North Central,NA
+2294,1,0,Male,3,2,White,3,Oklahoma,West South Central,NA
+2295,1,1,Female,4,4,White,2,Ohio,East North Central,NA
+2296,0,0,Female,4,4,White,3,CA,Pacific,NA
+2297,1,1,Female,5,5,White,3,Missouri,West North Central,NA
+2298,1,1,Female,4,2,White,3,Maine,New England,NA
+2299,0,0,Female,2,2,White,3,Nebraska,West North Central,NA
+2300,0,1,Male,2,2,NA,2,NY,Mid-Atlantic,NA
+2301,1,1,Male,2,2,White,4,Washington,Pacific,NA
+2302,1,1,Female,3,3,White,3,Louisiana,West South Central,NA
+2303,1,1,Male,4,3,White,3,Washington,Pacific,NA
+2304,1,1,Female,3,3,White,2,California,Pacific,NA
+2305,1,1,Male,4,4,White,2,florida,South Atlantic,NA
+2306,1,1,Female,2,5,White,3,Virginia,South Atlantic,NA
+2307,1,1,Male,4,4,White,2,Virginia,South Atlantic,NA
+2308,0,1,Female,2,2,Black,2,GA,South Atlantic,NA
+2309,1,1,Female,3,5,White,1,CA,Pacific,NA
+2310,1,1,Female,2,5,White,2,Nevada,Mountain,NA
+2311,1,1,Female,3,5,White,3,new mexico,Mountain,NA
+2312,1,1,Male,5,3,White,2,Georgia,South Atlantic,NA
+2313,1,1,Male,5,2,White,3,Colorado,Mountain,NA
+2314,1,1,Female,5,5,White,3,Minnesota,West North Central,NA
+2315,1,1,Female,2,4,White,3,CO,Mountain,NA
+2316,1,1,Male,5,2,White,2,Ohio,East North Central,NA
+2317,1,1,Female,3,3,White,2,California,Pacific,NA
+2318,1,1,Female,4,5,White,2,Ohio,East North Central,NA
+2319,1,1,Male,3,2,White,1,Illinois,East North Central,NA
+2320,1,1,Female,4,2,White,2,TN,East South Central,NA
+2321,1,1,Female,3,3,White,1,delaware,South Atlantic,NA
+2322,1,1,Female,4,3,White,2,Minnesota,West North Central,NA
+2323,1,1,Female,1,4,White,2,Ohio,East North Central,NA
+2324,1,1,Female,2,4,NA,4,North Carolina,South Atlantic,NA
+2325,1,1,Female,2,5,White,3,Ne,West North Central,NA
+2326,1,1,Male,5,4,White,2,Flordia,South Atlantic,NA
+2327,1,1,Female,3,4,Other,2,Maryland,South Atlantic,NA
+2328,1,1,Female,2,4,Black,2,NC,South Atlantic,NA
+2329,1,1,Male,4,4,White,3,Massachusetts,New England,NA
+2330,1,1,Female,2,2,White,1,Nevada,Mountain,NA
+2331,1,1,Female,3,4,White,3,PA,Mid-Atlantic,NA
+2332,1,1,Female,2,4,White,3,Wisconsin,East North Central,NA
+2333,1,1,Male,3,4,White,3,Indiana,East North Central,NA
+2334,1,1,Female,3,5,White,2,Missouri,West North Central,NA
+2335,0,0,Female,3,2,White,1,Georgia,South Atlantic,NA
+2336,1,1,Male,5,4,White,3,MO,West North Central,NA
+2337,1,1,Female,4,4,White,3,Oregon,Pacific,NA
+2338,0,1,Female,3,3,White,2,california,Pacific,NA
+2339,0,1,Female,2,2,White,1,Ohio,East North Central,NA
+2340,1,1,Female,2,4,White,2,Ny,Mid-Atlantic,NA
+2341,1,1,Female,2,2,White,1,Oregon,Pacific,NA
+2342,1,1,Female,5,3,White,2,Ohio,East North Central,NA
+2343,1,1,Female,5,4,Asian,3,Minnesota,West North Central,NA
+2344,1,0,Female,2,5,White,2,Arizona,Mountain,NA
+2345,1,1,Female,3,3,White,2,New Mexico,Mountain,NA
+2346,1,1,Male,4,5,Hispanic,2,Colorado,Mountain,NA
+2347,1,1,Female,5,4,NA,2,Minnesota,West North Central,NA
+2348,1,1,Female,4,3,Other,2,Colorado,Mountain,NA
+2349,1,1,Female,4,3,White,2,ohio,East North Central,NA
+2350,1,1,Female,4,2,White,2,Washington,Pacific,NA
+2351,1,1,Female,2,3,White,2,Minnesota,West North Central,NA
+2352,1,1,Male,4,5,White,3,Iowa,West North Central,NA
+2353,1,1,Male,4,3,Other,2,Oregon,Pacific,NA
+2354,1,1,Female,2,4,White,1,Maine,New England,NA
+2355,1,1,Female,4,3,White,3,Colorado,Mountain,NA
+2356,1,1,Female,3,4,Black,2,OH,East North Central,NA
+2357,1,1,Female,2,4,White,3,Georgia,South Atlantic,NA
+2358,1,0,Female,3,2,Black,2,Illinois,East North Central,NA
+2359,1,1,Female,1,2,White,2,IL,East North Central,NA
+2360,1,1,Female,3,3,White,3,Ohio,East North Central,NA
+2361,1,1,Female,4,3,White,3,Kentucky,East South Central,NA
+2362,1,1,Female,2,2,White,2,Pa,Mid-Atlantic,NA
+2363,1,1,Female,NA,NA,NA,2,Texas,West South Central,NA
+2364,1,1,Female,4,3,White,1,Utah,Mountain,NA
+2365,0,0,Female,4,1,White,3,Washington,Pacific,NA
+2366,1,1,Female,3,4,White,2,SC,South Atlantic,NA
+2367,1,1,Female,2,2,White,1,Maryland,South Atlantic,NA
+2368,0,1,Female,3,1,White,1,TN,East South Central,NA
+2369,1,1,Female,3,4,White,2,Idaho,Mountain,NA
+2370,1,0,Female,4,1,White,1,Iowa,West North Central,NA
+2371,1,1,Female,2,2,White,2,Maine,New England,NA
+2372,0,1,Female,3,5,White,2,New York,Mid-Atlantic,NA
+2373,1,1,Male,4,1,White,4,Massachusetts,New England,NA
+2374,0,1,Male,2,4,White,2,Arizona,Mountain,NA
+2375,1,1,Female,3,4,White,2,NA,NA,NA
+2376,1,1,Male,3,2,White,2,CT,New England,NA
+2377,1,1,Female,2,5,Hispanic,3,California,Pacific,NA
+2378,1,0,Female,2,3,White,2,Virginia,South Atlantic,NA
+2379,1,0,Female,2,1,Other,2,Washington,Pacific,NA
+2380,1,1,Male,5,NA,White,1,Arkansas,West South Central,NA
+2381,0,1,Male,4,3,Hispanic,2,Texas,West South Central,NA
+2382,1,1,Female,3,2,White,2,DE,South Atlantic,NA
+2383,1,1,Male,4,5,White,3,virginia,South Atlantic,NA
+2384,0,1,Female,3,4,Black,2,Ohio,East North Central,NA
+2385,0,1,Female,3,4,White,2,Alabama,East South Central,NA
+2386,0,1,Female,3,1,White,1,Arkansas,West South Central,NA
+2387,1,1,Male,2,4,White,2,New York,Mid-Atlantic,NA
+2388,1,1,Male,5,2,White,2,Florida,South Atlantic,NA
+2389,1,1,Female,4,4,White,2,Kentucky,East South Central,NA
+2390,1,1,Male,4,1,White,2,pa,Mid-Atlantic,NA
+2391,1,1,Male,2,4,White,1,New Jersey,Mid-Atlantic,NA
+2392,0,0,Female,3,NA,White,2,Ohio,East North Central,NA
+2393,0,1,Female,4,3,White,2,46750,East North Central,NA
+2394,1,0,Female,1,1,Other,3,AK,West South Central,NA
+2395,1,1,Female,2,5,White,2,Ohio,East North Central,NA
+2396,1,1,Male,5,1,White,3,VA,South Atlantic,NA
+2397,1,1,Female,2,4,White,2,Ny,Mid-Atlantic,NA
+2398,1,1,Female,2,4,White,2,Ohio,East North Central,NA
+2399,1,1,Female,3,2,White,1,Pennsylvania,Mid-Atlantic,NA
+2400,1,1,Female,3,2,Hispanic,1,New York,Mid-Atlantic,NA
+2401,1,1,Female,4,4,White,3,Ohio,East North Central,NA
+2402,1,1,Male,5,2,White,3,Pennsylvania,Mid-Atlantic,NA
+2403,1,1,Male,4,4,White,2,idaho,Mountain,NA
+2404,0,1,Male,3,2,White,2,alabama,East South Central,NA
+2405,1,1,Male,5,5,White,4,Maryland,South Atlantic,NA
+2406,1,1,Male,2,4,Other,3,AL,East South Central,NA
+2407,1,1,Female,3,4,White,2,Iowa,West North Central,NA
+2408,1,1,Female,5,4,White,2,KY,East South Central,NA
+2409,0,1,Female,5,1,White,2,Minnesota,West North Central,NA
+2410,1,1,Female,3,2,White,2,California,Pacific,NA
+2411,1,1,Female,3,2,Other,2,NEW YORK,Mid-Atlantic,NA
+2412,1,1,Female,2,2,White,2,Louisiana,New England,NA
+2413,1,0,Female,2,2,White,1,Washington,Pacific,NA
+2414,0,1,Female,4,3,White,2,Indiana,East North Central,NA
+2415,1,1,Female,2,4,White,3,Minnesota,West North Central,NA
+2416,1,1,Female,4,2,White,2,Wyoming,Mountain,NA
+2417,0,1,Female,3,3,White,1,Oregon,Pacific,NA
+2418,1,1,Male,5,3,White,2,Ohio,East North Central,NA
+2419,1,1,Female,4,4,White,3,Tennessee,East South Central,NA
+2420,1,1,Female,3,2,White,1,Michigan,East North Central,NA
+2421,1,1,Female,4,4,White,2,New York,Mid-Atlantic,NA
+2422,0,0,Female,4,NA,White,2,Massachusetts,New England,NA
+2423,1,1,Female,5,3,White,2,Maryland,South Atlantic,NA
+2424,1,1,Female,2,2,White,2,AZ,Mountain,NA
+2425,1,1,Male,2,2,Other,1,Ohio,East North Central,NA
+2426,1,1,Female,2,5,White,3,New York,Mid-Atlantic,NA
+2427,1,1,Female,3,2,White,2,NC,South Atlantic,NA
+2428,1,1,Male,2,4,White,3,Minnesota,West North Central,NA
+2429,1,1,Male,3,1,Black,1,Alabama,East South Central,NA
+2430,0,0,Female,2,2,White,2,Iowa,West North Central,NA
+2431,1,1,Male,3,5,White,2,New York,Mid-Atlantic,NA
+2432,1,1,Female,2,5,White,2,New York,Mid-Atlantic,NA
+2433,1,1,Female,3,3,White,3,Texas,West South Central,NA
+2434,1,1,Female,3,4,White,4,Georgia,South Atlantic,NA
+2435,0,0,Female,3,2,White,1,Oregon,Pacific,NA
+2436,1,1,Female,3,5,Hispanic,2,Florida,South Atlantic,NA
+2437,1,1,Female,5,3,White,2,OR,Pacific,NA
+2438,1,1,Female,3,1,White,2,Tennessee,East South Central,NA
+2439,1,1,Female,2,2,White,1,Missouri,West North Central,NA
+2440,1,1,Male,5,5,White,2,Nevada,Mountain,NA
+2441,1,0,Female,2,1,White,1,Ohio,East North Central,NA
+2442,1,1,Female,5,3,White,2,oregon,Pacific,NA
+2443,1,1,Female,4,4,White,3,Indiana,East North Central,NA
+2444,1,0,Female,2,4,White,2,Minnesota,West North Central,NA
+2445,0,1,Male,3,4,Black,2,Tennessee,East South Central,NA
+2446,1,0,Female,3,1,White,2,New York,Mid-Atlantic,NA
+2447,1,1,NA,4,1,White,2,Oklahoma,West South Central,NA
+2448,1,1,Female,2,3,White,2,MD,South Atlantic,NA
+2449,1,1,Female,2,4,White,2,Ohio,East North Central,NA
+2450,0,0,Male,3,3,Hispanic,2,Alabama,East South Central,NA
+2451,1,1,Male,2,4,White,3,Maryland,South Atlantic,NA
+2452,0,0,Female,5,3,White,3,Maryland,South Atlantic,NA
+2453,0,1,Female,3,2,Hispanic,2,Texas,West South Central,NA
+2454,1,0,Male,5,2,White,2,Alabama,East South Central,NA
+2455,1,1,Female,3,4,White,2,MI,East North Central,NA
+2456,1,1,Female,4,4,White,2,missouri,West North Central,NA
+2457,1,1,Female,3,4,White,2,PA,Mid-Atlantic,NA
+2458,1,1,Female,4,2,White,2,Oregon,Pacific,NA
+2459,1,1,Male,5,5,White,2,Colorado,Mountain,NA
+2460,0,0,Female,4,4,White,3,Arizona,Mountain,NA
+2461,1,1,Female,4,2,White,2,Tennessee,East South Central,NA
+2462,0,1,Male,2,3,White,4,Oklahoma,West South Central,NA
+2463,1,1,Female,2,2,White,2,Minnesota,West North Central,NA
+2464,1,1,Female,2,5,White,2,Ohio,East North Central,NA
+2465,1,1,Female,3,3,White,3,Missouri,West North Central,NA
+2466,0,1,Female,2,2,Other,2,Missouri,West North Central,NA
+2467,0,0,Female,3,2,White,2,Florida,South Atlantic,NA
+2468,0,1,Female,2,1,Hispanic,1,NY,Mid-Atlantic,NA
+2469,1,1,Female,4,2,White,2,new york,Mid-Atlantic,NA
+2470,0,0,Female,3,3,Other,1,Tennessee,East South Central,NA
+2471,0,1,Female,2,3,White,2,Tennessee,East South Central,NA
+2472,1,1,Female,3,3,White,2,Georgia,South Atlantic,NA
+2473,1,1,Female,3,3,White,2,Massachusetts,New England,NA
+2474,1,1,Male,3,2,White,1,Wisconsin,East North Central,NA
+2475,1,1,Male,5,4,White,2,Missouri,West North Central,NA
+2476,1,1,NA,1,1,White,2,Pennsylvania,Mid-Atlantic,NA
+2477,1,1,Female,2,2,White,2,Neb,West North Central,NA
+2478,1,1,Female,5,1,Other,2,NEW JERSEY,Mid-Atlantic,NA
+2479,1,1,Female,2,3,White,1,Kentucky,East South Central,NA
+2480,1,1,Female,5,1,White,2,Georgia,South Atlantic,NA
+2481,0,0,Female,3,1,White,2,Oregon,Pacific,NA
+2482,1,1,NA,3,NA,NA,3,md,South Atlantic,NA
+2483,0,1,Male,3,1,Hispanic,1,California,Pacific,NA
+2484,1,0,Female,2,3,White,1,TN,East South Central,NA
+2485,1,1,Female,5,5,White,2,Ohio,East North Central,NA
+2486,1,1,Male,5,5,White,3,oregon,Pacific,NA
+2487,0,0,Female,2,1,White,1,Arizona,Mountain,NA
+2488,1,1,NA,NA,2,NA,3,Illinois,East North Central,NA
+2489,1,1,Male,3,2,White,1,Colorado,Mountain,NA
+2490,1,1,Female,3,2,Hispanic,2,VA,South Atlantic,NA
+2491,1,1,Male,4,5,NA,3,Illinois,East North Central,NA
+2492,1,1,Female,3,4,White,2,Connecticut,New England,NA
+2493,1,1,Female,3,2,Black,2,North Carolina,South Atlantic,NA
+2494,1,1,Female,3,3,White,1,Pennsylvania,Mid-Atlantic,NA
+2495,1,1,Male,3,1,White,2,OHIO,East North Central,NA
+2496,0,1,Female,1,2,Other,1,Florida,South Atlantic,NA
+2497,1,1,Female,2,4,White,2,Ohio,East North Central,NA
+2498,1,1,Female,4,3,White,2,Ohio,East North Central,NA
+2499,1,1,Female,4,4,White,2,Georgia,South Atlantic,NA
+2500,0,0,Female,2,1,White,2,WV,South Atlantic,NA
+2501,0,1,Female,4,3,White,2,Arizona,Mountain,NA
+2502,0,0,Female,5,1,White,2,washington,Pacific,NA
+2503,0,0,Female,2,4,Black,2,GA,South Atlantic,NA
+2504,1,1,Female,2,5,White,3,CT,New England,NA
+2505,1,1,Female,3,4,White,3,CA,Pacific,NA
+2506,1,1,Female,4,3,White,2,Illinois,East North Central,NA
+2507,1,1,Male,5,3,White,3,florida,South Atlantic,NA
+2508,1,1,Female,3,2,White,2,Ohio,East North Central,NA
+2509,1,1,Male,5,4,White,3,Missouri,West North Central,NA
+2510,1,1,Male,5,3,White,2,Minnesota,West North Central,NA
+2511,1,1,Male,4,4,White,2,ny,Mid-Atlantic,NA
+2512,1,1,Male,4,3,White,2,Iowa,West North Central,NA
+2513,0,0,Female,1,2,Hispanic,2,Ohio,East North Central,NA
+2514,1,1,Female,4,5,White,4,MN,West North Central,NA
+2515,1,0,Female,5,3,White,2,NA,NA,NA
+2516,1,1,Male,5,5,White,3,Virginia,South Atlantic,NA
+2517,1,1,Female,3,3,White,3,Washington,Pacific,NA
+2518,1,1,Female,2,3,Asian,2,Tennessee,East South Central,NA
+2519,1,1,Male,4,5,White,3,Virginia,South Atlantic,NA
+2520,1,0,Male,5,3,White,2,tn.,East South Central,NA
+2521,1,1,Female,3,4,White,2,Massachusetts,New England,NA
+2522,1,1,Female,5,4,White,3,Virginia,South Atlantic,NA
+2523,0,1,Female,4,2,White,2,Indiana,East North Central,NA
+2524,1,1,Female,4,1,White,2,Alabama,East South Central,NA
+2525,1,1,Male,4,3,White,1,Virginia,South Atlantic,NA
+2526,0,0,Female,2,1,White,1,California,Pacific,NA
+2527,1,1,Female,2,4,White,2,WA,Pacific,NA
+2528,1,1,Female,1,1,White,3,North Carolina,South Atlantic,NA
+2529,1,1,Female,4,5,Black,2,MD,South Atlantic,NA
+2530,1,1,Female,2,5,White,2,Washington,Pacific,NA
+2531,1,1,Female,1,1,White,3,Ohio,East North Central,NA
+2532,0,1,Female,3,4,Black,2,Georgia,South Atlantic,NA
+2533,1,1,Female,2,4,White,2,New York,Mid-Atlantic,NA
+2534,1,1,Male,2,3,White,2,Washington,Pacific,NA
+2535,1,1,Female,2,2,White,3,Florida,South Atlantic,NA
+2536,1,1,Female,4,5,White,1,Ohio,East North Central,NA
+2537,1,1,Male,4,2,White,3,Virginia,South Atlantic,NA
+2538,1,1,Female,3,5,White,3,MN,West North Central,NA
+2539,0,0,Female,5,3,White,2,Indiana,East North Central,NA
+2540,0,1,Female,4,1,White,2,PA,Mid-Atlantic,NA
+2541,1,1,Female,2,2,White,2,Massachusetts,New England,NA
+2542,1,1,Female,5,4,White,3,New Mexico,Mountain,NA
+2543,1,0,Male,3,1,White,1,Kentucky,East South Central,NA
+2544,1,1,Female,3,4,White,2,Pa,Mid-Atlantic,NA
+2545,1,1,Female,4,1,White,2,MA,New England,NA
+2546,1,1,Male,5,1,White,2,Ohio,East North Central,NA
+2547,1,1,Female,2,4,White,3,Georgia,South Atlantic,NA
+2548,1,1,Female,2,2,Asian,1,North Carolina,South Atlantic,NA
+2549,1,1,Male,4,5,White,3,DC,South Atlantic,NA
+2550,1,1,Female,2,2,White,2,Virginia,South Atlantic,NA
+2551,1,1,Female,2,1,White,2,Colorado,Mountain,NA
+2552,1,1,Female,4,3,NA,1,dc,South Atlantic,NA
+2553,1,1,Female,5,3,White,3,North Carolina,South Atlantic,NA
+2554,1,1,Female,5,2,White,3,Tennessee,East South Central,NA
+2555,0,0,Female,3,4,White,3,CA,Pacific,NA
+2556,1,1,Male,4,4,White,3,Ca,Pacific,NA
+2557,1,1,Female,2,4,White,3,Ohio,East North Central,NA
+2558,0,1,Male,5,2,White,1,az,Mountain,NA
+2559,1,1,Male,4,5,White,3,New York,Mid-Atlantic,NA
+2560,1,1,Male,4,1,White,2,NA,NA,NA
+2561,0,1,Female,2,3,White,1,Iowa,West North Central,NA
+2562,0,0,Male,2,4,Hispanic,3,MA,New England,NA
+2563,1,1,Male,5,3,White,2,Kansas,West North Central,NA
+2564,1,1,Male,4,4,White,3,Minnesota,West North Central,NA
+2565,1,1,Female,3,4,White,3,NC,South Atlantic,NA
+2566,1,1,Female,2,5,White,2,NC,South Atlantic,NA
+2567,1,1,Male,4,2,White,2,al,East South Central,NA
+2568,1,1,Male,5,4,White,3,TN,East South Central,NA
+2569,1,1,Male,3,5,White,2,California,Pacific,NA
+2570,1,1,Female,2,5,White,3,California,Pacific,NA
+2571,1,1,Female,2,2,White,3,Wyoming,Mountain,NA
+2572,1,1,Female,2,2,White,3,Ohio,East North Central,NA
+2573,1,1,Male,5,3,White,2,NA,NA,NA
+2574,1,1,Female,4,3,White,2,Indiana,East North Central,NA
+2575,0,0,Female,3,4,White,2,Illinois,East North Central,NA
+2576,1,1,Female,5,2,White,2,Tennessean,East South Central,NA
+2577,1,1,Male,5,5,White,2,Tennessee,East South Central,NA
+2578,1,1,Female,4,3,White,2,Maryland,South Atlantic,NA
+2579,1,1,Female,5,4,White,2,Mn,West North Central,NA
+2580,1,1,Female,3,1,White,1,Kentucky,East South Central,NA
+2581,1,0,Female,2,4,White,2,Alaska,Pacific,NA
+2582,1,1,Male,4,1,White,2,Massachusetts,New England,NA
+2583,0,1,Female,2,5,White,3,PA,Mid-Atlantic,NA
+2584,1,1,Female,3,1,White,2,New York,Mid-Atlantic,NA
+2585,1,1,Female,5,3,White,3,VA,South Atlantic,NA
+2586,1,1,Male,5,5,White,2,GA,South Atlantic,NA
+2587,0,0,Male,5,5,NA,2,OH,East North Central,NA
+2588,1,1,Female,3,3,Hispanic,3,Illinois,East North Central,NA
+2589,1,1,Male,4,3,White,1,Florida,South Atlantic,NA
+2590,1,1,Male,5,5,NA,3,TN,East South Central,NA
+2591,0,1,Female,3,2,White,1,GA,South Atlantic,NA
+2592,0,1,Female,1,2,Other,2,California,Pacific,NA
+2593,1,1,Female,4,NA,Other,2,CA,Pacific,NA
+2594,0,1,Female,3,2,White,2,Minnesota,West North Central,NA
+2595,0,1,Female,3,3,White,2,TX,West South Central,NA
+2596,1,1,Female,2,4,White,2,KS,West North Central,NA
+2597,0,0,Female,3,1,White,2,NC,South Atlantic,NA
+2598,1,1,Male,2,1,Hispanic,2,California,Pacific,NA
+2599,1,1,Female,2,2,Hispanic,1,California,Pacific,NA
+2600,1,1,Female,3,2,Other,2,NY,Mid-Atlantic,NA
+2601,1,1,Male,3,2,Other,1,Ohio,East North Central,NA
+2602,0,1,Female,1,2,Black,1,Florida,South Atlantic,NA
+2603,1,1,Female,1,2,White,2,Tennessee,East South Central,NA
+2604,1,1,Female,3,5,Black,2,Tennessee,East South Central,NA
+2605,1,1,Female,3,5,Hispanic,2,Illinois,East North Central,NA
+2606,1,1,Female,3,5,White,3,Pennsylvania,Mid-Atlantic,NA
+2607,1,1,Female,4,3,White,2,Wisconsin,East North Central,NA
+2608,1,1,Female,2,3,Other,1,North Carolina,South Atlantic,NA
+2609,1,1,Female,3,2,White,2,New York,Mid-Atlantic,NA
+2610,1,1,Female,2,4,Black,2,Florida,South Atlantic,NA
+2611,1,1,Female,3,3,White,2,Tennessee,East South Central,NA
+2612,1,1,Female,3,3,White,2,Ohio,East North Central,NA
+2613,1,1,Female,2,2,White,2,Georgia,South Atlantic,NA
+2614,0,0,Female,1,1,White,3,South Carolina,South Atlantic,NA
+2615,1,1,Female,2,2,Other,2,Tennessee,East South Central,NA
+2616,0,1,Male,5,3,White,2,California,Pacific,NA
+2617,1,1,Female,4,3,White,2,Tennessee,East South Central,NA
+2618,1,1,Female,2,5,White,1,Iowa,West North Central,NA
+2619,1,1,Female,3,1,White,2,New Mexico,Mountain,NA
+2620,1,1,Female,4,2,White,1,North Carolina,South Atlantic,NA
+2621,0,1,Male,4,3,White,2,Florida,South Atlantic,NA
+2622,1,1,Female,4,4,White,2,Maryland,South Atlantic,NA
+2623,0,1,Female,2,2,White,2,Oregon,Pacific,NA
+2624,1,1,Female,5,4,White,2,Ohio,East North Central,NA
+2625,1,1,Male,4,4,White,2,Michigan,East North Central,NA
+2626,0,1,Male,2,2,White,2,Tennessee,East South Central,NA
+2627,1,1,Female,4,4,White,2,Ohio,East North Central,NA
+2628,0,1,Female,4,2,White,2,California,Pacific,NA
+2629,1,0,Female,5,3,White,2,Missouri,West North Central,NA
+2630,1,0,Female,3,2,White,3,South Carolina,South Atlantic,NA
+2631,1,1,Female,2,3,White,2,Minnesota,West North Central,NA
+2632,1,1,Female,1,2,Asian,2,Tennessee,East South Central,NA
+2633,1,1,Female,2,5,White,3,Minnesota,West North Central,NA
+2634,1,1,Male,1,2,White,2,Alabama,East South Central,NA
+2635,0,0,Female,3,1,White,2,South Carolina,South Atlantic,NA
+2636,1,1,Male,5,2,White,2,Tennessee,East South Central,NA
+2637,1,1,Male,3,2,White,1,Oregon,Pacific,NA
+2638,1,1,Female,4,3,White,2,Missouri,West North Central,NA
+2639,1,1,Female,5,2,White,2,North Carolina,South Atlantic,NA
+2640,1,1,Female,2,4,White,3,Texas,West South Central,NA
+2641,1,1,Male,5,4,White,3,California,Pacific,NA
+2642,1,0,Female,3,3,White,2,Florida,South Atlantic,NA
+2643,1,1,Female,3,3,Asian,2,Utah,Mountain,NA
+2644,1,1,Female,4,2,Asian,2,Pennsylvania,Mid-Atlantic,NA
+2645,1,1,Female,2,4,White,2,Missouri,West North Central,NA
+2646,1,1,Female,3,5,White,3,Tennessee,East South Central,NA
+2647,1,1,NA,2,2,White,2,Massachusetts,New England,NA
+2648,1,1,Female,3,4,White,2,Nebraska,West North Central,NA
+2649,1,1,Female,2,2,White,2,California,Pacific,NA
+2650,1,1,Female,NA,2,NA,2,Washington,Pacific,NA
+2651,1,1,Male,5,4,White,2,Arizona,Mountain,NA
+2652,1,0,Female,2,1,White,2,Georgia,South Atlantic,NA
+2653,1,0,Female,1,2,White,1,Arizona,Mountain,NA
+2654,1,1,Female,2,2,Asian,2,Nevada,Mountain,NA
+2655,1,1,Female,2,4,White,2,DC,South Atlantic,NA
+2656,1,1,Female,1,2,White,2,Illinois,East North Central,NA
+2657,1,0,Female,2,1,White,1,Illinois,East North Central,NA
+2658,0,1,Female,4,3,White,2,Pennsylvania,Mid-Atlantic,NA
+2659,1,0,Female,2,2,White,2,Arkansas,West South Central,NA
+2660,0,1,Female,2,2,White,2,North Carolina,South Atlantic,NA
+2661,1,1,Male,3,4,White,3,Colorado,Mountain,NA
+2662,1,1,Male,5,5,White,3,Oregon,Pacific,NA
+2663,1,1,Female,2,3,White,2,Washington,Pacific,NA
+2664,0,0,Male,2,3,Other,2,Alaska,Pacific,NA
+2665,1,1,Female,3,4,White,3,New York,Mid-Atlantic,NA
+2666,0,0,Female,3,2,White,2,Washington,Pacific,NA
+2667,1,1,Female,4,2,White,2,Maryland,South Atlantic,NA
+2668,1,0,Male,3,3,White,2,Missouri,West North Central,NA
+2669,1,1,Female,4,4,White,2,Wisconsin,East North Central,NA
+2670,0,1,Male,3,2,White,2,Ohio,East North Central,NA
+2671,0,1,Female,3,3,White,2,North Carolina,South Atlantic,NA
+2672,1,1,Male,4,5,White,2,Kentucky,East South Central,NA
+2673,1,1,Male,2,4,Asian,2,Georgia,South Atlantic,NA
+2674,1,1,Female,1,3,White,2,New York,Mid-Atlantic,NA
+2675,1,1,Female,3,2,White,2,Ohio,East North Central,NA
+2676,0,1,Male,2,5,Black,2,Ohio,East North Central,NA
+2677,0,1,Female,2,3,White,2,Tennessee,East South Central,NA
+2678,1,1,Male,3,2,White,3,North Carolina,South Atlantic,NA
+2679,0,0,Male,3,3,White,2,Minnesota,West North Central,NA
+2680,1,1,Male,2,4,White,2,Ohio,East North Central,NA
+2681,1,1,Male,5,5,White,2,New York,Mid-Atlantic,NA
+2682,1,1,Female,1,2,White,2,Illinois,East North Central,NA
+2683,1,1,Female,4,2,Hispanic,2,Iowa,West North Central,NA
+2684,1,1,Female,2,5,Hispanic,2,Georgia,South Atlantic,NA
+2685,1,1,Female,4,5,White,2,Tennessee,East South Central,NA
+2686,1,1,Male,4,3,White,3,Kansas,West North Central,NA
+2687,1,1,Female,4,5,White,2,Tennessee,East South Central,NA
+2688,1,1,Female,4,2,White,2,Virginia,South Atlantic,NA
+2689,1,1,Female,4,3,White,2,Arkansas,West South Central,NA
+2690,1,1,Female,1,3,White,2,Wisconsin,East North Central,NA
+2691,1,1,Male,4,1,White,4,Minnesota,West North Central,NA
+2692,1,1,Female,1,2,White,4,Ohio,East North Central,NA
+2693,1,1,Female,2,4,Other,3,California,Pacific,NA
+2694,0,1,Female,2,1,Black,1,Ohio,East North Central,NA
+2695,1,1,Female,3,2,Other,1,California,Pacific,NA
+2696,1,1,Female,2,2,White,2,Virginia,South Atlantic,NA
+2697,1,1,Male,5,4,White,4,Missouri,West North Central,NA
+2698,1,1,Female,2,5,White,2,Illinois,East North Central,NA
+2699,1,1,Female,1,2,White,2,Massachusetts,New England,NA
+2700,1,1,Male,5,2,White,2,California,Pacific,NA
+2701,1,1,Female,3,5,White,2,Georgia,South Atlantic,NA
+2702,1,1,Male,2,4,White,2,Michigan,East North Central,NA
+2703,0,1,Female,3,3,Hispanic,3,Tennessee,East South Central,NA
+2704,0,1,Female,5,2,Black,2,Arkansas,West South Central,NA
+2705,1,1,Female,2,4,White,2,North Dakota,West North Central,NA
+2706,0,1,Female,3,5,White,2,Ohio,East North Central,NA
+2707,1,1,Female,4,4,White,2,Wisconsin,East North Central,NA
+2708,1,0,Female,1,NA,White,2,Oklahoma,West South Central,NA
+2709,1,1,Female,2,4,White,2,Kentucky,East South Central,NA
+2710,1,1,Female,2,2,Black,2,Ohio,East North Central,NA
+2711,1,1,Female,5,1,Other,1,Georgia,South Atlantic,NA
+2712,0,0,Male,4,3,White,2,Missouri,West North Central,NA
+2713,1,0,Female,3,4,White,2,Oklahoma,West South Central,NA
+2714,0,1,Female,2,2,White,4,Tennessee,East South Central,NA
+2715,1,1,Male,5,3,White,2,Ohio,East North Central,NA
+2716,1,0,Female,3,4,White,2,South Carolina,South Atlantic,NA
+2717,1,1,Female,2,2,White,3,Vermont,New England,NA
+2718,0,1,Female,3,1,White,1,Ohio,East North Central,NA
+2719,1,1,Female,4,4,White,3,Connecticut,New England,NA
+2720,1,1,Male,2,2,White,2,Ohio,East North Central,NA
+2721,0,1,Male,3,2,White,2,Ohio,East North Central,NA
+2722,1,1,Female,2,4,White,2,New York,Mid-Atlantic,NA
+2723,0,1,Female,3,3,White,3,NA,NA,NA
+2724,1,0,Male,3,2,White,2,Texas,West South Central,NA
+2725,1,1,Female,2,4,White,2,Ohio,East North Central,NA
+2726,1,0,Female,5,2,White,2,Florida,South Atlantic,NA
+2727,1,1,Female,3,4,White,2,Alabama,East South Central,NA
+2728,1,1,Female,2,3,Black,2,Ohio,East North Central,NA
+2729,1,1,Female,4,3,White,2,New York,Mid-Atlantic,NA
+2730,0,0,Male,2,3,White,2,Ohio,East North Central,NA
+2731,1,1,Male,4,4,White,3,Ohio,East North Central,NA
+2732,1,1,Female,2,4,White,2,Alabama,East South Central,NA
+2733,1,1,Female,3,3,White,2,Alabama,East South Central,NA
+2734,1,1,Female,2,4,Other,2,Missouri,West North Central,NA
+2735,0,0,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,NA
+2736,1,1,Female,3,5,White,3,Illinois,East North Central,NA
+2737,1,1,Female,3,2,White,2,Ohio,East North Central,NA
+2738,1,1,Female,2,3,White,2,North Carolina,South Atlantic,NA
+2739,1,0,Male,5,2,White,2,Alabama,East South Central,NA
+2740,1,1,Female,3,1,Other,2,Ohio,East North Central,NA
+2741,1,1,Female,2,3,White,2,Minnesota,West North Central,NA
+2742,1,1,Female,3,5,White,3,Ohio,East North Central,NA
+2743,1,0,Female,2,4,Asian,2,New Jersey,Mid-Atlantic,NA
+2744,1,1,Male,5,3,White,2,Maine,New England,NA
+2745,1,1,Female,2,5,White,2,South Carolina,South Atlantic,NA
+2746,1,1,Male,4,4,White,2,Minnesota,West North Central,NA
+2747,1,1,Female,2,4,White,3,New York,Mid-Atlantic,NA
+2748,1,1,Female,3,4,White,3,Kentucky,East South Central,NA
+2749,1,1,Female,2,3,White,1,Arizona,Mountain,NA
+2750,1,1,Female,2,4,White,2,Ohio,East North Central,NA
+2751,1,1,Female,4,4,White,2,Pennsylvania,Mid-Atlantic,NA
+2752,1,1,Male,3,5,White,3,Utah,Mountain,NA
+2753,1,1,Female,4,3,White,2,Wisconsin,East North Central,NA
+2754,1,1,Female,2,2,White,3,Illinois,East North Central,NA
+2755,1,1,Female,2,4,White,2,Iowa,West North Central,NA
+2756,1,1,Female,2,3,White,2,North Carolina,South Atlantic,NA
+2757,1,1,Female,5,1,White,2,Utah,Mountain,NA
+2758,1,0,Female,2,3,White,2,Georgia,South Atlantic,NA
+2759,1,1,Female,2,2,White,2,Tennessee,East South Central,NA
+2760,0,1,Female,4,2,Black,2,Alabama,East South Central,NA
+2761,1,1,Female,2,4,White,3,Ohio,East North Central,NA
+2762,1,1,Female,5,4,White,2,Nevada,Mountain,NA
+2763,1,1,Female,3,4,Asian,2,Maryland,South Atlantic,NA
+2764,1,1,Female,3,5,White,3,South Carolina,South Atlantic,NA
+2765,1,1,Female,2,4,White,2,New York,Mid-Atlantic,NA
+2766,0,0,Female,2,3,White,2,Alabama,East South Central,NA
+2767,1,1,Female,3,2,Black,2,Texas,West South Central,NA
+2768,1,1,Female,2,2,White,2,Missouri,West North Central,NA
+2769,1,1,Male,5,5,White,3,Kentucky,East South Central,NA
+2770,1,1,Female,2,2,White,3,New York,Mid-Atlantic,NA
+2771,1,1,NA,2,3,White,2,Indiana,East North Central,NA
+2772,1,1,Female,3,3,White,2,Texas,West South Central,NA
+2773,1,1,Female,3,3,White,4,Virginia,South Atlantic,NA
+2774,1,0,Female,3,3,Asian,2,Ohio,East North Central,NA
+2775,1,1,Female,2,2,White,2,Ohio,East North Central,NA
+2776,1,1,Female,4,4,White,3,Massachusetts,New England,NA
+2777,1,1,Male,5,5,White,3,New York,Mid-Atlantic,NA
+2778,1,0,Female,2,1,NA,2,Pennsylvania,Mid-Atlantic,NA
+2779,1,1,Female,3,4,White,3,Maryland,South Atlantic,NA
+2780,1,1,Female,2,5,White,2,Ohio,East North Central,NA
+2781,1,1,Female,2,2,White,2,Pennsylvania,Mid-Atlantic,NA
+2782,1,1,Female,3,3,White,3,Maryland,South Atlantic,NA
+2783,1,1,Female,4,5,White,3,New Hampshire,New England,NA
+2784,1,1,NA,2,4,White,2,Illinois,East North Central,NA
+2785,1,1,Female,2,4,Other,2,Wisconsin,East North Central,NA
+2786,1,1,Female,4,2,White,2,Tennessee,East South Central,NA
+2787,0,1,Female,3,3,White,2,Florida,South Atlantic,NA
+2788,1,1,Male,3,3,White,2,New Jersey,Mid-Atlantic,NA
+2789,1,1,Female,3,4,White,3,California,Pacific,NA
+2790,1,1,Male,4,2,White,3,Virginia,South Atlantic,NA
+2791,1,1,Male,3,1,White,2,Tennessee,East South Central,NA
+2792,1,1,Female,3,5,White,4,Ohio,East North Central,NA
+2793,1,1,Female,1,3,White,3,Colorado,Mountain,NA
+2794,1,1,Female,1,2,NA,2,Massachusetts,New England,NA
+2795,1,1,Female,3,5,White,3,New York,Mid-Atlantic,NA
+2796,1,1,Female,1,2,White,2,New York,Mid-Atlantic,NA
+2797,1,1,Male,3,4,Asian,3,Pennsylvania,Mid-Atlantic,NA
+2798,1,1,Male,3,4,White,3,Kentucky,East South Central,NA
+2799,1,1,Female,2,5,White,2,Colorado,Mountain,NA
+2800,1,1,Female,2,5,White,3,Minnesota,West North Central,NA
+2801,1,1,Female,1,2,White,2,California,Pacific,NA
+2802,1,1,Female,1,2,White,4,New York,Mid-Atlantic,NA
+2803,1,0,Female,4,4,White,2,California,Pacific,NA
+2804,1,1,Female,3,2,Black,1,New York,Mid-Atlantic,NA
+2805,1,1,Female,4,5,White,3,Arizona,Mountain,NA
+2806,1,1,Female,3,2,White,3,Georgia,South Atlantic,NA
+2807,1,1,Female,4,3,White,2,New York,Mid-Atlantic,NA
+2808,1,1,Female,3,2,White,2,Illinois,East North Central,NA
+2809,1,1,Male,5,4,Other,2,Illinois,East North Central,NA
+2810,1,1,Female,4,5,White,2,New York,Mid-Atlantic,NA
+2811,1,1,Female,3,1,White,1,Florida,South Atlantic,NA
+2812,1,1,Female,3,2,Black,2,Tennessee,East South Central,NA
+2813,1,1,Female,2,3,White,3,New York,Mid-Atlantic,NA
+2814,1,1,Female,3,4,Asian,3,Massachusetts,New England,NA
+2815,1,1,Female,4,5,White,3,Kentucky,East South Central,NA
+2816,1,1,Female,4,5,White,2,Oregon,Pacific,NA
+2817,1,1,Female,4,5,Black,2,DC,South Atlantic,NA
+2818,1,1,Male,4,2,White,2,Tennessee,East South Central,NA
+2819,0,0,Female,2,4,Black,2,Georgia,South Atlantic,NA
+2820,1,1,Male,2,5,Asian,2,California,Pacific,NA
+2821,1,1,Female,5,3,White,2,California,Pacific,NA
+2822,1,1,Female,2,2,White,2,Missouri,West North Central,NA
+2823,1,1,Female,4,4,White,3,Utah,Mountain,NA
+2824,1,1,Female,2,2,Asian,2,California,Pacific,NA
+2825,1,1,Female,4,4,White,2,Tennessee,East South Central,NA
+2826,1,1,Male,4,3,White,1,California,Pacific,NA
+2827,0,0,Female,4,3,White,2,Florida,South Atlantic,NA
+2828,1,1,Female,5,4,White,2,NA,NA,NA
+2829,1,1,Male,2,1,White,1,Oklahoma,West South Central,NA
+2830,1,1,Female,4,2,White,1,Nevada,Mountain,NA
+2831,1,1,Female,3,3,White,2,Indiana,East North Central,NA
+2832,1,1,Female,5,3,Black,2,Arkansas,West South Central,NA
+2833,1,1,Female,1,2,White,1,Oregon,Pacific,NA
+2834,1,0,Female,3,3,White,1,California,Pacific,NA
+2835,1,1,Female,2,5,White,2,Pennsylvania,Mid-Atlantic,NA
+2836,1,0,Female,2,2,White,3,Kentucky,East South Central,NA
+2837,1,1,Female,1,2,White,2,Illinois,East North Central,NA
+2838,1,1,Female,2,2,Hispanic,1,Minnesota,West North Central,NA
+2839,1,1,Male,2,3,White,2,Georgia,South Atlantic,NA
+2840,1,1,Male,2,3,White,4,Missouri,West North Central,NA
+2841,1,1,Female,2,2,White,1,Massachusetts,New England,NA
+2842,1,1,Male,2,5,Asian,2,California,Pacific,NA
+2843,1,1,Female,5,5,White,3,California,Pacific,NA
+2844,1,1,Female,2,4,White,2,Missouri,West North Central,NA
+2845,1,1,Male,2,5,Hispanic,3,Georgia,South Atlantic,NA
+2846,1,1,Female,4,5,White,3,Virginia,South Atlantic,NA
+2847,1,1,Female,4,4,White,3,Tennessee,East South Central,NA
+2848,1,1,Female,4,2,Other,3,California,Pacific,NA
+2849,1,1,Female,2,4,White,2,Maryland,South Atlantic,NA
+2850,1,1,Female,2,4,White,2,Virginia,South Atlantic,NA
+2851,0,1,Female,3,2,Hispanic,1,New York,Mid-Atlantic,NA
+2852,0,1,Female,2,4,White,2,California,Pacific,NA
+2853,1,1,Female,2,2,White,3,Vermont,New England,NA
+2854,1,1,Female,2,2,Other,2,Utah,Mountain,NA
+2855,1,1,Female,4,2,White,3,California,Pacific,NA
+2856,1,1,Female,2,5,White,3,Tennessee,East South Central,NA
+2857,1,1,Male,2,2,White,2,Texas,West South Central,NA
+2858,1,1,Female,3,4,White,3,Utah,Mountain,NA
+2859,0,1,Female,5,2,White,1,Maryland,South Atlantic,NA
+2860,0,0,Male,3,4,White,1,DC,South Atlantic,NA
+2861,0,0,NA,1,2,Other,1,Utah,Mountain,NA
+2862,1,1,Male,4,3,White,2,New York,Mid-Atlantic,NA
+2863,1,1,Male,4,4,White,2,Iowa,West North Central,NA
+2864,1,1,Male,4,2,White,3,minnesota,West North Central,NA
+2865,1,1,Male,3,5,White,2,New York,Mid-Atlantic,NA
+2866,1,1,Male,4,3,White,2,New York,Mid-Atlantic,NA
+2867,1,1,Female,2,2,White,2,South Carolina,South Atlantic,NA
+2868,1,1,Female,2,4,White,2,Colorado,Mountain,NA
+2869,1,1,Male,2,5,White,2,Utah,Mountain,NA
+2870,1,1,Female,2,4,Hispanic,1,Ohio,East North Central,NA
+2871,1,1,Female,2,4,White,2,Massachusetts,New England,NA
+2872,1,1,Female,3,3,White,2,Kentucky,East South Central,NA
+2873,1,1,Female,2,4,White,1,Missouri,West North Central,NA
+2874,1,1,Female,2,2,White,2,Colorado,Mountain,NA
+2875,1,1,Female,3,4,Hispanic,2,Tennessee,East South Central,NA
+2876,1,1,Female,2,4,White,2,Massachusetts,New England,NA
+2877,1,1,Female,3,4,White,2,Florida,South Atlantic,NA
+2878,1,1,Male,5,5,White,2,Colorado,Mountain,NA
+2879,0,0,Female,3,2,White,2,Pennsylvania,Mid-Atlantic,NA
+2880,1,1,Female,2,3,White,2,New York,Mid-Atlantic,NA
+2881,0,0,Female,3,2,White,2,Indiana,East North Central,NA
+2882,1,1,Female,5,4,White,3,Washington,Pacific,NA
+2883,1,1,Female,2,5,Hispanic,2,Massachusetts,New England,NA
+2884,1,1,Female,5,1,White,3,Illinois,East North Central,NA
+2885,1,1,Female,2,4,White,2,Tennessee,East South Central,NA
+2886,1,0,Female,3,2,White,3,Maryland,South Atlantic,NA
+2887,1,1,Female,4,4,White,3,Iowa,West North Central,NA
+2888,0,0,Female,2,1,White,2,Ohio,East North Central,NA
+2889,1,1,Female,4,2,White,3,Maryland,South Atlantic,NA
+2890,1,1,Female,2,5,White,2,Ohio,East North Central,NA
+2891,1,1,Female,4,4,White,3,Georgia,South Atlantic,NA
+2892,1,0,Female,1,2,Hispanic,2,Florida,South Atlantic,NA
+2893,0,1,Female,3,5,Black,2,Maryland,South Atlantic,NA
+2894,1,1,Female,2,5,White,3,Ohio,East North Central,NA
+2895,1,1,Female,2,5,Hispanic,2,Arizona,Mountain,NA
+2896,1,1,Female,1,2,White,4,New York,Mid-Atlantic,NA
+2897,1,1,Female,2,1,White,1,Iowa,West North Central,NA
+2898,1,1,Female,2,4,White,2,Colorado,Mountain,NA
+2899,1,1,Female,4,1,White,2,New York,Mid-Atlantic,NA
+2900,1,1,Female,3,3,Other,2,Massachusetts,New England,NA
+2901,0,0,Female,2,2,Asian,1,New York,Mid-Atlantic,NA
+2902,1,1,Female,5,4,NA,2,Florida,South Atlantic,NA
+2903,1,1,Female,4,4,White,2,Florida,South Atlantic,NA
+2904,1,1,Female,5,1,White,2,California,Pacific,NA
+2905,1,1,Male,3,5,White,2,Colorado,Mountain,NA
+2906,0,0,Female,3,4,White,2,Maryland,South Atlantic,NA
+2907,1,0,Female,2,2,White,2,Arkansas,West South Central,NA
+2908,1,1,Male,5,1,White,2,Ohio,East North Central,NA
+2909,1,1,Female,2,2,White,2,New York,Mid-Atlantic,NA
+2910,0,1,Female,2,3,White,2,Alabama,East South Central,NA
+2911,1,1,Female,2,1,Other,2,Virginia,South Atlantic,NA
+2912,0,0,Female,2,2,Black,1,New York,Mid-Atlantic,NA
+2913,1,1,Female,2,5,White,3,New York,Mid-Atlantic,NA
+2914,0,1,Female,2,3,Hispanic,1,New York,Mid-Atlantic,NA
+2915,0,1,Female,2,1,White,2,Colorado,Mountain,NA
+2916,1,1,Female,2,4,White,2,California,Pacific,NA
+2917,1,1,Female,2,4,White,3,Texas,West South Central,NA
+2918,1,1,Female,3,4,White,3,Ohio,East North Central,NA
+2919,1,1,Female,3,4,White,2,Ohio,East North Central,NA
+2920,1,1,Female,4,2,Hispanic,2,Florida,South Atlantic,NA
+2921,1,1,Female,2,2,White,3,Illinois,East North Central,NA
+2922,1,1,NA,4,4,Black,1,New York,Mid-Atlantic,NA
+2923,1,0,Female,3,3,White,2,South Dakota,West North Central,NA
+2924,0,0,Female,3,5,White,2,Texas,West South Central,NA
+2925,1,1,Female,4,3,White,3,Iowa,West North Central,NA
+2926,1,1,Male,5,4,NA,2,Arkansas,West South Central,NA
+2927,0,1,Female,5,3,White,2,NA,NA,NA
+2928,1,1,Female,2,1,White,3,California,Pacific,NA
+2929,1,1,Female,2,4,Asian,2,Virginia,South Atlantic,NA
+2930,0,0,Female,2,2,White,1,Maine,New England,NA
+2931,1,1,Female,2,2,White,2,Colorado,Mountain,NA
+2932,1,1,Female,3,5,White,3,Oregon,Pacific,NA
+2933,1,1,Female,4,1,White,1,Missouri,West North Central,NA
+2934,1,0,Male,3,3,Black,1,Georgia,South Atlantic,NA
+2935,0,1,Female,2,2,Black,1,Ohio,East North Central,NA
+2936,1,1,Male,4,3,White,2,California,Pacific,NA
+2937,1,1,Female,3,4,White,2,New York,Mid-Atlantic,NA
+2938,0,0,Female,2,3,White,2,Tennessee,East South Central,NA
+2939,1,1,Male,1,2,White,2,Minnesota,West North Central,NA
+2940,0,0,Female,3,5,Hispanic,2,Alaska,Pacific,NA
+2941,1,0,NA,2,1,White,1,Ohio,East North Central,NA
+2942,1,1,Male,5,5,Hispanic,2,Texas,West South Central,NA
+2943,1,1,Female,4,5,White,3,Ohio,East North Central,NA
+2944,1,1,Female,3,2,White,2,Ohio,East North Central,NA
+2945,1,1,Male,3,3,White,3,DC,South Atlantic,NA
+2946,1,0,Female,3,2,Hispanic,2,Virginia,South Atlantic,NA
+2947,1,1,Male,5,5,White,4,Arkansas,West South Central,NA
+2948,1,1,Male,2,1,Hispanic,2,Illinois,East North Central,NA
+2949,1,1,Female,3,1,Other,2,Massachusetts,New England,NA
+2950,0,0,Female,3,2,White,1,Michigan,East North Central,NA
+2951,1,1,Female,3,2,Asian,2,Illinois,East North Central,NA
+2952,0,1,Female,2,1,White,2,Tennessee,East South Central,NA
+2953,0,1,Female,3,3,White,2,Washington,Pacific,NA
+2954,1,1,Female,2,1,NA,1,Arizona,Mountain,NA
+2955,1,1,Female,3,2,White,2,New York,Mid-Atlantic,NA
+2956,0,1,Female,3,2,White,2,Maryland,South Atlantic,NA
+2957,1,1,Female,2,5,Asian,3,Ohio,East North Central,NA
+2958,1,1,Female,2,3,Asian,2,California,Pacific,NA
+2959,1,1,Female,5,1,White,1,Illinois,East North Central,NA
+2960,1,1,Female,3,2,White,2,Ohio,East North Central,NA
+2961,1,1,Female,4,3,White,1,Florida,South Atlantic,NA
+2962,1,1,Female,1,2,Asian,2,Tennessee,East South Central,NA
+2963,1,1,Male,3,2,Asian,3,California,Pacific,NA
+2964,1,1,Male,1,2,Black,1,Minnesota,West North Central,NA
+2965,0,1,Female,3,2,Other,1,Ohio,East North Central,NA
+2966,1,1,Male,4,4,White,2,Virginia,South Atlantic,NA
+2967,1,1,Female,5,5,White,3,New York,Mid-Atlantic,NA
+2968,1,1,Female,3,3,White,3,Tennessee,East South Central,NA
+2969,1,1,Female,3,3,Asian,3,California,Pacific,NA
+2970,1,1,Female,2,2,Hispanic,1,Georgia,South Atlantic,NA
+2971,1,0,Female,3,4,White,3,Colorado,Mountain,NA
+2972,1,1,Female,1,2,White,2,Tennessee,East South Central,NA
+2973,1,0,Female,3,2,Hispanic,2,New York,Mid-Atlantic,NA
+2974,1,1,Male,2,2,White,2,North Carolina,South Atlantic,NA
+2975,1,1,Female,3,2,White,2,Tennessee,East South Central,NA
+2976,1,1,Male,4,2,Black,2,New York,Mid-Atlantic,NA
+2977,1,1,Male,4,4,White,2,Utah,Mountain,NA
+2978,1,1,Female,5,NA,NA,2,NA,NA,NA
