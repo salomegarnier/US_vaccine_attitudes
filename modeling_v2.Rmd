@@ -15,7 +15,7 @@ library(glmnet)
 library(readr)
 
 #load dataset
-demographics <- read_csv("demographics.csv")
+demographics <- read_csv("demographics_v2.csv")
 ```
 
 Hey guys! With the code above, you should be able to read and use the demographics dataset for modeling. You can also find it in the Data folder, with the vaccine_data dataset which contains all of the columns that we won't really use. Let me know if you need to add an additional variable to the demographics dataset!
