@@ -7,6 +7,16 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+#load packages
+library(tidyverse)
+library(pROC)
+library(glmnet)
+library(readr)
+
+#load dataset
+demographics <- read_csv("demographics_id.csv")
+vaccine_data <- read.csv("vaccine_data.csv")
 ```
 
 
