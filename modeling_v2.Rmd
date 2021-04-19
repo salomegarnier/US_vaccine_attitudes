@@ -13,6 +13,8 @@ library(tidyverse)
 library(pROC)
 library(glmnet)
 library(readr)
+library(MASS)
+library(ggplot2)
 
 #load dataset
 demographics <- read_csv("demographics_id.csv")
@@ -25,46 +27,45 @@ Connor: I went back into the .csv and added an id column (I'll upload to Git) wh
 #Set seed for replication
 set.seed(02138)
 
-#allocated 75% of data to training
-n_train  <- floor(nrow(demographics) * 0.75)
+## For Regression analysis
+#allocated 75% of data to training and 25% of data to testing
+row.number <- sample(1:nrow(demographics), 0.75 * nrow(demographics))
+n_train = demographics[row.number,]
+n_test = demographics[-row.number,]
 
-#allocated 25% of data to testing
-n_test   <- nrow(demographics) - n_train 
-demographics_split <- sample(c(rep(TRUE, n_train), rep(FALSE, n_test)))
-
-#label according to id column
-train_id <- demographics[demographics_split == TRUE, "id"]
-test_id  <- demographics[demographics_split == FALSE,"id"]
-
+#summarise
+dim(n_train)
+dim(n_test)
 ```
 Connor: Here I fitted a logistic regression model on the predictor (X) demographic variables of gender, age, education, race, and financial status. Intention to take up the covid vaccine based on the survey results is the outcome variable (Y). From looking at the model output, education level and financial status are significant at the p < 0.05 level; there is a positive relationship. Age is also slightly significant at the 0.10 level, again there is a positive relationship. 
 
 ```{r fit model}
 ## USA Model
 #fit the demographic variables onto the outcome variable of vaccine acceptance
-fm1 <- covid_vaccine ~ as.factor(gender) + age_group + education + as.factor(race) + financial_status 
+fm1 <- covid_vaccine ~ gender + age_group + education + race + financial_status
 
 #estimate model (logistic regression)
-model1 <- glm(fm1, data = demographics, subset = id %in% train_id,
-             family = "binomial", na.action = na.exclude)
+model1 <- glm(fm1, data = n_train, family = "binomial", na.action = na.exclude)
 summary(model1)
 
 ```
 
 ```{r prediction outcomes}
-#Create yhat variable based on the country level model
+#Calculate prediction value on the test set
+yhat_test <- predict(model1, newdata = n_test, "response")
+
+#Plot prediction value density of test set
+hist(yhat_test, freq = FALSE, xlim = c(0, 1), ylim = c(0, 6))
+
+#Create yhat column on the country level model
 demographics$yhat <- predict(model1, newdata = demographics, "response")
-
-#Plot histogram of predicted value density
-hist(demographics$yhat, freq = FALSE, xlim = c(0, 1), ylim = c(0, 6))
-
 ```
 
 ```{r roc curve}
 #Compute ROC curve 
 nc.roc1 <- roc(
-  response  = demographics$covid_vaccine[demographics$id %in% test_id],
-  predictor = demographics$yhat[demographics$id %in% test_id]
+  response  = n_test$covid_vaccine,
+  predictor = n_test$yhat
 )
 
 #Plot ROC curve
@@ -73,4 +74,22 @@ plot(nc.roc1,
      ylab = "True Positive Rate or Sensitivity",
      main = "ROC Curve (Our Model)",
      legacy.axes = TRUE)
+```
+
+```{r threshold and model accuracy}
+#Calculate the threshold for positive case from test set
+threshold <- coords(nc.roc1, x = "best", transpose = TRUE,
+                      ret = c("threshold","accuracy","precision","recall"))
+
+n_test$threshold <- threshold[1]
+
+#Use boolean logic to determine model v. actual prediction value
+n_test$yhat_actual <- as.numeric(n_test$yhat > n_test$threshold)
+
+#Create prop table of model efficiency
+prop_table_covid <- prop.table(table(n_test$yhat_actual, n_test$covid_vaccine))
+rownames(prop_table_covid) <- c("True", "Not True")
+colnames(prop_table_covid) <- c("True", "Not True")
+prop_table_covid
+
 ```
