@@ -65,7 +65,7 @@ demographics$yhat <- predict(model1, newdata = demographics, "response")
 #Compute ROC curve 
 nc.roc1 <- roc(
   response  = n_test$covid_vaccine,
-  predictor = n_test$yhat
+  predictor = yhat_test
 )
 
 #Plot ROC curve
