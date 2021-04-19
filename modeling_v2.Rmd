@@ -84,7 +84,7 @@ threshold <- coords(nc.roc1, x = "best", transpose = TRUE,
 n_test$threshold <- threshold[1]
 
 #Use boolean logic to determine model v. actual prediction value
-n_test$yhat_actual <- as.numeric(n_test$yhat > n_test$threshold)
+n_test$yhat_actual <- as.numeric(yhat_test > n_test$threshold)
 
 #Create prop table of model efficiency
 prop_table_covid <- prop.table(table(n_test$yhat_actual, n_test$covid_vaccine))
