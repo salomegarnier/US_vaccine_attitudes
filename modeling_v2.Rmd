@@ -42,11 +42,20 @@ Connor: Here I fitted a logistic regression model on the predictor (X) demograph
 ```{r fit model}
 ## USA Model
 #fit the demographic variables onto the outcome variable of vaccine acceptance
+
+#model 1 exclude flu_shot
 fm1 <- covid_vaccine ~ gender + age_group + education + race + financial_status
 
-#estimate model (logistic regression)
+#model 2 include flu shot
+fm2 <- covid_vaccine ~ gender + age_group + education + race + financial_status + flu_shot
+
+#estimate model 1 (logistic regression)
 model1 <- glm(fm1, data = n_train, family = "binomial", na.action = na.exclude)
 summary(model1)
+
+#estimate model 2 (logistic regression)
+model2 <- glm(fm2, data = n_train, family = "binomial", na.action = na.exclude)
+summary(model2)
 
 ```
 
