@@ -4,7 +4,6 @@ author: "Salomé Garnier, Simone Lewis, Neha Gupta, Corbin Duncan, Connor Brown"
 date: "4/9/2021"
 output: html_document
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
@@ -18,6 +17,118 @@ library(readr)
 demographics <- read_csv("demographics_id.csv")
 vaccine_data <- read.csv("vaccine_data.csv")
 ```
+**Modelling Methodology & Results**
+  To build the model of vaccine hesitancy, we first begun by splitting the cleaned survey data into training and testing data. Splitting of the dataset will prevent overfitting of the model through allowing the prediction value from becoming too aligned to the entire set of observations. Using random sampling, we decided to allocate 75% of the data (N = 2233) towards the training data for model building, and the remaining 25% (N = 745) for testing the accuracy and efficiency statistics of our model’s predictions of vaccine hesitancy. We decided to use an ordinal multivariable logistic regression to predict the outcome variable (Y) of vaccine willingness or hesitancy. The outcome variable, “covid_vaccine,” is coded as 1 for someone who answered on the survey, they would receive the vaccine when offered, and 0 for an observation that would refuse uptake. We fitted the first model of COVID-19 vaccine willingness with the predictor variables of gender (“gender”), age group (“age_group”), education level (“education”), race (“race”), and household income level (“financial_status”). The second model also included whether the participants had received the flu shot within the last 3 years from taking this survey. We then reported the results from both models 1 and 2. 
+
+```{r test and train}
+#split demographics voter data into training and test set using sampling
+#Set seed for replication
+set.seed(02138)
+
+## For Regression analysis
+#allocated 75% of data to training and 25% of data to testing
+row.number <- sample(1:nrow(demographics), 0.75 * nrow(demographics))
+n_train = demographics[row.number,]
+n_test = demographics[-row.number,]
+
+#summarise
+dim(n_train)
+dim(n_test)
+```
+  Starting with model 1, from the sampled training data, every predictor variable was significant from at least the p < 0.05 level, the strongest predictors were education level (p = 7.23e-6) and being Black (p = 0.000135). Education had a positive relationship, where level of education rose with willingness to receive the COVID-19 vaccine, being Black had a negative relationship where they were less likely to receive the vaccine of all racial groups. This will be discussed further in the policy proposal section, but this can likely be explained by the fact that health professionals hold differential perceptions of Black patients, particularly intelligence and pain tolerance which would potentially reduce the rates in which non-Black doctors admit Black patients into these additional support programs. When Black patients are assigned to a physician, there is higher uptake of recommended care when the provider was Black. Overall, these exhibited racial biases on the part of human error and prejudice demonstrate the significantly reduced trust Black patients have in the healthcare system (Obermeyer et. al, 2019). All other races exhibited some negative willingness to receive the vaccine, but none near the magnitude and significance of Black respondents. Financial status was also a strong predictor (p = 0.002418) and had a positive coefficient showing that as income levels increased, so did willingness to receive the vaccine. Gender also showed that being male had a positive association with wanting to receive the vaccine. 
+ 
+ ```{r fit model}
+## USA Model
+#fit the demographic variables onto the outcome variable of vaccine acceptance
+
+#exclude flu_shot
+fm1 <- covid_vaccine ~ gender + age_group + education + race + financial_status 
+
+#include flu shot
+fm2 <- covid_vaccine ~ gender + age_group + education + race + financial_status + flu_shot
+
+#estimate model 1 (logistic regression)
+model1 <- glm(fm1, data = n_train, family = "binomial", na.action = na.exclude)
+summary(model1)
+
+#estimate model 2 (logistic regression)
+model2 <- glm(fm2, data = n_train, family = "binomial", na.action = na.exclude)
+summary(model2)
+
+#report collinearity of vaccines
+cor(demographics$covid_vaccine, demographics$flu_shot, use = "complete.obs")
+```
+  An interesting observation we noted was found when running the second model including flu shot uptake, it had by far the most significant p-value of all indicators in both models (p = 2.25 x 10-7) and the strongest coefficient estimate. Flu shot uptake also had strong collinearity (r = 0.326) with COVID vaccine willingness, as a result, all other demographic predictors lost or had reduced significance relative to model 1. This will again be discussed further in the policy proposal, but it likely indicates that COVID vaccine willingness is heavily predicted by overall individual sentiment to the pharmaceutical and vaccine industry in general, rather than the COVID vaccine’s lack of field research and development relative to other inoculations with greater mainstream prevalence (Hopkins, 2020). As the flu shot skewed the significance of demographic variables predictive power, we decided to proceed with testing the efficiency of model 1 to isolate what demographics need greater targeting to increase their trust in the vaccine. 
+  We then decided to create a prediction of vaccine willingness using model 1 and the remaining test data, “yhat_test,” the density plot outlined below shows that the average willingness prediction trended to a 0.80 – 0.85 chance to receive the vaccine. 
+
+```{r prediction outcomes}
+##Calculate prediction value on the test set
+yhat_test<- predict(model1, newdata = n_test, "response")
+
+#Plot prediction value density of test set
+hist(yhat_test, freq = FALSE, xlim = c(0, 1), ylim = c(0, 6))
+
+#Create yhat column on the country level model
+demographics$yhat <- predict(model1, newdata = demographics, "response")
+
+mean(demographics$yhat)
+```
+  After creating our predictor variable from the test data, we then plotted a receiver operating characteristic (ROC) curve for vaccine willingness model outlined below.
+
+```{r roc curve}
+#Compute ROC curve 
+dem.roc1 <- roc(
+  response  = n_test$covid_vaccine,
+  predictor = yhat_test
+)
+
+#Plot ROC curve
+plot(dem.roc1, 
+     xlab = "False Positive Rate or 1-Specificity",
+     ylab = "True Positive Rate or Sensitivity",
+     main = "ROC Curve (Our Model)",
+     legacy.axes = TRUE)
+
+#Calculate AUC = 0.703, chance a positive case outranks a negative case. 
+auc(dem.roc1)
+
+```  
+  The ROC curve visually represents the probability that a true positive case (sensitivity) outranks a false positive error (1 – specificity), we computed an area under curve (AUC) value of 0.703, indicating an above 70% chance that a true positive case will occur relative to a false positive. This would position our model in the acceptable discrimination range (Hosmer & Lemeshow, 2013), where any value below 0.5 would suggest no discrimination between positive and negative cases, no better than random chance. 
+	Using the results from the ROC curve, we then calculated the threshold to classify an observation inserted into model 1 as a positive case of wanting to receive the COVID-19 vaccine. Utilising best weights, we computed a threshold value of 0.827 to classify an observation as a positive case. 
+
+```{r threshold and model accuracy}
+#Calculate the threshold for positive case from test set
+threshold <- coords(dem.roc1, x = "best", transpose = TRUE,
+                      ret = c("threshold","accuracy","precision","recall"))
+
+#Report efficiency table of model
+knitr::kable(rbind(threshold), row.names = FALSE, digits = 3)
+
+n_test$threshold <- threshold[1]
+
+#Calculate f-score 
+f1 <- 2*((0.91*0.617)/(0.91+0.617))
+f1
+
+#Use boolean logic to determine model v. actual prediction value
+n_test$yhat_actual <- as.numeric(yhat_test >= n_test$threshold)
+
+#Create prop table of model efficiency
+prop_table_covid <- prop.table(table(n_test$yhat_actual, n_test$covid_vaccine))
+rownames(prop_table_covid) <- c("Deny Vaccine (Predicted)", "Seek Vaccine (Predicted)")
+colnames(prop_table_covid) <- c("Deny Vaccine (True)", "Seek Vaccine (True)")
+prop_table_covid
+
+##False negative rate is 0.312 (top right), the false positive rate is 0.0496 (bottom left)
+```
+
+  An efficiency table of this calculation showed that our model had an accuracy, the proportion of correct predictions, at 0.639, its precision, the percentage of relevant results, at 0.91, and recall, the percentage relevant results that are correctly classified by the model at 0.617. We computed the F1-score, a truer measure of accuracy accounting for precision and recall, giving more weight to false negatives and false positives while not letting large numbers of true negatives influence the score, this result came to 0.735. Finally, we produced a 2x2 table to summarise the true positivity and negativity rate, as well as the false positivity and negativity rate which aligned with the efficiency statistics above. 
+	From a public policy perspective, the true aim of our model is to accurately predict which demographics are hesitant to receive the COVID vaccine, and then employ effective targeting of these groups to allay risks of seeking inoculation to hasten the end of the pandemic and reach herd immunity. This is especially true for minority groups and those from lower socio-economic backgrounds, who are more likely to experience more severe consequences from contracting the virus due to greater prevalence of comorbid conditions relative to white, and wealthier groups (Obermeyer et. al, 2019). In this case, the F1-score is especially important as it weighs false positives, an observation that we predict will seek the vaccine, but will actually deny the vaccine in reality, more heavily. These are cases that our model must necessarily avoid at all costs, as it would result in groups not receiving sufficient targeting to receive the vaccine due to predicting they would in reality this is not the case. Our false positivity rate was below 5% (0.0496) showing that these vulnerable groups are in most cases being captured by the model, and is reflected in the robustness of the model’s F1-score. 
+
+**Works Cited:**
+  Hopkins, J. (2020). A Covid-19 Vaccine Problem: People Who Are Afraid to Get One. Wall Street Journal. 
+  Hosmer Jr, D. W., Lemeshow, S., & Sturdivant, R. X. (2013). Applied logistic regression (Vol. 398). John Wiley & Sons.
+  Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. Science, 366(6464), 447-453.
 
 
 This is where we will write the text I guess.
