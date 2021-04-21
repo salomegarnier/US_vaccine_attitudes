@@ -57,6 +57,9 @@ summary(model1)
 model2 <- glm(fm2, data = n_train, family = "binomial", na.action = na.exclude)
 summary(model2)
 
+#report collinearity of vaccines
+cor(demographics$covid_vaccine, demographics$flu_shot, use = "complete.obs")
+
 ```
 
 ```{r prediction outcomes}
