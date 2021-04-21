@@ -110,8 +110,8 @@ n_test$yhat_actual <- as.numeric(yhat_test >= n_test$threshold)
 
 #Create prop table of model efficiency
 prop_table_covid <- prop.table(table(n_test$yhat_actual, n_test$covid_vaccine))
-rownames(prop_table_covid) <- c("Deny Vaccine (True)", "Seek Vaccine (True)")
-colnames(prop_table_covid) <- c("Deny Vaccine (Predicted)", "Seek Vaccine (Predicted)")
+rownames(prop_table_covid) <- c("Deny Vaccine (Predicted)", "Seek Vaccine (Predicted)")
+colnames(prop_table_covid) <- c("Deny Vaccine (True)", "Seek Vaccine (True)")
 prop_table_covid
 
 ##False negative rate is 0.312 (top right), the false positive rate is 0.0496 (bottom left)
