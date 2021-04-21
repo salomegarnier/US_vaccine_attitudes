@@ -72,33 +72,45 @@ demographics$yhat <- predict(model1, newdata = demographics, "response")
 
 ```{r roc curve}
 #Compute ROC curve 
-nc.roc1 <- roc(
+dem.roc1 <- roc(
   response  = n_test$covid_vaccine,
   predictor = yhat_test
 )
 
 #Plot ROC curve
-plot(nc.roc1, 
+plot(dem.roc1, 
      xlab = "False Positive Rate or 1-Specificity",
      ylab = "True Positive Rate or Sensitivity",
      main = "ROC Curve (Our Model)",
      legacy.axes = TRUE)
+
+#Calculate AUC = 0.703, chance a positive case outranks a negative case. 
+auc(dem.roc1)
 ```
 
 ```{r threshold and model accuracy}
 #Calculate the threshold for positive case from test set
-threshold <- coords(nc.roc1, x = "best", transpose = TRUE,
+threshold <- coords(dem.roc1, x = "best", transpose = TRUE,
                       ret = c("threshold","accuracy","precision","recall"))
+
+#Report efficiency table of model
+knitr::kable(rbind(threshold), row.names = FALSE, digits = 3)
 
 n_test$threshold <- threshold[1]
 
+#Calculate f-score = 0.735
+f1 <- 2*((0.91*0.617)/(0.91+0.617))
+f1
+
 #Use boolean logic to determine model v. actual prediction value
-n_test$yhat_actual <- as.numeric(yhat_test > n_test$threshold)
+n_test$yhat_actual <- as.numeric(yhat_test >= n_test$threshold)
 
 #Create prop table of model efficiency
 prop_table_covid <- prop.table(table(n_test$yhat_actual, n_test$covid_vaccine))
-rownames(prop_table_covid) <- c("True", "Not True")
-colnames(prop_table_covid) <- c("True", "Not True")
+rownames(prop_table_covid) <- c("Deny Vaccine (True)", "Seek Vaccine (True)")
+colnames(prop_table_covid) <- c("Deny Vaccine (Predicted)", "Seek Vaccine (Predicted)")
 prop_table_covid
+
+##False negative rate is 0.312 (top right), the false positive rate is 0.0496 (bottom left)
 
 ```
