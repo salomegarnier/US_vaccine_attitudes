@@ -190,8 +190,7 @@ effect_plot(model1, pred = age_group, colors = "#7C72A0") +
   ylim(0.87, 0.95)
 ```
 
-
-DISCUSSION OF FINANCIAL STATUS AND VACCINE HESITANCY
+We observe a positive and strong relationship between age and greater COVID-19 vaccine acceptance.The most obvious reasoning behind this observation is the parallel relationship between age and the risk of severe illness from COVID-19. Older individuals face a greater risk of hospitilation and death from the virus and 8 out of 10 COVID-19 deaths reported in the U.S. have been among those 65 and older ^[https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/older-adults.html]. Difference in the level of risk of COVID-19 reflects the variability of vaccine acceptance among age groups with older adults having greater incentives to take the vaccine. 
 
 
 ```{r financial, echo = FALSE, warning=FALSE}
