@@ -187,14 +187,14 @@ effect_plot(model1, pred = age_group, colors = "#7C72A0") +
                                            margin = margin(r = 15))) +
          scale_x_continuous(breaks = c(1, 2, 3, 4, 5), 
                             labels = c("18-24", "25-44", "45-60", "61-70", ">70"))+
-  ylim(0.85, 1)
+  ylim(0.87, 0.95)
 ```
 
 
 DISCUSSION OF FINANCIAL STATUS AND VACCINE HESITANCY
 
 
-```{r financial, echo = FALSE}
+```{r financial, echo = FALSE, warning=FALSE}
 #Effect of financial status
 effect_plot(model1, pred = financial_status, colors = "#545643") +
          theme_classic() +
@@ -213,7 +213,7 @@ effect_plot(model1, pred = financial_status, colors = "#545643") +
                                            margin = margin(r = 15))) +
          scale_x_continuous(breaks = c(1, 2, 3, 4), 
                             labels = c("Lower Middle Class/Poor", "Middle Class", "Upper Middle Class", "Wealthy")) +
-  ylim(0.85, 1)
+ ylim(0.87, 0.95)
 ```
 
 DISCUSSION OF FINANCIAL STATUS AND VACCINE HESITANCY
@@ -238,7 +238,7 @@ effect_plot(model1, pred = education, colors = "#E8998D") +
                                            margin = margin(r = 15))) +
          scale_x_continuous(breaks = c(1, 2, 3, 4, 5, 6, 7), 
                             labels = c("Middle School", "High School", "Undergraduate", "Graduate", "Masters", "Doctorate", "Professional")) +
-  ylim(0.85, 1)
+ylim(0.87, 0.95)
 ```
 
 DISCUSSION OF EDUCATION AND VACCINE HESITANCY
