@@ -15,6 +15,7 @@ library(glmnet)
 library(readr)
 library(MASS)
 library(ggplot2)
+library(jtools)
 
 #load dataset
 demographics <- read_csv("demographics_id.csv")
@@ -117,3 +118,106 @@ prop_table_covid
 ##False negative rate is 0.312 (top right), the false positive rate is 0.0496 (bottom left)
 
 ```
+
+
+
+
+```{r visualizing the results, echo=FALSE}
+
+# Effect of age
+effect_plot(model1, pred = age_group, colors = "#7C72A0") +
+         theme_classic() +
+         labs(title = "Vaccine Hesitancy and Age",
+              subtitle = "Predicted change in acceptance of the Covid-19 vaccine by age group",
+              x = "Age",
+              y = "Acceptance of Vaccine") + 
+           theme(plot.title = element_text(face = "bold",
+                                         size = 18),
+               plot.subtitle = element_text(size = 13),
+               axis.text.x = element_text(size = 13), 
+               axis.text.y = element_text(size = 13),
+               axis.title.x = element_text(size = 16, 
+                                           margin = margin(t = 20)),
+               axis.title.y = element_text(size = 16, 
+                                           margin = margin(r = 15))) +
+         scale_x_continuous(breaks = c(1, 2, 3, 4, 5), 
+                            labels = c("18-24", "25-44", "45-60", "61-70", ">70"))
+
+#Effect of financial status
+effect_plot(model1, pred = financial_status, colors = "#545643") +
+         theme_classic() +
+         labs(title = "Vaccine Hesitancy and Financial Status",
+              subtitle = "Predicted change in acceptance of the Covid-19 vaccine by financial status",
+              x = "Financial Status",
+              y = "Acceptance of Vaccine") + 
+           theme(plot.title = element_text(face = "bold",
+                                         size = 18),
+               plot.subtitle = element_text(size = 13),
+               axis.text.x = element_text(size = 13), 
+               axis.text.y = element_text(size = 13),
+               axis.title.x = element_text(size = 16, 
+                                           margin = margin(t = 20)),
+               axis.title.y = element_text(size = 16, 
+                                           margin = margin(r = 15))) +
+         scale_x_continuous(breaks = c(1, 2, 3, 4), 
+                            labels = c("Lower Middle Class/Poor", "Middle Class", "Upper Middle Class", "Wealthy"))
+
+# Effect of education
+effect_plot(model1, pred = education, colors = "#E8998D") +
+         theme_classic() +
+         labs(title = "Vaccine Hesitancy and Education",
+              subtitle = "Predicted change in acceptance of the Covid-19 vaccine by education level",
+              x = "Education Level",
+              y = "Acceptance of Vaccine") + 
+           theme(plot.title = element_text(face = "bold",
+                                         size = 18),
+               plot.subtitle = element_text(size = 13),
+               axis.text.x = element_text(size = 13), 
+               axis.text.y = element_text(size = 13),
+               axis.title.x = element_text(size = 16, 
+                                           margin = margin(t = 20)),
+               axis.title.y = element_text(size = 16, 
+                                           margin = margin(r = 15))) +
+         scale_x_continuous(breaks = c(1, 2, 3, 4, 5, 6, 7), 
+                            labels = c("Middle School", "High School", "Undergraduate", "Graduate", "Masters", "Doctorate", "Professional"))
+
+
+# Effect of race
+effect_plot(model1, pred = race, colors = "#627C85") +
+         theme_classic() +
+         labs(title = "Vaccine Hesitancy and Race",
+              subtitle = "Predicted change in acceptance of the Covid-19 vaccine by race",
+              x = "Race",
+              y = "Acceptance of Vaccine") + 
+           theme(plot.title = element_text(face = "bold",
+                                         size = 18),
+               plot.subtitle = element_text(size = 13),
+               axis.text.x = element_text(size = 13), 
+               axis.text.y = element_text(size = 13),
+               axis.title.x = element_text(size = 16, 
+                                           margin = margin(t = 20)),
+               axis.title.y = element_text(size = 16, 
+                                           margin = margin(r = 15))) 
+
+# Effect of gender
+effect_plot(model1, pred = gender, colors = "#DB6C79") +
+         theme_classic() +
+         labs(title = "Vaccine Hesitancy and Gender",
+              subtitle = "Predicted change in acceptance of the Covid-19 vaccine by gender",
+              x = "Gender",
+              y = "Acceptance of Vaccine") + 
+           theme(plot.title = element_text(face = "bold",
+                                         size = 18),
+               plot.subtitle = element_text(size = 13),
+               axis.text.x = element_text(size = 13), 
+               axis.text.y = element_text(size = 13),
+               axis.title.x = element_text(size = 16, 
+                                           margin = margin(t = 20)),
+               axis.title.y = element_text(size = 16, 
+                                           margin = margin(r = 15))) 
+
+```
+
+
+
+
