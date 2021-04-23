@@ -81,7 +81,7 @@ cor(demographics$covid_vaccine, demographics$flu_shot, use = "complete.obs")
 
 
   An interesting observation we noted was found when running the second model including flu shot uptake, it had by far the most significant p-value of all indicators in both models (p = 2.25 x 10-7) and the strongest coefficient estimate. Flu shot uptake also had strong collinearity (r = 0.326) with COVID vaccine willingness, as a result, all other demographic predictors lost or had reduced significance relative to model 1. This will again be discussed further in the policy proposal, but it likely indicates that COVID vaccine willingness is heavily predicted by overall individual sentiment to the pharmaceutical and vaccine industry in general, rather than the COVID vaccine’s lack of field research and development relative to other inoculations with greater mainstream prevalence (Hopkins, 2020). As the flu shot skewed the significance of demographic variables predictive power, we decided to proceed with testing the efficiency of model 1 to isolate what demographics need greater targeting to increase their trust in the vaccine. 
-  We then decided to create a prediction of vaccine willingness using model 1 and the remaining test data, “yhat_test,” the density plot outlined below shows that the average willingness prediction trended to a 0.80 – 0.85 chance to receive the vaccine. 
+  We then decided to create a prediction of vaccine willingness using model 1 and the remaining test data, “yhat_test,” the density plot outlined below shows that the average willingness prediction trended to a 0.82 chance to receive the vaccine. 
 
 ```{r prediction outcomes, echo=FALSE}
 ##Calculate prediction value on the test set
@@ -262,7 +262,7 @@ effect_plot(model1, pred = race, colors = "#627C85") +
 
 DISCUSSION OF RACE AND VACCINE HESITANCY
 
-From Connor's text (about low levels of trust from black people, can probably add to this section): This will be discussed further in the policy proposal section, but this can likely be explained by the fact that health professionals hold differential perceptions of Black patients, particularly intelligence and pain tolerance which would potentially reduce the rates in which non-Black doctors admit Black patients into these additional support programs. When Black patients are assigned to a physician, there is higher uptake of recommended care when the provider was Black. Overall, these exhibited racial biases on the part of human error and prejudice demonstrate the significantly reduced trust Black patients have in the healthcare system (Obermeyer et. al, 2019). 
+From Connor's text (about low levels of trust from black people, can probably add to this section): This will be discussed further in the policy proposal section, but this can likely be explained by the fact that health professionals hold differential perceptions of Black patients, particularly intelligence and pain tolerance which would potentially reduce the rates in which non-Black doctors admit Black patients for healthcare interventions. When Black patients are assigned to a physician, there is higher uptake of recommended care when the provider was Black. Overall, these exhibited racial biases on the part of human error and prejudice demonstrate the significantly reduced trust Black individuals have in the healthcare system (Obermeyer et. al, 2019). 
 
 ```{r gender, echo=FALSE}
 # Effect of gender
