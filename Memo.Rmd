@@ -214,8 +214,7 @@ effect_plot(model1, pred = financial_status, colors = "#545643") +
                             labels = c("Lower Middle Class/Poor", "Middle Class", "Upper Middle Class", "Wealthy")) +
  ylim(0.87, 0.95)
 ```
-
-DISCUSSION OF FINANCIAL STATUS AND VACCINE HESITANCY
+We also observe a strong and positive relationship between an individual's reported financial status and their likelihood of vaccine acceptance. In the U.S.,Higher income typically allows for better access to healthcare services and greater interaction with healthcare professionals while the opposite is true lower income^[]. This connection is a potential explanation of the greater mistrust towards healthcare among those with a low income. Cost related concerns are also more prominent among low-income individuals and an additional factor that can promote vaccine hesitance. Notably, a recent Census survey revealed that nearly 7 million Americans were unaware the the COVID vaccine was free ^[https://fortune.com/2021/03/10/covid-vaccine-free-people-not-getting-coronavirus-vaccines-cost-price/].
 
 
 ```{r education, echo=FALSE}
@@ -239,9 +238,7 @@ effect_plot(model1, pred = education, colors = "#E8998D") +
                             labels = c("Middle School", "High School", "Undergraduate", "Graduate", "Masters", "Doctorate", "Professional")) +
 ylim(0.87, 0.95)
 ```
-
-DISCUSSION OF EDUCATION AND VACCINE HESITANCY
-
+Given the strong correlation between education and financial status, there is a lot of overlap in the mechanisms that help explain why COVID-19 vaccine acceptance varies along these dimensions. For instance, lower education is also associated with lower interaction with healthcare professionals and a related lower level of trust. Additionally, education is closely related to awareness about the details of vaccines and general health literacy^[Khubchandani, Jagdish et al. “COVID-19 Vaccination Hesitancy in the United States: A Rapid National Assessment.” Journal of community health vol. 46,2 (2021): 270-277].
 
 ```{r race, echo=FALSE}
 # Effect of race
@@ -286,14 +283,10 @@ effect_plot(model1, pred = gender, colors = "#DB6C79") +
                                            margin = margin(r = 15))) 
 
 ```
-	
-
-DISCUSSION OF GENDER AND VACCINE HESITANCY
-
-	
-	
-	
-
+Although the predicted vaccine acceptance among men is slightly higher than for women, the confidence intervals for these estimates overlap and we cannot say for certain that there is a relationship between gender and COVID vaccine acceptance. 
+		
+``` 
+```
 ## Works Cited:
   Hopkins, J. (2020). A Covid-19 Vaccine Problem: People Who Are Afraid to Get One. Wall Street Journal. 
   Hosmer Jr, D. W., Lemeshow, S., & Sturdivant, R. X. (2013). Applied logistic regression (Vol. 398). John Wiley & Sons.
