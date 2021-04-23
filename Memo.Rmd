@@ -4,10 +4,27 @@ author: "Salomé Garnier, Simone Lewis, Neha Gupta, Corbin Duncan, Connor Brown"
 date: "4/9/2021"
 output: html_document
 ---
+# COVID-19 Vaccine Attitudes in the United States
+  The novel coronavirus leading to COVID-19 infection is regarded on measures of mortality, economic ruin and transmissibility, to be the most severe pandemic in over a century. Dr. Anthony Fauci, the United States’ leading infectious disease expert and White House advisor, has outlined vaccine uptake and acceptance will be critical to any return to ‘normal’ pre-pandemic life. At the time of writing, there have been 140 million recorded cases of the infectious disease, 80 million recovered cases and 3.01 million fatalities. 
+
+The public health response to the COVID-19 pandemic across the United States has been uncoordinated across state lines. Public cooperation with public health guidelines and restrictions has also varied greatly across the country and appears to be correlated with partisanship. Early scholarship suggests the infection has a disproportionately high infection rate among poor Americans. Manely and Shrestha (2021) find supportive evidence for counties with higher rates of poverty being less responsive to stay-at-home orders and having a higher infection rate, even in low-density locations. Some experts also expect there will be discernible variations in vaccine uptake along ethnic and wealth cleavages. What we can deduce for the aforementioned, is that Americans’ experiences of the pandemic and their relationship to health authorities is highly heterogeneous and variable. We can further intuit that health outcomes and vaccine uptake may correlate with group identity or individual characteristics.  
+
+In this project, we seek to predict and assign a score to the willingness of individuals to be vaccinated based on their demographic characteristics. We will test and train our model using a dataset of factors associated with acceptance of the vaccine. We will then report the efficiency statistic for this model. Our group will then seek to use the polling methods of weighted sample averages, based off of the same dataset, to predict level of vaccine acceptance within regions of the United States using aggregate census data. Since the vaccine is still in restricted rollouts for many parts of the country, data on vaccine uptake rate is not readily available. Our group will, instead, seek to make cursory comparisons between predicted vaccine acceptance and compliance with public health restrictions in regions in the United States. Finally, we will consider the limits of our model.
+
+# Data
+
+To answer the question of whether sociodemographic factors can be determinative in predicting vaccine acceptance, we manipulate the dataset ‘The factors determining the preference for COVID-19 Vaccine,’ collected by Mondal and Sinharoy (2021) of Penn State College of Medicine Department of Pediatrics and published by Mendeley Data. The survey was conducted over the period of  May 2020 to January 2021, with an binary indicator variable distinguishing between responses before and after the first successful vaccine announcement on November 1st, 2020. The number of eligible participants, regarded by the researchers as participants who completed all survey sections and resided within the U.S, numbered 2,978.
+
+Two continuous variables in the data were constructed by the authors. Firstly, the researchers calculated a measure of perceived threat for each respondent based, not solely on participant input, but on the age and chances of severe infection for a respondent, whether they are a healthcare worker and the severity of outbreak in a participant’s area. Secondly, the researchers consolidated responses gauging first-hand and secondary knowledge of the virus into a single measure. Respondents were asked 71 questions, seeking to record an individual’s pandemic-related stress, efforts to prevent disease spread, support for public health measures, factual knowledge of the infection, trust in local hospital efficacy and hope for the future. These responses were recorded alongside individual characteristics such as age, race, education level, family income, gender, U.S region, healthcare worker status, and healthcare access.
+
+With 2,978 respondents, our dataset achieves a diversity in responses which will improve the predictive power of our model. Of these respondents, 28.7% report having at least one family member infected by COVID-19, 18.3% report being a healthcare worker, and 81.1% report a willingness to accept a coronavirus vaccine. In terms of race, white respondents are over represented, but we record a value above 4% for each racial identity included.
+
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = TRUE)
 
 #load packages
+library(knitr)
 library(tidyverse)
 library(pROC)
 library(glmnet)
@@ -18,6 +35,20 @@ library(jtools)
 #load dataset
 demographics <- read_csv("demographics_id.csv")
 vaccine_data <- read.csv("vaccine_data.csv")
+
+
+summarystat <-do.call(data.frame,
+list("Family member infected" = mean(vaccine_data$family_member_covid, na.rm=TRUE),
+"Is healthcare worker" = mean(vaccine_data$healthcare_worker, na.rm=TRUE),
+"Vaccine acceptance" =  mean(vaccine_data$covid_vaccine, na.rm=TRUE)
+    ))
+
+knitr::kable(summarystat, col.names = gsub("[.]", " ",names(summarystat)), digits = 3)
+
+knitr::kable(prop.table(table(vaccine_data$your_race)),col.names = c("Race","Proportion"), digits = 3)
+
+#knitr::kable(prop.table(table(vaccine_data$your_education)),col.names = c("Education","Proportion"), row.names("1, Middle school or less", "2, High School", "3, Undergraduate", "4, Graduate" "5, Masters"), digits = 3)
+
 ```
 
 
@@ -284,7 +315,56 @@ effect_plot(model1, pred = gender, colors = "#DB6C79") +
 
 ```
 Although the predicted vaccine acceptance among men is slightly higher than for women, the confidence intervals for these estimates overlap and we cannot say for certain that there is a relationship between gender and COVID vaccine acceptance. 
-		
+
+# Vaccine acceptance and public health responsiveness 
+
+```{r public health roc curve, echo=FALSE, message=FALSE}
+#Establish measure of public health responsiveness
+#n_test$resistph <- as.numeric(resistph=1 if n_test$LD >= 4 & n_test$FM >= 4 | n_test$LD >= 4 & n_test$reopening =< 2 | n_test$reopening =< 2 & n_test$FM >= 4)
+
+## I need LD, FM and reopening included in n_test.
+
+#Compute ROC curve 
+dem.roc2 <- roc(
+  response  = n_test$resistph,
+  predictor = yhat_test
+)
+
+#Plot ROC curve
+plot(dem.roc2, 
+     xlab = "False Positive Rate or 1-Specificity",
+     ylab = "True Positive Rate or Sensitivity",
+     main = "ROC Curve (Our Model) for Anti-Public Health restrictions",
+     legacy.axes = TRUE)
+
+#Calculate AUC
+auc(dem.roc2)
+
+```
+
+```{r threshold and model accuracy, echo=FALSE}
+#Calculate the threshold for positive case from test set
+threshold_rph <- coords(dem.roc2, x = "best", transpose = TRUE,
+                      ret = c("threshold","accuracy","precision","recall"))
+
+#Report efficiency table of model
+knitr::kable(rbind(threshold_rph), row.names = FALSE, digits = 3)
+
+```
+
+```{r model efficiency, echo=FALSE}
+#Use boolean logic to determine model v. actual prediction value
+n_test$yhat_rphpredict <- as.numeric(yhat_test >= n_test$threshold_rph)
+
+#Create prop table of model efficiency
+prop_table_covid <- prop.table(table(n_test$yhat_rphpredict, n_test$resistph))
+rownames(prop_table_covid) <- c("Anti-Public Health Measures (Predicted)", "Responsive to PH Measures (Predicted)")
+colnames(prop_table_covid) <- c("Anti-Public Health Measures (True)", "Responsive to PH Measures (True)")
+prop_table_covid
+
+```
+
+
 ``` 
 ```
 ## Works Cited:
