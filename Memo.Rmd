@@ -316,18 +316,38 @@ effect_plot(model1, pred = gender, colors = "#DB6C79") +
 ```
 Although the predicted vaccine acceptance among men is slightly higher than for women, the confidence intervals for these estimates overlap and we cannot say for certain that there is a relationship between gender and COVID vaccine acceptance. 
 
+
 # Vaccine acceptance and public health responsiveness 
+  After designing a predictive model of vaccine acceptance, our team sought to exploit other observations within the Penn State datbase. We hypothesized that there may be a relationship between vaccine acceptance and resistance to public health restrictions. In terms of mechanisms, such a result would perhaps stem from a broader distrust of health authorities. Alternatively, we considered that those who were most opposed to public health restrictions may also be those most inclined to get the vaccine.
+
+
+```{r generating y_hat on larger Penn State dataset}
+# standardising new dataset var names
+names(vaccine_data)[names(vaccine_data) == "Gender_string"] <- "gender"
+names(vaccine_data)[names(vaccine_data) == "your_age"] <- "age_group"
+names(vaccine_data)[names(vaccine_data) == "your_education"] <- "education"
+names(vaccine_data)[names(vaccine_data) == "your_race"] <- "race"
+
+yhat_vd<- predict(model1, newdata = vaccine_data, "response")
+
+#generating y_hat on larger dataset
+vaccine_data$yhat <- as.numeric(predict(model1, newdata = vaccine_data, "response"))
+
+mean(vaccine_data$yhat, na.rm = TRUE)
+```
+
+  To consider this question, we first generated a new variable for resistance to public health advice, based upon views on mandatory face masks, lockdowns and whether re-opening was a good or necessary action.
 
 ```{r public health roc curve, echo=FALSE, message=FALSE}
 #Establish measure of public health responsiveness
-#n_test$resistph <- as.numeric(resistph=1 if n_test$LD >= 4 & n_test$FM >= 4 | n_test$LD >= 4 & n_test$reopening =< 2 | n_test$reopening =< 2 & n_test$FM >= 4)
+vaccine_data$resistph <- as.numeric(vaccine_data$ld >= 4 & vaccine_data$fm >= 4 | vaccine_data$ld >= 4 & vaccine_data$reopening <= 2 | vaccine_data$reopening <= 2 & vaccine_data$fm >= 4)
 
-## I need LD, FM and reopening included in n_test.
+mean(vaccine_data$resistph,na.rm=TRUE)
 
 #Compute ROC curve 
 dem.roc2 <- roc(
-  response  = n_test$resistph,
-  predictor = yhat_test
+  response  = vaccine_data$resistph,
+  predictor = yhat_vd
 )
 
 #Plot ROC curve
@@ -341,6 +361,9 @@ plot(dem.roc2,
 auc(dem.roc2)
 
 ```
+#### Efficacy of Predictive Power
+  We computed an area under curve (AUC) value of 0.5085, indicating an approximate 50% chance that a true positive case will occur relative to a false positive. This would position our model below the acceptable discrimination range (Hosmer & Lemeshow, 2013), where essentially our model could not discriminate better than random chance.
+	As we undertook for our predictive model fo vaccine hesitancy, using the results from the ROC curve, we calculated a threshold to classify observations as a positive case of being resistant to public health restrictions. Utilizing best weights, we computed a threshold value of 0.885 to classify an observation as a positive case.
 
 ```{r threshold and model accuracy, echo=FALSE}
 #Calculate the threshold for positive case from test set
@@ -351,18 +374,11 @@ threshold_rph <- coords(dem.roc2, x = "best", transpose = TRUE,
 knitr::kable(rbind(threshold_rph), row.names = FALSE, digits = 3)
 
 ```
-
-```{r model efficiency, echo=FALSE}
-#Use boolean logic to determine model v. actual prediction value
-n_test$yhat_rphpredict <- as.numeric(yhat_test >= n_test$threshold_rph)
-
-#Create prop table of model efficiency
-prop_table_covid <- prop.table(table(n_test$yhat_rphpredict, n_test$resistph))
-rownames(prop_table_covid) <- c("Anti-Public Health Measures (Predicted)", "Responsive to PH Measures (Predicted)")
-colnames(prop_table_covid) <- c("Anti-Public Health Measures (True)", "Responsive to PH Measures (True)")
-prop_table_covid
-
-```
+## Analysis of Vaccine Model on Public Health Opinions
+With an accuracy statistic of just 36% and a initial predictive power essentially as good as random, we find that our model's ability to predict vaccine acceptance to not extend to an ability to predict resistance to public health policies such as face masks and lockdowns.
+  Of course, if we wished to anaylise this issue critically, we could similarly generate a model based on our dataset. We cannot rule out a relationship between rejecting public health advice and vaccine acceptance, but we can say that predictors of such opinions are not necessarily the same.
+  
+## Conclusion
 
 
 ``` 
@@ -371,6 +387,12 @@ prop_table_covid
   Hopkins, J. (2020). A Covid-19 Vaccine Problem: People Who Are Afraid to Get One. Wall Street Journal. 
   Hosmer Jr, D. W., Lemeshow, S., & Sturdivant, R. X. (2013). Applied logistic regression (Vol. 398). John Wiley & Sons.
   Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. Science, 366(6464), 447-453.
+  Gates, B. (2020). Responding to Covid-19 — A Once-in-a-Century Pandemic? New England Journal of Medicine, 382(18), 1677–1679. https://doi.org/10.1056/nejmp2003762
+    CNBC.com staff. (2021, April 15). Covid live updates: Fauci says universal vaccine is the endgame to combat new variants. CNBC. 
+      COVID Live Update: 141,407,599 Cases and 3,026,333 Deaths from the Coronavirus - Worldometer. (2021). Worldometre, Coronavirus Pandemic by the Numbers. https://www.worldometers.info/coronavirus/
+    Jung, J., Manley, J., & Shrestha, V. (2021). Coronavirus infections and deaths by poverty status: The effects of social distancing. Journal of Economic Behavior & Organization, 182, 311–330. https://doi.org/10.1016/j.jebo.2020.12.019
+  Royles, D. (2020, December 15). Years of medical abuse make Black Americans less likely to trust the coronavirus vaccine. Washington Post. https://www.washingtonpost.com/outlook/2020/12/15/years-medical-abuse-make-black-americans-less-likely-trust-covid-vaccine/
+    Mondal, Pritish; Sinharoy, Ankita (2021), “The factors determining the preference for COVID-19 Vaccine”, Mendeley Data, V1, doi: 10.17632/kbzskd37zy.1
 
 
 DATA: https://data.mendeley.com/datasets/kbzskd37zy/3
