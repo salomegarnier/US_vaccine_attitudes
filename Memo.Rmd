@@ -47,7 +47,8 @@ knitr::kable(summarystat, col.names = gsub("[.]", " ",names(summarystat)), digit
 
 knitr::kable(prop.table(table(vaccine_data$your_race)),col.names = c("Race","Proportion"), digits = 3)
 
-#knitr::kable(prop.table(table(vaccine_data$your_education)),col.names = c("Education","Proportion"), row.names("1, Middle school or less", "2, High School", "3, Undergraduate", "4, Graduate" "5, Masters"), digits = 3)
+knitr::kable(prop.table(table(vaccine_data$your_education)),col.names = c("Education","Proportion"),  digits = 3)
+
 
 ```
 
