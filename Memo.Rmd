@@ -380,6 +380,16 @@ With an accuracy statistic of just 36% and a initial predictive power essentiall
   Of course, if we wished to anaylise this issue critically, we could similarly generate a model based on our dataset. We cannot rule out a relationship between rejecting public health advice and vaccine acceptance, but we can say that predictors of such opinions are not necessarily the same.
   
 ## Conclusion
+  Limitations
+A major limitation of the logistic regression is the assumption of linearity between the dependent variable (vaccine acceptance) and independent variables (gender, age group, education, race, financial status, flu shot). Some of these variables, such as age, may not be linearly but exponentially related to vaccine acceptance but our logistic regression model would not capture this relationship.
+
+Additionally, attitudes toward the vaccine fluctuate as new information is released so these survey responses are a reflection of  attitudes 05/2020 - 01/2021. The model would likely lose predictive power when applied to other time periods as information around the vaccine evolves.
+
+  Further Research
+Further research could test how predicted vaccine acceptance (answering “Yes” to the question, “Would you like to get COVID-19 vaccine, if available?”) compares to actual vaccine receival. This comparison could give insight into which groups have a high desire for the vaccine but low use pointing to issues of access and indicating which groups have a high marginal benefit from improving access. Additionally, it would be useful for future surveys to ask why individuals feel hesitant to take the vaccine to understand which barriers policymakers should target to most effectively increase vaccine uptake.
+
+  Policy Implications
+Those who are less educated, financially disadvantaged, and black have the lowest predicted vaccine acceptance. These groups are also some of the most likely to work in essential sectors involving more covid-exposure (KFF, 2020). Thus, targeting these groups and their concerns in additional outreach is critical to minimize the spread and burden of infection.
 
 
 ``` 
@@ -394,6 +404,6 @@ With an accuracy statistic of just 36% and a initial predictive power essentiall
     Jung, J., Manley, J., & Shrestha, V. (2021). Coronavirus infections and deaths by poverty status: The effects of social distancing. Journal of Economic Behavior & Organization, 182, 311–330. https://doi.org/10.1016/j.jebo.2020.12.019
   Royles, D. (2020, December 15). Years of medical abuse make Black Americans less likely to trust the coronavirus vaccine. Washington Post. https://www.washingtonpost.com/outlook/2020/12/15/years-medical-abuse-make-black-americans-less-likely-trust-covid-vaccine/
     Mondal, Pritish; Sinharoy, Ankita (2021), “The factors determining the preference for COVID-19 Vaccine”, Mendeley Data, V1, doi: 10.17632/kbzskd37zy.1
-
+   https://www.kff.org/coronavirus-covid-19/report/kff-covid-19-vaccine-monitor-december-2020/
 
 DATA: https://data.mendeley.com/datasets/kbzskd37zy/3
