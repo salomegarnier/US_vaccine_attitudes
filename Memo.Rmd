@@ -394,7 +394,21 @@ Additionally, attitudes toward the vaccine fluctuate as new information is relea
 Further research could test how predicted vaccine acceptance (answering “Yes” to the question, “Would you like to get COVID-19 vaccine, if available?”) compares to actual vaccine receival. This comparison could give insight into which groups have a high desire for the vaccine but low use pointing to issues of access and indicating which groups have a high marginal benefit from improving access. Additionally, it would be useful for future surveys to ask why individuals feel hesitant to take the vaccine to understand which barriers policymakers should target to most effectively increase vaccine uptake.
 
   Policy Implications
-Those who are less educated, financially disadvantaged, and black have the lowest predicted vaccine acceptance. These groups are also some of the most likely to work in essential sectors involving more covid-exposure (KFF, 2020). Thus, targeting these groups and their concerns in additional outreach is critical to minimize the spread and burden of infection.
+Those who are less educated, financially disadvantaged, and black have the lowest predicted vaccine acceptance. These groups are also some of the most likely to work in essential sectors involving more covid-exposure and experience the greatest burden of COVID-19 (KFF, 2020). Thus, targeting these groups and their concerns in additional outreach is critical to minimize the spread and burden of infection.
+
+Community-driven interventions have been recommended to improve vaccine uptake among hesitant groups. Both the American Psychological Association and government of Connecticut recommend community-driven strategies which involve the following steps:
+Step 1: Use data to identify and prioritize racial/ethnic minority communities that may be less likely to receive a COVID-19 vaccine.
+Step 2: For each community of focus, identify relevant government officials and community partners to form a “community partner network.”
+Step 3: Work with the community partner network to understand barriers in the community and create an implementation plan for vaccination messaging, outreach, and administration.
+Step 4: Help community partner networks implement plans, providing funding and support as needed.
+Step 5: Conduct continuous program evaluation through data collection and analysis to inform possible changes to the ongoing strategies.
+This data analysis assists with Step 1 of the community engagement process by identifying the groups that would be most hesitant to receive the vaccine. Further steps involve understanding barriers in the community and creating targeted messaging, outreach, and administration to address these issues. The Kaiser Family Foundation’s survey found that among those who are hesitant to get a COVID-19 vaccine, the main reasons are: 
+
+worries about possible side effects (59%) lack of trust in the government to ensure the vaccines’ safety and effectiveness (55%) concerns that the vaccine is too new (53%) concerns over the role of politics in the development process (51%). 
+
+Additionally, the survey found that about half of black adults who say they probably or definitely won’t get vaccinated cite that they don’t trust vaccines in general (47%) or that they are worried they may get COVID-19 from the vaccine (50%).
+
+Thus, outreach addressing these specific worries would be particularly important for raising turnout in these hesitant populations. Mitesh Patel in Nature magazine recommends greater use of behavioral nudges such as framing vaccination as the norm, providing peer-comparision feedback to increase social incentive, and making choice activities time-bound as these strategies have been proven to increase vaccine use.
 
 
 ## Works Cited:
