@@ -385,43 +385,96 @@ With an accuracy statistic of just 36% and a initial predictive power essentiall
   Of course, if we wished to analyse this issue critically, we could similarly generate a model based on our dataset. We cannot rule out a relationship between rejecting public health advice and vaccine acceptance, but we can say that predictors of such opinions are not necessarily the same.
   
 ## Conclusion
-  Limitations
-A major limitation of the logistic regression is the assumption of linearity between the dependent variable (vaccine acceptance) and independent variables (gender, age group, education, race, financial status, flu shot). Some of these variables, such as age, may not be linearly but exponentially related to vaccine acceptance but our logistic regression model would not capture this relationship.
 
-Additionally, attitudes toward the vaccine fluctuate as new information is released so these survey responses are a reflection of  attitudes 05/2020 - 01/2021. The model would likely lose predictive power when applied to other time periods as information around the vaccine evolves.
-
-  Further Research
-Further research could test how predicted vaccine acceptance (answering “Yes” to the question, “Would you like to get COVID-19 vaccine, if available?”) compares to actual vaccine receival. This comparison could give insight into which groups have a high desire for the vaccine but low use pointing to issues of access and indicating which groups have a high marginal benefit from improving access. Additionally, it would be useful for future surveys to ask why individuals feel hesitant to take the vaccine to understand which barriers policymakers should target to most effectively increase vaccine uptake.
-
-  Policy Implications
+### Policy Implications
 Those who are less educated, financially disadvantaged, and black have the lowest predicted vaccine acceptance. These groups are also some of the most likely to work in essential sectors involving more covid-exposure and experience the greatest burden of COVID-19 (KFF, 2020). Thus, targeting these groups and their concerns in additional outreach is critical to minimize the spread and burden of infection.
 
 Community-driven interventions have been recommended to improve vaccine uptake among hesitant groups. Both the American Psychological Association and government of Connecticut recommend community-driven strategies which involve the following steps:
-Step 1: Use data to identify and prioritize racial/ethnic minority communities that may be less likely to receive a COVID-19 vaccine.
-Step 2: For each community of focus, identify relevant government officials and community partners to form a “community partner network.”
-Step 3: Work with the community partner network to understand barriers in the community and create an implementation plan for vaccination messaging, outreach, and administration.
-Step 4: Help community partner networks implement plans, providing funding and support as needed.
-Step 5: Conduct continuous program evaluation through data collection and analysis to inform possible changes to the ongoing strategies.
-This data analysis assists with Step 1 of the community engagement process by identifying the groups that would be most hesitant to receive the vaccine. Further steps involve understanding barriers in the community and creating targeted messaging, outreach, and administration to address these issues. The Kaiser Family Foundation’s survey found that among those who are hesitant to get a COVID-19 vaccine, the main reasons are: 
 
-worries about possible side effects (59%) lack of trust in the government to ensure the vaccines’ safety and effectiveness (55%) concerns that the vaccine is too new (53%) concerns over the role of politics in the development process (51%). 
+|       **Step 1:** Use data to identify and prioritize racial/ethnic minority communities that may be less
+|       likely to receive a COVID-19 vaccine.
+
+|       **Step 2:** For each community of focus, identify relevant government officials and community partners
+|       to form a “community partner network.”
+
+|       **Step 3:** Work with the community partner network to understand barriers in the community and create
+|       an implementation plan for vaccination messaging, outreach, and administration.
+
+|       **Step 4:** Help community partner networks implement plans, providing funding and support as needed.
+
+|       **Step 5:** Conduct continuous program evaluation through data collection and analysis to inform 
+|       possible changes to the ongoing strategies. This data analysis assists with Step 1 of the community
+|       engagement process by identifying the groups that would be most hesitant to receive the vaccine. 
+|       Further steps involve understanding barriers in the community and creating targeted messaging, 
+|       outreach, and administration to address these issues. The Kaiser Family Foundation’s survey found 
+|       that among those who are hesitant to get a COVID-19 vaccine, the main reasons are: worries about 
+|       possible side effects (59%) lack of trust in the government to ensure the vaccines’ safety and 
+|       effectiveness (55%), concerns that the vaccine is too new (53%) concerns over the role of politics 
+|       in the development process (51%). 
 
 Additionally, the survey found that about half of black adults who say they probably or definitely won’t get vaccinated cite that they don’t trust vaccines in general (47%) or that they are worried they may get COVID-19 from the vaccine (50%).
 
 Thus, outreach addressing these specific worries would be particularly important for raising turnout in these hesitant populations. Mitesh Patel in Nature magazine recommends greater use of behavioral nudges such as framing vaccination as the norm, providing peer-comparision feedback to increase social incentive, and making choice activities time-bound as these strategies have been proven to increase vaccine use.
 
+### Further Research
+Further research could test how predicted vaccine acceptance (answering “Yes” to the question, “Would you like to get COVID-19 vaccine, if available?”) compares to actual vaccine uptake. This comparison could give insight into which groups have a high desire for the vaccine but low use pointing to issues of access and indicating which groups have a high marginal benefit from improving access. Additionally, it would be useful for future surveys to ask why individuals feel hesitant to take the vaccine to understand which barriers policymakers should target to most effectively increase vaccine uptake.
+
+Preliminary data about Covid-19 vaccine uptake in the United States somewhat confirms the predictions of our model. Data from the CDC shows that white people are overrepresented among those vaccinated in the US as of April 2021, while Black and Hispanic populations are largely underrepresented. 
+&nbsp;
+
+**Figure 1: Vaccine Uptake and Race (CDC)**
+&nbsp;
+
+![vaccine and race](race.png){width=50%}
+&nbsp;
+
+Similarly, older individuals are more likely to be vaccinated on average, although this is likely a function of the US vaccination timeline that gave the elderly priority.  
+&nbsp;
+
+**Figure 2: Vaccine Uptake and Age (CDC)**
+&nbsp;
+
+![vaccine and age](age.png){width=50%}
+&nbsp;
+
+Finally, while our model suggested that women would be less likely to accept the Covid-19 vaccine, the coefficients were not statistically significant, and the CDC data shows that the opposite is true. Unfortunately, the CDC provides no data on financial status and education, which were two of our strongest predictors. Future research can potentially focus on vaccine uptake as a function of those two demographic predictors.
+&nbsp;
+
+**Figure 3: Vaccine Uptake and Gender (CDC)**
+&nbsp;
+
+![vaccine and gender](gender.png){width=50%}
+&nbsp;
+
+Unfortunately, the CDC provides no data on financial status and education, which were two of our strongest predictors. Future research can potentially focus on vaccine uptake as a function of those two demographic predictors.
+
+### Limitations
+A major limitation of the logistic regression is the assumption of linearity between the dependent variable (vaccine acceptance) and independent variables (gender, age group, education, race, financial status, flu shot). Some of these variables, such as age, may not be linearly but exponentially related to vaccine acceptance but our logistic regression model would not capture this relationship.
+
+Additionally, attitudes toward the vaccine fluctuate as new information is released so these survey responses are a reflection of  attitudes 05/2020 - 01/2021. The model would likely lose predictive power when applied to other time periods as information around the vaccine evolves.
+
 
 ## Works Cited:
   Hopkins, J. (2020). A Covid-19 Vaccine Problem: People Who Are Afraid to Get One. Wall Street Journal. 
+  
   Hosmer Jr, D. W., Lemeshow, S., & Sturdivant, R. X. (2013). Applied logistic regression (Vol. 398). John Wiley & Sons.
+  
   Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. Science, 366(6464), 447-453.
+  
   Gates, B. (2020). Responding to Covid-19 — A Once-in-a-Century Pandemic? New England Journal of Medicine, 382(18), 1677–1679. https://doi.org/10.1056/nejmp2003762
-    CNBC.com staff. (2021, April 15). Covid live updates: Fauci says universal vaccine is the endgame to combat new variants. CNBC. 
-      COVID Live Update: 141,407,599 Cases and 3,026,333 Deaths from the Coronavirus - Worldometer. (2021). Worldometre, Coronavirus Pandemic by the Numbers. https://www.worldometers.info/coronavirus/
-    Jung, J., Manley, J., & Shrestha, V. (2021). Coronavirus infections and deaths by poverty status: The effects of social distancing. Journal of Economic Behavior & Organization, 182, 311–330. https://doi.org/10.1016/j.jebo.2020.12.019
+  
+  CNBC.com staff. (2021, April 15). Covid live updates: Fauci says universal vaccine is the endgame to combat new variants. CNBC. 
+  
+  COVID Live Update: 141,407,599 Cases and 3,026,333 Deaths from the Coronavirus - Worldometer. (2021). Worldometre, Coronavirus Pandemic by the Numbers. https://www.worldometers.info/coronavirus/
+  
+  Jung, J., Manley, J., & Shrestha, V. (2021). Coronavirus infections and deaths by poverty status: The effects of social distancing. Journal of Economic Behavior & Organization, 182, 311–330. https://doi.org/10.1016/j.jebo.2020.12.019
+  
   Royles, D. (2020, December 15). Years of medical abuse make Black Americans less likely to trust the coronavirus vaccine. Washington Post. https://www.washingtonpost.com/outlook/2020/12/15/years-medical-abuse-make-black-americans-less-likely-trust-covid-vaccine/
-    Mondal, Pritish; Sinharoy, Ankita (2021), “The factors determining the preference for COVID-19 Vaccine”, Mendeley Data, V1, doi: 10.17632/kbzskd37zy.1
+  
+  Mondal, Pritish; Sinharoy, Ankita (2021), “The factors determining the preference for COVID-19 Vaccine”, Mendeley Data, V1, doi: 10.17632/kbzskd37zy.1
    https://www.kff.org/coronavirus-covid-19/report/kff-covid-19-vaccine-monitor-december-2020/
+  
+  Center for Disease Control, "Demographic Characteristics of People Receiving COVID-19 Vaccinations in the United States," April 27, 2021. https://covid.cdc.gov/covid-data-tracker/#vaccination-demographic 
 
 DATA: https://data.mendeley.com/datasets/kbzskd37zy/3
 
