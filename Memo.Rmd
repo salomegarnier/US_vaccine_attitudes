@@ -146,10 +146,10 @@ dem.roc1 <- roc(
 plot(dem.roc1, 
      xlab = "False Positive Rate or 1-Specificity",
      ylab = "True Positive Rate or Sensitivity",
-     main = "ROC Curve (Our Model)",
+     main = "ROC Curve Model 1",
      legacy.axes = TRUE)
 
-#Calculate AUC = 0.703, chance a positive case outranks a negative case. 
+#Calculate AUC = 0.703, chance a true case outranks a false case. 
 auc(dem.roc1)
 
 ```  
@@ -167,10 +167,10 @@ knitr::kable(rbind(threshold), row.names = FALSE, digits = 3)
 ```
 
 **f-score:**
-```{r f-score}
+```{r f1-score}
 n_test$threshold <- threshold[1]
 
-#Calculate f-score 
+#Calculate f1-score 
 f1 <- 2*((0.91*0.617)/(0.91+0.617))
 f1
 ```
@@ -192,8 +192,71 @@ prop_table_covid
 
   An efficiency table of this calculation showed that our model had an accuracy, the proportion of correct predictions, at 0.639, its precision, the percentage of relevant results, at 0.91, and recall, the percentage relevant results that are correctly classified by the model at 0.617. We computed the F1-score, a truer measure of accuracy accounting for precision and recall, giving more weight to false negatives and false positives while not letting large numbers of true negatives influence the score, this result came to 0.735. Finally, we produced a 2x2 table to summarise the true positivity and negativity rate, as well as the false positivity and negativity rate which aligned with the efficiency statistics above. 
 	From a public policy perspective, the true aim of our model is to accurately predict which demographics are hesitant to receive the COVID vaccine, and then employ effective targeting of these groups to allay risks of seeking inoculation to hasten the end of the pandemic and reach herd immunity. This is especially true for minority groups and those from lower socio-economic backgrounds, who are more likely to experience more severe consequences from contracting the virus due to greater prevalence of comorbid conditions relative to white, and wealthier groups (Obermeyer et. al, 2019). In this case, the F1-score is especially important as it weighs false positives, an observation that we predict will seek the vaccine, but will actually deny the vaccine in reality, more heavily. These are cases that our model must necessarily avoid at all costs, as it would result in groups not receiving sufficient targeting to receive the vaccine due to predicting they would in reality this is not the case. Our false positivity rate was below 5% (0.0496) showing that these vulnerable groups are in most cases being captured by the model, and is reflected in the robustness of the model’s F1-score. 
-	
-	
+
+### Discussion of Model 2
+
+We briefly decided to test the efficiency statistics of Model 2 in comparison to Model 1 to test its relative efficacy. After plotting its predicted value density plot, we found the mean predicted value of observations was almost identical to Model 1 at 0.8218831. 
+
+```{r prediction outcomes model 2}
+##Model 2 calculate prediction value on the test set
+yhat_test2<- predict(model2, newdata = n_test, "response")
+
+#Plot prediction value density of test set
+hist(yhat_test2, freq = FALSE, xlim = c(0, 1), ylim = c(0, 6))
+
+#Create yhat column on the country level model
+demographics$yhat2 <- predict(model2, newdata = demographics, "response")
+
+mean(demographics$yhat2, na.rm = TRUE)
+```
+Plotting the ROC curve for Model 2, we found that its discriminatory power between true positive and false positive cases was 0.7902 for its area under curve value. This shows that the probability of a positive case outranking was 12.4% better at discriminating between cases than Model 1 showing greater predictive power of detecting accurate cases when including flu shot uptake. 
+
+```{r roc curve model 2}
+##Compute ROC curve Model 2
+dem.roc2 <- roc(
+  response  = n_test$covid_vaccine,
+  predictor = yhat_test2
+)
+
+#Plot ROC curve
+plot(dem.roc2, 
+     xlab = "False Positive Rate or 1-Specificity",
+     ylab = "True Positive Rate or Sensitivity",
+     main = "ROC Curve Model 2",
+     legacy.axes = TRUE)
+
+#Calculate AUC = 0.7902, chance a true case outranks a false case. 
+auc(dem.roc2)
+
+```
+Analysing the efficiency of Model 2, we computed the model's accuracy to be 0.785, its precision to be 0.915, and the recall at 0.81; these were all improvements over the figures produced by Model 1 discounting flu shot uptake. This was reflected in the improved F1-score of Model 2, which we computed as 0.859, a 17% relative improvement over Model 1. However, as discussed previously, the primary goal of our model is to minimise false positives, an observation that we predict will seek the vaccine, but will actually deny the vaccine in reality. A high false positive rate would result in groups not receiving sufficient targeting to receive the vaccine as our model would predict they would when in reality they refuse uptake. For Model 2, our false positivity rate was 0.0609, this was 12% higher than Model 1 showing that vulnerable groups would receive less accurate targeting in the former. As a result, our further analysis in this memo will incorporate Model 1 into our additional calculations and analyses. 
+
+```{r threshold and model accuracy Model 2}
+##Model 2 calculate the threshold for positive case from test set
+threshold_mod2 <- coords(dem.roc2, x = "best", transpose = TRUE,
+                      ret = c("threshold","accuracy","precision","recall"))
+
+#Report efficiency table of model
+knitr::kable(rbind(threshold_mod2), row.names = FALSE, digits = 3)
+
+n_test$threshold_mod2 <- threshold_mod2[1]
+
+#Calculate f1-score 
+f1_mod2 <- 2*((0.915*0.81)/(0.915+0.81))
+f1_mod2
+
+#Use boolean logic to determine model v. actual prediction value
+n_test$yhat_actual_mod2 <- as.numeric(yhat_test2 >= n_test$threshold_mod2)
+
+#Create prop table of model efficiency
+prop_table_covid_mod2 <- prop.table(table(n_test$yhat_actual_mod2, n_test$covid_vaccine))
+rownames(prop_table_covid_mod2) <- c("Deny Vaccine (Predicted)", "Seek Vaccine (Predicted)")
+colnames(prop_table_covid_mod2) <- c("Deny Vaccine (True)", "Seek Vaccine (True)")
+prop_table_covid_mod2
+
+##False negative rate is 0.154 (top right), the false positive rate is 0.0609 (bottom left)
+```
+
 # Discussing and Visualizing the Results
 	
 Overall, being white, older, richer, and more educated	were strong predictors of acceptance of the vaccine.
@@ -350,20 +413,20 @@ vaccine_data$resistph <- as.numeric(vaccine_data$ld >= 4 & vaccine_data$fm >= 4 
 mean(vaccine_data$resistph,na.rm=TRUE)
 
 #Compute ROC curve 
-dem.roc2 <- roc(
+dem.roc3 <- roc(
   response  = vaccine_data$resistph,
   predictor = yhat_vd
 )
 
 #Plot ROC curve
-plot(dem.roc2, 
+plot(dem.roc3, 
      xlab = "False Positive Rate or 1-Specificity",
      ylab = "True Positive Rate or Sensitivity",
      main = "ROC Curve (Our Model) for Anti-Public Health restrictions",
      legacy.axes = TRUE)
 
 #Calculate AUC
-auc(dem.roc2)
+auc(dem.roc3)
 
 ```
 #### Efficacy of Predictive Power
