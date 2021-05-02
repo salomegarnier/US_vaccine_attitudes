@@ -435,7 +435,7 @@ auc(dem.roc3)
 
 ```{r ph threshold and model accuracy}
 #Calculate the threshold for positive case from test set
-threshold_rph <- coords(dem.roc2, x = "best", transpose = TRUE,
+threshold_rph <- coords(dem.roc3, x = "best", transpose = TRUE,
                       ret = c("threshold","accuracy","precision","recall"))
 
 #Report efficiency table of model
