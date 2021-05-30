@@ -36,8 +36,8 @@ library(ggplot2)
 library(jtools)
 
 #load dataset
-demographics <- read_csv("demographics_id.csv")
-vaccine_data <- read.csv("vaccine_data.csv")
+demographics <- read_csv("Data/demographics_id.csv")
+vaccine_data <- read.csv("Data/vaccine_data.csv")
 
 
 summarystat <-do.call(data.frame,
@@ -567,7 +567,7 @@ Preliminary data about Covid-19 vaccine uptake in the United States somewhat con
 **Figure 1: Vaccine Uptake and Race (CDC)**
 &nbsp;
 
-![vaccine and race](race.png){width=50%}
+![vaccine and race](Images/race.png){width=50%}
 &nbsp;
 
 Similarly, older individuals are more likely to be vaccinated on average, although this is likely a function of the US vaccination timeline that gave the elderly priority.  
@@ -576,7 +576,7 @@ Similarly, older individuals are more likely to be vaccinated on average, althou
 **Figure 2: Vaccine Uptake and Age (CDC)**
 &nbsp;
 
-![vaccine and age](age.png){width=50%}
+![vaccine and age](Images/age.png){width=50%}
 &nbsp;
 
 Finally, while our model suggested that women would be less likely to accept the Covid-19 vaccine, the coefficients were not statistically significant, and the CDC data shows that the opposite is true. Unfortunately, the CDC provides no data on financial status and education, which were two of our strongest predictors. Future research can potentially focus on vaccine uptake as a function of those two demographic predictors.
@@ -587,7 +587,7 @@ Finally, while our model suggested that women would be less likely to accept the
 **Figure 3: Vaccine Uptake and Gender (CDC)**
 &nbsp;
 
-![vaccine and gender](gender.png){width=50%}
+![vaccine and gender](Images/gender.png){width=50%}
 &nbsp;
 
 Unfortunately, the CDC provides no data on financial status and education, which were two of our strongest predictors. Future research can potentially focus on vaccine uptake as a function of those two demographic predictors.
